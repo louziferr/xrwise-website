@@ -1,13 +1,12 @@
 from flask import Flask, render_template
+import os
 
-# Create the Flask application
 app = Flask(__name__)
 
-# Route for homepage
 @app.route("/")
 def home():
     return render_template("xrwise_landingpage.html")
 
-# Run the app
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Only used for local development
+    app.run(host="0.0.0.0", port=5000, debug=True)
