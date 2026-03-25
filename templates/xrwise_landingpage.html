@@ -264,12 +264,18 @@
 
     .hero-right {
       height: 100vh;
-      background: transparent;
       position: relative;
       overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
+
+
+      background-color: #F2F0EB;
+
+
+      background-image: url("/static/grid.svg");
+      background-repeat: repeat;
     }
 
     /* Abstract XR visual */
@@ -1173,7 +1179,7 @@
       }
 
       .hero-right {
-        height: 360px;
+        height: 560px;
       }
 
       .problem-grid,
@@ -1230,6 +1236,14 @@
 
       .hero-left {
         padding: 60px 20px;
+      }
+    }
+
+
+    @media (max-width: 400px) {
+
+      .hero-right {
+        height: 360px;
       }
     }
   </style>
@@ -1299,338 +1313,8 @@
         <a href="#cta" class="btn-secondary">Demo anfragen</a>
       </div>
     </div>
-    <div class="hero-right" style="background:#EBEBE8;">
-      <svg class="hero-illustration" viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <pattern id="grid2" width="28" height="28" patternUnits="userSpaceOnUse">
-            <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#D8D6CE" stroke-width="0.5" />
-          </pattern>
-          <!-- Animated dash offset for arrows -->
-          <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-            <path d="M0,0 L0,6 L8,3 z" fill="#AAAAAA" />
-          </marker>
-          <marker id="arrow-back" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
-            <path d="M8,0 L8,6 L0,3 z" fill="#AAAAAA" />
-          </marker>
-        </defs>
-
-        <!-- Background -->
-        <rect width="600" height="700" fill="#F2F0EB" />
-        <rect width="600" height="700" fill="url(#grid2)" />
-
-        <!-- ── CREATOR BOX (left) ── -->
-        <rect x="18" y="120" width="170" height="200" rx="10" fill="#FFFFFF" stroke="#C8C6BE" stroke-width="1.5" />
-        <!-- Creator header bar -->
-        <rect x="18" y="120" width="170" height="28" rx="10" fill="#4D4D4B" />
-        <rect x="18" y="138" width="170" height="10" fill="#4D4D4B" />
-        <text x="103" y="139" font-family="Saira, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF"
-          text-anchor="middle" letter-spacing="0.08em">CREATOR</text>
-
-        <!-- Creator canvas area -->
-        <rect x="30" y="158" width="146" height="100" rx="4" fill="#F7F6F2" stroke="#E0DED8" stroke-width="1" />
-
-        <!-- 3D objects in canvas (simplified) -->
-        <!-- Pink platform/floor -->
-        <polygon points="55,230 103,215 155,230 103,245" fill="#FF1F8E" fill-opacity="0.75" />
-        <!-- Cube -->
-        <polygon points="68,208 68,224 82,224 82,208" fill="#C8C6BE" />
-        <polygon points="68,208 82,208 88,202 74,202" fill="#E8E6E0" />
-        <polygon points="82,208 82,224 88,218 88,202" fill="#AAAAAA" />
-        <!-- Cylinder top -->
-        <ellipse cx="118" cy="213" rx="12" ry="5" fill="#FF1F8E" fill-opacity="0.6" />
-        <rect x="106" y="213" width="24" height="18" fill="#FF1F8E" fill-opacity="0.4" />
-        <ellipse cx="118" cy="231" rx="12" ry="5" fill="#FF1F8E" fill-opacity="0.7" />
-
-        <!-- UI panels on right side of creator -->
-        <rect x="30" y="268" width="60" height="10" rx="2" fill="#E0DED8" />
-        <rect x="30" y="282" width="44" height="8" rx="2" fill="#FF1F8E" fill-opacity="0.4" />
-        <rect x="100" y="268" width="76" height="10" rx="2" fill="#E0DED8" />
-        <rect x="100" y="282" width="54" height="8" rx="2" fill="#E0DED8" />
-        <!-- small pink accent squares (top right of creator) -->
-        <rect x="148" y="158" width="22" height="22" rx="3" fill="#FF1F8E" fill-opacity="0.25" />
-        <rect x="148" y="184" width="22" height="14" rx="3" fill="#FF1F8E" fill-opacity="0.12" />
-
-        <!-- ── ARROWS creator ↔ server ── -->
-        <!-- Right arrow (upload) -->
-        <line x1="196" y1="211" x2="228" y2="211" stroke="#888780" stroke-width="2" marker-end="url(#arrow)" />
-        <!-- Left arrow (download) -->
-        <line x1="228" y1="225" x2="196" y2="225" stroke="#888780" stroke-width="2" marker-end="url(#arrow-back)" />
-
-        <!-- ── SERVER BOX (center) ── -->
-        <rect x="234" y="120" width="132" height="200" rx="10" fill="#FFFFFF" stroke="#C8C6BE" stroke-width="1.5" />
-        <!-- Server header -->
-        <rect x="234" y="120" width="132" height="28" rx="10" fill="#4D4D4B" />
-        <rect x="234" y="138" width="132" height="10" fill="#4D4D4B" />
-        <text x="300" y="139" font-family="Saira, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF"
-          text-anchor="middle" letter-spacing="0.08em">SERVER</text>
-        <!-- Server grid of cells -->
-        <g fill="#FF1F8E" fill-opacity="0.22" stroke="#FF1F8E" stroke-opacity="0.35" stroke-width="0.5">
-          <!-- 8 cols × 10 rows of small squares -->
-          <rect x="244" y="156" width="13" height="13" rx="1" />
-          <rect x="260" y="156" width="13" height="13" rx="1" />
-          <rect x="276" y="156" width="13" height="13" rx="1" />
-          <rect x="292" y="156" width="13" height="13" rx="1" />
-          <rect x="308" y="156" width="13" height="13" rx="1" />
-          <rect x="324" y="156" width="13" height="13" rx="1" />
-          <rect x="340" y="156" width="13" height="13" rx="1" />
-          <rect x="356" y="156" width="13" height="13" rx="1" />
-
-          <rect x="244" y="172" width="13" height="13" rx="1" />
-          <rect x="260" y="172" width="13" height="13" rx="1" />
-          <rect x="276" y="172" width="13" height="13" rx="1" />
-          <rect x="292" y="172" width="13" height="13" rx="1" />
-          <rect x="308" y="172" width="13" height="13" rx="1" />
-          <rect x="324" y="172" width="13" height="13" rx="1" />
-          <rect x="340" y="172" width="13" height="13" rx="1" />
-          <rect x="356" y="172" width="13" height="13" rx="1" />
-
-          <rect x="244" y="188" width="13" height="13" rx="1" />
-          <rect x="260" y="188" width="13" height="13" rx="1" />
-          <rect x="276" y="188" width="13" height="13" rx="1" />
-          <rect x="292" y="188" width="13" height="13" rx="1" />
-          <rect x="308" y="188" width="13" height="13" rx="1" />
-          <rect x="324" y="188" width="13" height="13" rx="1" />
-          <rect x="340" y="188" width="13" height="13" rx="1" />
-          <rect x="356" y="188" width="13" height="13" rx="1" />
-
-          <rect x="244" y="204" width="13" height="13" rx="1" />
-          <rect x="260" y="204" width="13" height="13" rx="1" />
-          <rect x="276" y="204" width="13" height="13" rx="1" />
-          <rect x="292" y="204" width="13" height="13" rx="1" />
-          <rect x="308" y="204" width="13" height="13" rx="1" />
-          <rect x="324" y="204" width="13" height="13" rx="1" />
-          <rect x="340" y="204" width="13" height="13" rx="1" />
-          <rect x="356" y="204" width="13" height="13" rx="1" />
-
-          <rect x="244" y="220" width="13" height="13" rx="1" />
-          <rect x="260" y="220" width="13" height="13" rx="1" />
-          <rect x="276" y="220" width="13" height="13" rx="1" />
-          <rect x="292" y="220" width="13" height="13" rx="1" />
-          <rect x="308" y="220" width="13" height="13" rx="1" />
-          <rect x="324" y="220" width="13" height="13" rx="1" />
-          <rect x="340" y="220" width="13" height="13" rx="1" />
-          <rect x="356" y="220" width="13" height="13" rx="1" />
-
-          <rect x="244" y="236" width="13" height="13" rx="1" />
-          <rect x="260" y="236" width="13" height="13" rx="1" />
-          <rect x="276" y="236" width="13" height="13" rx="1" />
-          <rect x="292" y="236" width="13" height="13" rx="1" />
-          <rect x="308" y="236" width="13" height="13" rx="1" />
-          <rect x="324" y="236" width="13" height="13" rx="1" />
-          <rect x="340" y="236" width="13" height="13" rx="1" />
-          <rect x="356" y="236" width="13" height="13" rx="1" />
-
-          <rect x="244" y="252" width="13" height="13" rx="1" />
-          <rect x="260" y="252" width="13" height="13" rx="1" />
-          <rect x="276" y="252" width="13" height="13" rx="1" />
-          <rect x="292" y="252" width="13" height="13" rx="1" />
-          <rect x="308" y="252" width="13" height="13" rx="1" />
-          <rect x="324" y="252" width="13" height="13" rx="1" />
-          <rect x="340" y="252" width="13" height="13" rx="1" />
-          <rect x="356" y="252" width="13" height="13" rx="1" />
-
-          <rect x="244" y="268" width="13" height="13" rx="1" />
-          <rect x="260" y="268" width="13" height="13" rx="1" />
-          <rect x="276" y="268" width="13" height="13" rx="1" />
-          <rect x="292" y="268" width="13" height="13" rx="1" />
-          <rect x="308" y="268" width="13" height="13" rx="1" />
-          <rect x="324" y="268" width="13" height="13" rx="1" />
-          <rect x="340" y="268" width="13" height="13" rx="1" />
-          <rect x="356" y="268" width="13" height="13" rx="1" />
-
-          <rect x="244" y="284" width="13" height="13" rx="1" />
-          <rect x="260" y="284" width="13" height="13" rx="1" />
-          <rect x="276" y="284" width="13" height="13" rx="1" />
-          <rect x="292" y="284" width="13" height="13" rx="1" />
-          <rect x="308" y="284" width="13" height="13" rx="1" />
-          <rect x="324" y="284" width="13" height="13" rx="1" />
-          <rect x="340" y="284" width="13" height="13" rx="1" />
-          <rect x="356" y="284" width="13" height="13" rx="1" />
-
-          <rect x="244" y="300" width="13" height="13" rx="1" />
-          <rect x="260" y="300" width="13" height="13" rx="1" />
-          <rect x="276" y="300" width="13" height="13" rx="1" />
-          <rect x="292" y="300" width="13" height="13" rx="1" />
-          <rect x="308" y="300" width="13" height="13" rx="1" />
-          <rect x="324" y="300" width="13" height="13" rx="1" />
-          <rect x="340" y="300" width="13" height="13" rx="1" />
-          <rect x="356" y="300" width="13" height="13" rx="1" />
-        </g>
-
-        <!-- ── ARROWS server ↔ campus ── -->
-        <line x1="372" y1="211" x2="404" y2="211" stroke="#888780" stroke-width="2" marker-end="url(#arrow)" />
-        <line x1="404" y1="225" x2="372" y2="225" stroke="#888780" stroke-width="2" marker-end="url(#arrow-back)" />
-
-        <!-- ── CAMPUS APP BUBBLE NETWORK (right) ── -->
-        <!-- Central big bubble: Campus App / Eingangsbereich / Bibliothek -->
-        <circle cx="510" cy="220" r="42" fill="#FF1F8E" fill-opacity="0.9" />
-        <text x="510" y="213" font-family="Saira, sans-serif" font-size="8.5" font-weight="700" fill="white"
-          text-anchor="middle">Campus App</text>
-        <text x="510" y="225" font-family="Saira, sans-serif" font-size="7.5" fill="white" fill-opacity="0.85"
-          text-anchor="middle">Eingangsbereich</text>
-        <text x="510" y="236" font-family="Saira, sans-serif" font-size="7.5" fill="white" fill-opacity="0.85"
-          text-anchor="middle">Bibliothek</text>
-
-        <!-- Medium bubble: Konferenz -->
-        <circle cx="472" cy="300" r="28" fill="#FF1F8E" fill-opacity="0.55" />
-        <text x="472" y="304" font-family="Saira, sans-serif" font-size="8" font-weight="600" fill="white"
-          text-anchor="middle">Konferenz</text>
-        <!-- connector -->
-        <line x1="488" y1="270" x2="493" y2="278" stroke="#FF1F8E" stroke-opacity="0.4" stroke-width="1.5" />
-
-        <!-- Medium bubble: Seminar Raum -->
-        <circle cx="566" cy="172" r="24" fill="#FF1F8E" fill-opacity="0.45" />
-        <text x="566" y="170" font-family="Saira, sans-serif" font-size="7.5" font-weight="600" fill="white"
-          text-anchor="middle">Seminar</text>
-        <text x="566" y="181" font-family="Saira, sans-serif" font-size="7.5" fill="white"
-          text-anchor="middle">Raum</text>
-
-        <!-- Small bubbles - outer ring -->
-        <!-- Mikroscop -->
-        <circle cx="556" cy="120" r="18" fill="#FF1F8E" fill-opacity="0.25" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="556" y="123" font-family="Saira, sans-serif" font-size="6.5" fill="#4D4D4B"
-          text-anchor="middle">Mikroscop</text>
-
-        <!-- Labor -->
-        <circle cx="568" cy="148" r="0" /> <!-- placeholder, covered by Seminar -->
-
-        <!-- White Boards -->
-        <circle cx="585" cy="210" r="15" fill="#FF1F8E" fill-opacity="0.2" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="585" y="208" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">White</text>
-        <text x="585" y="217" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Boards</text>
-
-        <!-- Video Technik -->
-        <circle cx="585" cy="255" r="17" fill="#FF1F8E" fill-opacity="0.2" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="585" y="252" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Video</text>
-        <text x="585" y="261" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Technik</text>
-
-        <!-- Moderation -->
-        <circle cx="570" cy="300" r="16" fill="#FF1F8E" fill-opacity="0.2" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="570" y="303" font-family="Saira, sans-serif" font-size="6.5" fill="#4D4D4B"
-          text-anchor="middle">Moderation</text>
-
-        <!-- Zertifikat Videotechnik -->
-        <circle cx="548" cy="335" r="20" fill="#FF1F8E" fill-opacity="0.22" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="548" y="332" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Zertifikat</text>
-        <text x="548" y="341" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Videotechnik</text>
-
-        <!-- LED Wand -->
-        <circle cx="588" cy="330" r="14" fill="#FF1F8E" fill-opacity="0.18" stroke="#FF1F8E" stroke-opacity="0.25"
-          stroke-width="1" />
-        <text x="588" y="328" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">LED</text>
-        <text x="588" y="337" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Wand</text>
-
-        <!-- Ton -->
-        <circle cx="578" cy="358" r="13" fill="#FF1F8E" fill-opacity="0.18" stroke="#FF1F8E" stroke-opacity="0.25"
-          stroke-width="1" />
-        <text x="578" y="361" font-family="Saira, sans-serif" font-size="6.5" fill="#4D4D4B"
-          text-anchor="middle">Ton</text>
-
-        <!-- Licht -->
-        <circle cx="552" cy="368" r="13" fill="#FF1F8E" fill-opacity="0.18" stroke="#FF1F8E" stroke-opacity="0.25"
-          stroke-width="1" />
-        <text x="552" y="371" font-family="Saira, sans-serif" font-size="6.5" fill="#4D4D4B"
-          text-anchor="middle">Licht</text>
-
-        <!-- Green-Screen -->
-        <circle cx="510" cy="355" r="17" fill="#FF1F8E" fill-opacity="0.22" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="510" y="352" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Green-</text>
-        <text x="510" y="361" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Screen</text>
-
-        <!-- Video Grundlagen -->
-        <circle cx="491" cy="340" r="19" fill="#FF1F8E" fill-opacity="0.22" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="491" y="337" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Video</text>
-        <text x="491" y="346" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">Grund-</text>
-        <text x="491" y="354" font-family="Saira, sans-serif" font-size="6" fill="#4D4D4B"
-          text-anchor="middle">lagen</text>
-
-        <!-- Talk 1 -->
-        <circle cx="432" cy="268" r="17" fill="#FF1F8E" fill-opacity="0.22" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="432" y="271" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B" text-anchor="middle">Talk
-          1</text>
-
-        <!-- Talk 2 (left) -->
-        <circle cx="427" cy="308" r="15" fill="#FF1F8E" fill-opacity="0.18" stroke="#FF1F8E" stroke-opacity="0.25"
-          stroke-width="1" />
-        <text x="427" y="311" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B" text-anchor="middle">Talk
-          2</text>
-
-        <!-- Talk 2 (bottom) -->
-        <circle cx="451" cy="340" r="15" fill="#FF1F8E" fill-opacity="0.18" stroke="#FF1F8E" stroke-opacity="0.25"
-          stroke-width="1" />
-        <text x="451" y="343" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B" text-anchor="middle">Talk
-          2</text>
-
-        <!-- Talk 4 -->
-        <circle cx="474" cy="358" r="15" fill="#FF1F8E" fill-opacity="0.18" stroke="#FF1F8E" stroke-opacity="0.25"
-          stroke-width="1" />
-        <text x="474" y="361" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B" text-anchor="middle">Talk
-          4</text>
-
-        <!-- Werkstatt -->
-        <circle cx="438" cy="232" r="20" fill="#FF1F8E" fill-opacity="0.3" stroke="#FF1F8E" stroke-opacity="0.4"
-          stroke-width="1" />
-        <text x="438" y="235" font-family="Saira, sans-serif" font-size="7.5" fill="#4D4D4B"
-          text-anchor="middle">Werkstatt</text>
-
-        <!-- 3D Druck -->
-        <circle cx="416" cy="200" r="17" fill="#FF1F8E" fill-opacity="0.22" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="416" y="203" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B" text-anchor="middle">3D
-          Druck</text>
-
-        <!-- Roboter -->
-        <circle cx="418" cy="162" r="17" fill="#FF1F8E" fill-opacity="0.22" stroke="#FF1F8E" stroke-opacity="0.3"
-          stroke-width="1" />
-        <text x="418" y="165" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B"
-          text-anchor="middle">Roboter</text>
-
-        <!-- Laser-cutter -->
-        <circle cx="445" cy="135" r="19" fill="#FF1F8E" fill-opacity="0.25" stroke="#FF1F8E" stroke-opacity="0.35"
-          stroke-width="1" />
-        <text x="445" y="132" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B"
-          text-anchor="middle">Laser-</text>
-        <text x="445" y="142" font-family="Saira, sans-serif" font-size="7" fill="#4D4D4B"
-          text-anchor="middle">cutter</text>
-
-        <!-- Labor -->
-        <circle cx="484" cy="153" r="21" fill="#FF1F8E" fill-opacity="0.35" stroke="#FF1F8E" stroke-opacity="0.45"
-          stroke-width="1" />
-        <text x="484" y="156" font-family="Saira, sans-serif" font-size="8" font-weight="600" fill="white"
-          text-anchor="middle">Labor</text>
-
-        <!-- ── LABEL TAGS under boxes ── -->
-        <text x="103" y="338" font-family="Saira, sans-serif" font-size="10" font-weight="600" fill="#888780"
-          text-anchor="middle" letter-spacing="0.05em">Creator</text>
-        <text x="300" y="338" font-family="Saira, sans-serif" font-size="10" font-weight="600" fill="#888780"
-          text-anchor="middle" letter-spacing="0.05em">Server</text>
-
-        <!-- Floating animated pulse on campus center -->
-        <circle cx="510" cy="220" r="52" fill="none" stroke="#FF1F8E" stroke-width="1" stroke-opacity="0.25">
-          <animate attributeName="r" values="42;58;42" dur="3s" repeatCount="indefinite" />
-          <animate attributeName="stroke-opacity" values="0.3;0;0.3" dur="3s" repeatCount="indefinite" />
-        </circle>
-      </svg>
+    <div class="hero-right">
+      <img src="{{ url_for('static', filename='hero.svg') }}" alt="Hero Illustration">
     </div>
   </section>
 
