@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XRwise — Vernetzte Realitäten für nachhaltigen Kompetenzaufbau</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet" />
+    <link href="/static/homepage.css" rel="stylesheet" />
+    <link href="/static/team.css" rel="stylesheet" />
+</head>
+
+<body>
+    <script id="navjs01">
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("active");
+        }
+
+        // Close menu when any link is clicked
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.getElementById("navLinks");
+            const links = navLinks.querySelectorAll("a");
+
+            links.forEach(link => {
+                link.addEventListener("click", () => {
+                    navLinks.classList.remove("active");
+                });
+            });
+        });
+    </script>
+
+    <!-- ── NAVIGATION ── -->
+
+    <nav class="nav">
+
+        <a href="/" class="nav-logo">
+            <img src="/static/xrwise-pink.png" alt="XRwise" style="height:36px" />
+            XRwise
+        </a>
+
+        <!-- Burger -->
+        <div class="burger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Links -->
+        <div class="nav-links" id="navLinks">
+            <a href="#zielgruppen">Lösungen</a>
+            <a href="#szenarien">Anwendungen</a>
+            <a href="#platform">Plattform</a>
+            <a href="#standorte">Standorte</a>
+            <a href="#cta" class="nav-cta">Kontakt</a>
+        </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>XRwise</h3>
+                <p>Vernetzte Realitäten für nachhaltigen Kompetenzaufbau — für Unternehmen, Hochschulen und öffentliche
+                    Einrichtungen.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Lösungen</h4>
+                <a href="#">Für Unternehmen</a>
+                <a href="#">Für Hochschulen</a>
+                <a href="#">Für Einrichtungen</a>
+            </div>
+            <div class="footer-col">
+                <h4>Plattform</h4>
+                <a href="#">XRwise Creator</a>
+                <a href="#">Campus App</a>
+                <a href="#">Broadcaster</a>
+                <a href="#">IoT Assets</a>
+            </div>
+            <div class="footer-col">
+                <h4>Unternehmen</h4>
+                <a href="/team">Team</a>
+                <a href="#">News</a>
+                <a href="#">Standorte</a>
+                <a href="#">Kontakt</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 XRwise.<br />Alle Rechte vorbehalten.</span>
+            <span>Datenschutz · Impressum</span>
+        </div>
+    </footer>
+
+    <script>
+        function showTab(id) {
+            document.querySelectorAll('.zg-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.zg-tab').forEach(t => t.classList.remove('active'));
+            document.getElementById('tab-' + id).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>
