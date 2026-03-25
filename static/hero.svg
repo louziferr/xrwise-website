@@ -1,4 +1,4 @@
-<svg viewBox="0 0 630 700" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 120 630 350" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <pattern id="grid2" width="28" height="28" patternUnits="userSpaceOnUse">
             <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#D8D6CE" stroke-width="0.5" />
