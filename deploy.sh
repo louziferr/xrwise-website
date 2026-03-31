@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/home/dev/xrwise-website || exit
+cd ~/xrwise-website || exit
 
 git pull
 
