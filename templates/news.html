@@ -1,0 +1,330 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .blog-wrap {
+        background: var(--cream);
+        color: var(--black);
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        line-height: 1.7;
+    }
+
+    .blog-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 8rem 1.5rem 5rem;
+    }
+
+    .blog-eyebrow {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--pink);
+        background: var(--pink-light);
+        padding: 0.4rem 0.9rem;
+        border-radius: 999px;
+        margin-bottom: 1.25rem;
+    }
+
+    .blog-title {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: var(--gray-dark);
+        margin: 0 0 1rem;
+        line-height: 1.05;
+    }
+
+    .blog-subtitle {
+        font-size: 1.15rem;
+        color: var(--gray-mid);
+        max-width: 60ch;
+        margin: 0 0 2rem;
+    }
+
+    .blog-divider {
+        height: 2px;
+        background-image: linear-gradient(to right, var(--pink) 33%, transparent 0%);
+        background-size: 12px 2px;
+        background-repeat: repeat-x;
+        border: 0;
+        margin: 2rem 0 3rem;
+    }
+
+    .blog-container section {
+        padding: 20px 0;
+    }
+
+    .blog-section {
+        margin-bottom: 1rem;
+    }
+
+    .blog-section h2 {
+        font-size: clamp(1.75rem, 3vw, 2.25rem);
+        font-weight: 700;
+        color: var(--gray-dark);
+        margin: 0 0 2rem;
+        letter-spacing: -0.01em;
+    }
+
+    .blog-section h2::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: var(--pink);
+        border-radius: 50%;
+        margin-right: 0.75rem;
+        transform: translateY(-4px);
+    }
+
+    .blog-section h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--pink);
+        margin: 0 0 1rem;
+        letter-spacing: -0.005em;
+    }
+
+    .blog-split {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        align-items: center;
+    }
+
+    @media (min-width: 768px) {
+        .blog-split {
+            grid-template-columns: 1fr 1fr;
+            gap: 3.5rem;
+        }
+
+        .blog-split.reverse> :first-child {
+            order: 2;
+        }
+    }
+
+    .blog-figure {
+        margin: 0;
+        overflow: hidden;
+        border-radius: var(--radius);
+        box-shadow: 0 20px 50px -20px rgba(77, 77, 75, 0.35);
+        background: var(--gray-light);
+    }
+
+    .blog-figure img {
+        display: block;
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        transition: transform 0.6s ease;
+    }
+
+    .blog-figure:hover img {
+        transform: scale(1.04);
+    }
+
+    .blog-card {
+        background: var(--white);
+        border: 1px solid var(--gray-light);
+        border-radius: var(--radius);
+        padding: 2.5rem;
+        box-shadow: 0 1px 0 rgba(77, 77, 75, 0.04);
+    }
+
+    .blog-card.accent {
+        background: linear-gradient(135deg, var(--pink-light) 0%, var(--white) 60%);
+        border-color: var(--pink-light);
+    }
+
+    .blog-list {
+        list-style: none;
+        padding: 0;
+        margin: 1.5rem 0 0;
+        display: grid;
+        gap: 0.9rem;
+    }
+
+    .blog-list li {
+        position: relative;
+        padding: 1rem 1rem 1rem 2.5rem;
+        background: var(--white);
+        border-radius: var(--radius-sm);
+        border-left: 3px solid var(--pink);
+        color: var(--gray-dark);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .blog-list li:hover {
+        transform: translateX(4px);
+        box-shadow: 0 8px 20px -10px rgba(255, 31, 142, 0.3);
+    }
+
+    .blog-list li::before {
+        content: "→";
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        color: var(--pink);
+        font-weight: 700;
+    }
+
+    .blog-prose p,
+    .blog-prose>div {
+        color: var(--gray-dark);
+    }
+
+    .blog-prose p+p {
+        margin-top: 1.25rem;
+    }
+
+    .blog-video {
+        max-width: 1000px;
+        margin: 5rem auto 0;
+        aspect-ratio: 16 / 9;
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: 0 30px 60px -20px rgba(77, 77, 75, 0.4);
+    }
+
+    .blog-video iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+    }
+
+    .pull-quote {
+        border-left: 4px solid var(--pink);
+        padding: 0.5rem 0 0.5rem 1.5rem;
+        margin: 2rem 0;
+        font-size: 1.15rem;
+        color: var(--gray-dark);
+        font-style: italic;
+    }
+</style>
+
+<div class="blog-wrap">
+    <div class="blog-container">
+        <span class="blog-eyebrow">News · Digitales Museum</span>
+        <h1 class="blog-title">Das digitale Museum</h1>
+        <p class="blog-subtitle">Warum virtuelle Museen mehr sind als digitale Kopien — und wie Immersion Kultur neu
+            erfahrbar macht.</p>
+        <hr class="blog-divider" />
+        <!-- Section 1 -->
+        <section class="blog-section">
+            <div class="blog-split">
+                <div class="blog-prose md:order-2">
+                    <h3>Warum virtuelle Museen mehr sind als digitale Kopien</h3>
+                    <p>Museen leben nicht nur von ihren Exponaten, sondern vor allem von der Atmosphäre, die sie
+                        erschaffen. Der Gang durch historische Räume, das Gefühl, einem Artefakt ganz nah zu sein, und
+                        die Möglichkeit, Details aus einer neuen Perspektive zu entdecken, machen den Museumsbesuch zu
+                        einem besonderen Erlebnis. Genau hier setzt Virtual Reality an: VR ist weit mehr als eine
+                        klassische 2D-Online-Tour. Sie schafft Immersion — das Gefühl, tatsächlich vor Ort zu sein.</p>
+                    <p>Während immer mehr Museen ihre Sammlungen digitalisieren, wächst auch die Bedeutung digitaler
+                        Archive und virtueller Ausstellungen. Unser digitales Museum geht bewusst einen Schritt weiter:
+                        Statt einer reinen Online-Galerie entsteht ein lebendiger virtueller Raum mit fotorealistischen
+                        Umgebungen, hochaufgelösten 3D-Modellen und interaktiven Erlebnissen.</p>
+                </div>
+                <figure class="blog-figure md:order-1">
+                    <img src="/static/img/blog/blog-museum-1.png" alt="Museum" />
+                </figure>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="blog-section">
+            <div class="blog-split reverse">
+                <div class="blog-prose md:order-1">
+                    <h3>Digitale Museen im Allgemeinen</h3>
+                    <p>Die Idee einer virtuellen Museumserfahrung wird immer häufiger umgesetzt. Die Londoner National
+                        Gallery nutzt im Rahmen ihrer „Virtual Gallery"-Initiative und des Innovationslabors National
+                        Gallery X (NGX) verschiedene XR-Technologien, um Kunstwerke digital erlebbar zu machen. Ihr im
+                        März 2025 gestartetes <em>Imaginarium</em> ist ein browserbasierter Raum, der Soundscapes und
+                        Animationen kombiniert.</p>
+                    <p>Trotz der multisensorischen Erfahrung ist das Imaginarium jedoch nicht wirklich immersiv: Es
+                        nutzt keine digitalen Zwillinge der echten Museumsgegenstände — stattdessen werden lediglich
+                        animierte Szenen in den virtuellen Raum eingebettet. Die Special Effects werden des Öfteren als
+                        störend wahrgenommen, weil die originalen Gegenstände nicht vollständig wahrheitsgetreu
+                        abgebildet werden.</p>
+                </div>
+                <figure class="blog-figure md:order-2">
+                    <img src="/static/img/blog/blog-museum-2.png" alt="Museum 2" />
+                </figure>
+            </div>
+        </section>
+
+        <!-- Section 3 — rein virtuelle Museen -->
+        <section class="blog-section">
+            <div class="blog-card accent">
+                <h3>Rein virtuelle Museen</h3>
+                <p>Im Gegensatz zu realen Museen mit virtuellen Applikationen existieren vielfältige, rein virtuelle
+                    Museen, deren Ausstellungen in der realen Welt physikalisch oft unmöglich umzusetzen wären:</p>
+                <ul class="blog-list">
+                    <li><strong>Museum of Other Realities (MOR)</strong> — eine rein virtuelle Kunstgalerie für
+                        zeitgenössische VR-Kunst, speziell für VR-Headsets entwickelt.</li>
+                    <li><strong>Kremer Museum VR</strong> — Sammlung flämischer und niederländischer Malerei in einer
+                        futuristischen, virtuellen Architektur.</li>
+                    <li><strong>VR Space Museum Cosmoria</strong> — fokussiert auf Weltall und Astronomie mit
+                        interaktiven Exponaten in einer digitalen Umgebung.</li>
+                    <li><strong>VR Museum of Fine Art</strong> — weltbekannte Skulpturen und Gemälde per VR-Simulation
+                        in Originalgröße.</li>
+                    <li><strong>OmniGallery</strong> — virtuelle Galerie für digitale, zeitgenössische Kunst.</li>
+                    <li><strong>National Women's History Museum</strong> — existiert seit Jahren fast ausschließlich im
+                        digitalen Raum.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="blog-section">
+            <div class="blog-card blog-prose">
+                <h3>Museums-Apps</h3>
+                <p>Neben digitalen Museen sind Apps ein sinnvolles Tool, um Museumserfahrungen intensiver zu gestalten:
+                    <strong>Google Arts & Culture</strong> bietet 360-Grad-Touren durch hunderte Museen und Kunstwerke
+                    in sehr hoher Auflösung. <strong>Smartify</strong> identifiziert Gemälde und Skulpturen per
+                    Smartphone-Kamera und liefert detaillierte Informationen. <strong>MuseumStars</strong> ermöglicht
+                    es, in über 100 Museen Punkte zu sammeln und Level aufzusteigen. Viele Museen bieten zudem eigene
+                    Apps für Audioguides vor Ort an.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="blog-section">
+            <div class="blog-card blog-prose">
+                <h3>Technische Umsetzung</h3>
+                <p>Ein spannendes Beispiel ist <strong>Das Digitale Museum</strong>: eine browserbasierte, auf Unity
+                    WebGL entwickelte Anwendung, die hochauflösende 3D-Modelle, wissenschaftliche Daten und Kunstwerke
+                    in einer immersiven Umgebung zugänglich macht.</p>
+
+                <div class="pull-quote">Ein persönlicher Museumsbesuch bietet die Ausstellungsstücke in einem
+                    würdevollen Umfeld und feierlichen Rahmen — genau das soll digital reproduziert werden.</div>
+
+                <p>Durch Unitys <strong>Addressable-System</strong> können große Datenmengen effizient geladen und
+                    wieder entladen werden — entscheidend für performante Webanwendungen mit komplexen 3D-Inhalten.
+                    Objekte, die nicht sichtbar oder hörbar sind, werden aus dem Speicher entfernt. So bleibt die
+                    Anwendung an jedem Punkt performant und nahezu unbegrenzt erweiterbar.</p>
+                <p>Hochaufgelöste Texturen werden komprimiert in <strong>ktx2-Containern</strong> verpackt — einem
+                    modernen GPU-freundlichen Datenformat. Gemälde können so in 8K-Auflösung dargestellt werden, winzige
+                    Details bleiben erhalten und Besucher:innen können buchstäblich auf Nasenlänge an die Werke
+                    herantreten.</p>
+                <p>Das Digitale Museum basiert auf der <strong>XRwise Cross-Reality Plattform</strong> und ermöglicht
+                    eine flexible Gestaltung immersiver Ausstellungsräume. Durch die Verknüpfung physischer und
+                    virtueller Räume entstehen neue hybride Vermittlungsformate, die live mit vielen anderen zusammen
+                    erlebt werden können. Inhalte lassen sich ohne Programmieraufwand anpassen, aktualisieren oder neu
+                    kuratieren.</p>
+            </div>
+        </section>
+
+        <!-- Video -->
+        <div class="blog-video">
+            <iframe src="https://www.youtube.com/embed/COFNvTRIO0E?si=79urFBkokCqoavhk" title="YouTube video player"
+                allowfullscreen></iframe>
+        </div>
+
+    </div>
+</div>
+{% endblock content %}

@@ -12,6 +12,7 @@
         rel="stylesheet" />
     <link href="/static/homepage.css" rel="stylesheet" />
     <link href="/static/team.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tailwind.css') }}">
 </head>
 
 <body>
@@ -53,7 +54,7 @@
         <div class="nav-links" id="navLinks">
             <a href="#zielgruppen">Lösungen</a>
             <a href="#szenarien">Anwendungen</a>
-            <a href="#platform">Plattform</a>
+            <a href="/news">News</a>
             <a href="#standorte">Standorte</a>
             <a href="#cta" class="nav-cta">Kontakt</a>
         </div>
@@ -94,7 +95,11 @@
         </div>
         <div class="footer-bottom">
             <span>© 2026 XRwise.<br />Alle Rechte vorbehalten.</span>
-            <span>Datenschutz · Impressum</span>
+            <div>
+                <a href="/datenschutz">Datenschutz</a>
+                <span> - </span>
+                <a href="/impressum">Impressum</a>
+            </div>
         </div>
     </footer>
 

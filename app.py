@@ -38,6 +38,20 @@ def send_email():
     except Exception as e:
         print("ERROR:", e)
         return jsonify({"error": str(e)}), 500
+    
+
+@app.route("/impressum")
+def impressum():
+    return render_template("impressum.html")
+
+
+@app.route("/datenschutz")
+def datenschutz():
+    return render_template("datenschutz.html")
+
+@app.route("/news")
+def news():
+    return render_template("news.html")
 
 # Helper: Send Mail
 def send_request(request_email):
