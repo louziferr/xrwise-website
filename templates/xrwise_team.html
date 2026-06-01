@@ -1,236 +1,208 @@
 {% extends "base.html" %}
 {% block content %}
 
-<link href="/static/team.css" rel="stylesheet" />
+<link href="/static/team.css" rel="stylesheet"/>
 <!-- ── HERO ── -->
 <header class="team-hero">
-  <span class="overline fade">Über uns</span>
-  <h1 class="fade">Das sind <em>wir.</em></h1>
-  <p class="fade">Ein interdisziplinäres Team aus Wissenschaft, Softwareentwicklung, Design und Didaktik — vereint
-    durch den Anspruch, immersives Lernen zugänglich zu machen.</p>
+<span class="overline fade">{{ _('Über uns') }}</span>
+<h1 class="fade">{{ _('Das sind') }} <em>{{ _('wir.') }}</em></h1>
+<p class="fade">{{ _('Ein interdisziplinäres Team aus Wissenschaft, Softwareentwicklung, Design und Didaktik - vereint durch den Anspruch, immersives Lernen zugänglich zu machen.') }}</p>
 </header>
-
 <!-- ── CORE TEAM ── -->
 <div class="section-block">
-  <div class="block-label">Team</div>
-  <div class="team-members">
-
-    <!-- Anke von der Heide -->
-    <div class="member">
-      <div class="member-text">
-        <h2 class="member-name">Anke von der Heide</h2>
-        <span class="member-badge">Geschäftsführung</span>
-        <p class="member-bio">
-          <strong>M.Sc. Anke von der Heide</strong> verantwortet die strategische und operative Leitung von XRwise.
-          Sie verbindet technisches Verständnis mit einem tiefen Gespür für Design und Didaktik.
+<div class="block-label">{{ _('Team') }}</div>
+<div class="team-members">
+<!-- Anke von der Heide -->
+<div class="member">
+<div class="member-text">
+<h2 class="member-name">{{ _('Anke von der Heide') }}</h2>
+<span class="member-badge">{{ _('Geschäftsführung') }}</span>
+<p class="member-bio">
+<strong>{{ _('M.Sc. Anke von der Heide') }}</strong> {{ _('verantwortet die strategische und operative Leitung von XRwise. Sie verbindet technisches Verständnis mit einem tiefen Gespür für Design und Didaktik.') }}
         </p>
-        <div class="member-roles">
-          <span class="role-chip">Projektleitung</span>
-          <span class="role-chip">Evaluation didaktischer Werkzeuge</span>
-          <span class="role-chip">Projektmanagement</span>
-          <span class="role-chip">Kund:innenakquise</span>
-        </div>
-      </div>
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-    </div>
-
-    <!-- Francesco Vona -->
-    <div class="member member--flip">
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-      <div class="member-text">
-        <h2 class="member-name">Francesco Vona</h2>
-        <span class="member-badge">XR-Entwicklung</span>
-        <p class="member-bio">
-          <strong>Ph.D. Francesco Vona</strong> ist ein promovierter Wissenschaftler (2023) im Bereich Information
-          Technology mit Abschluss am Politecnico di Milano und Entwickler mit Schwerpunkt auf Extended Reality, User
-          Experience und immersiven Systemen.
-        </p>
-        <div class="member-roles">
-          <span class="role-chip">Software-Entwicklung</span>
-          <span class="role-chip">XR-Entwicklung</span>
-          <span class="role-chip">Unity Entwicklung</span>
-          <span class="role-chip">Technische Konzeption</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tom Milter -->
-    <div class="member">
-      <div class="member-text">
-        <h2 class="member-name">Tom Milter</h2>
-        <span class="member-badge">Backend & Architektur</span>
-        <p class="member-bio">
-          <strong>B.Sc. Tom Milter</strong> verantwortet insbesondere das Backend sowie die modulare Server- und
-          Systemarchitektur von XRwise. Er sorgt dafür, dass die Plattform skalierbar und stabil bleibt.
-        </p>
-        <div class="member-roles">
-          <span class="role-chip">Backend-Entwicklung</span>
-          <span class="role-chip">Server- & Systemarchitektur</span>
-          <span class="role-chip">Software-Entwicklung</span>
-          <span class="role-chip">Technische Skalierung</span>
-        </div>
-      </div>
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-    </div>
-
-    <!-- Luzie Ahrens -->
-    <div class="member member--flip">
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-      <div class="member-text">
-        <h2 class="member-name">Luzie Ahrens</h2>
-        <span class="member-badge">Frontend & Didaktik</span>
-        <p class="member-bio">
-          <strong>M.Sc. Luzie Ahrens</strong> verbindet theoretische Informatik mit praxisnaher Umsetzung und stärkt
-          das Team insbesondere in der Softwareentwicklung, der Konzeption digitaler Lernformate und der Verbindung
-          von Informatik, Lehre und experimentellen Technologien.
-        </p>
-        <div class="member-roles">
-          <span class="role-chip">Frontend-Entwicklung</span>
-          <span class="role-chip">Backend-Entwicklung</span>
-          <span class="role-chip">UI/UX Gestaltung</span>
-          <span class="role-chip">Didaktische Tools</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Sophia Spahr -->
-    <div class="member">
-      <div class="member-text">
-        <h2 class="member-name">Sophia Spahr</h2>
-        <span class="member-badge">Projektassistenz</span>
-        <p class="member-bio">
-          <strong>B.A. Sophia Spahr</strong> unterstützt im Projektmanagement, in der Buchhaltung sowie in der
-          Kommunikation. Sie gewährleistet reibungslose Abläufe im operativen Betrieb.
-        </p>
-        <div class="member-roles">
-          <span class="role-chip">Projektassistenz</span>
-          <span class="role-chip">Kaufmännische Unterstützung</span>
-          <span class="role-chip">Teamassistenz</span>
-          <span class="role-chip">Marketing</span>
-        </div>
-      </div>
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-    </div>
-
-    <!-- Prof. Dr. Jan-Niklas Voigt-Antons -->
-    <div class="member member--flip">
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-      <div class="member-text">
-        <h2 class="member-name">Prof. Dr. Jan-Niklas Voigt-Antons</h2>
-        <p class="member-bio">
-          <strong>Prof. Dr. Jan-Niklas Voigt-Antons</strong> ist Professor für angewandte Informatik mit Schwerpunkt
-          immersive Medien und Leiter des Immersive Reality Lab an der Hochschule Hamm-Lippstadt (HSHL).
-        </p>
-      </div>
-    </div>
-
-    <!-- Prof. Dr. Steffen Prowe -->
-    <div class="member">
-      <div class="member-text">
-        <h2 class="member-name">Prof. Dr. Steffen Prowe</h2>
-        <p class="member-bio">
-          <strong>Prof. Dr. Steffen Prowe</strong> ist Professor für Mikrobiologie und Biotechnologie an der Berliner
-          Hochschule für Technik und verfügt über langjährige Erfahrung in der Entwicklung und Evaluation von
-          VR-basierten Lehrformaten.
-        </p>
-      </div>
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-    </div>
-
-    <!-- M.Sc. Thorbjörn Ruppel -->
-    <div class="member member--flip">
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-      <div class="member-text">
-        <h2 class="member-name">M.Sc. Thorbjörn Ruppel</h2>
-        <p class="member-bio">
-          <strong>M.Sc. Thorbjörn Ruppel</strong> ist als wissenschaftlicher Mitarbeiter und Dozent für Informatik an
-          der HAW Hamburg tätig und bringt seine Expertise aus Forschung, Lehre und Praxis in die Entwicklung
-          immersiver XR-Anwendungen ein.
-        </p>
-      </div>
-    </div>
-
-    <!-- M.Eng. Miladin Ćeranić -->
-    <div class="member">
-      <div class="member-text">
-        <h2 class="member-name">M.Eng. Miladin Ćeranić</h2>
-        <p class="member-bio">
-          <strong>M.Eng. Miladin Ćeranić</strong> ist wissenschaftlicher Mitarbeiter an der Hochschule Hamm-Lippstadt
-          im Bereich Business and Systems Engineering und verfügt über einen interdisziplinären Hintergrund aus
-          Mechatronik, Softwareentwicklung und Wirtschaft.
-        </p>
-      </div>
-      <div class="member-photo">
-        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="80" r="80" fill="#ECEAE4" />
-          <circle cx="80" cy="62" r="26" fill="#D8D6CE" />
-          <ellipse cx="80" cy="130" rx="42" ry="30" fill="#D8D6CE" />
-        </svg>
-      </div>
-    </div>
-
-  </div>
+<div class="member-roles">
+<span class="role-chip">{{ _('Projektleitung') }}</span>
+<span class="role-chip">{{ _('Evaluation didaktischer Werkzeuge') }}</span>
+<span class="role-chip">{{ _('Projektmanagement') }}</span>
+<span class="role-chip">{{ _('Kund:innenakquise') }}</span>
 </div>
-
+</div>
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+</div>
+<!-- Francesco Vona -->
+<div class="member member--flip">
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+<div class="member-text">
+<h2 class="member-name">{{ _('Francesco Vona') }}</h2>
+<span class="member-badge">{{ _('XR-Entwicklung') }}</span>
+<p class="member-bio">
+<strong>{{ _('Ph.D. Francesco Vona') }}</strong> {{ _('ist ein promovierter Wissenschaftler (2023) im Bereich Information Technology mit Abschluss am Politecnico di Milano und Entwickler mit Schwerpunkt auf Extended Reality, User Experience und immersiven Systemen.') }}
+        </p>
+<div class="member-roles">
+<span class="role-chip">{{ _('Software-Entwicklung') }}</span>
+<span class="role-chip">{{ _('XR-Entwicklung') }}</span>
+<span class="role-chip">{{ _('Unity Entwicklung') }}</span>
+<span class="role-chip">{{ _('Technische Konzeption') }}</span>
+</div>
+</div>
+</div>
+<!-- Tom Milter -->
+<div class="member">
+<div class="member-text">
+<h2 class="member-name">{{ _('Tom Milter') }}</h2>
+<span class="member-badge">{{ _('Backend &amp; Architektur') }}</span>
+<p class="member-bio">
+<strong>{{ _('B.Sc. Tom Milter') }}</strong> {{ _('verantwortet insbesondere das Backend sowie die modulare Server- und Systemarchitektur von XRwise. Er sorgt dafür, dass die Plattform skalierbar und stabil bleibt.') }}
+        </p>
+<div class="member-roles">
+<span class="role-chip">{{ _('Backend-Entwicklung') }}</span>
+<span class="role-chip">{{ _('Server- &amp; Systemarchitektur') }}</span>
+<span class="role-chip">{{ _('Software-Entwicklung') }}</span>
+<span class="role-chip">{{ _('Technische Skalierung') }}</span>
+</div>
+</div>
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+</div>
+<!-- Luzie Ahrens -->
+<div class="member member--flip">
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+<div class="member-text">
+<h2 class="member-name">{{ _('Luzie Ahrens') }}</h2>
+<span class="member-badge">{{ _('Frontend &amp; Didaktik') }}</span>
+<p class="member-bio">
+<strong>{{ _('M.Sc. Luzie Ahrens') }}</strong> {{ _('verbindet theoretische Informatik mit praxisnaher Umsetzung und stärkt das Team insbesondere in der Softwareentwicklung, der Konzeption digitaler Lernformate und der Verbindung von Informatik, Lehre und experimentellen Technologien.') }}
+        </p>
+<div class="member-roles">
+<span class="role-chip">{{ _('Frontend-Entwicklung') }}</span>
+<span class="role-chip">{{ _('Backend-Entwicklung') }}</span>
+<span class="role-chip">{{ _('UI/UX Gestaltung') }}</span>
+<span class="role-chip">{{ _('Didaktische Tools') }}</span>
+</div>
+</div>
+</div>
+<!-- Sophia Spahr -->
+<div class="member">
+<div class="member-text">
+<h2 class="member-name">{{ _('Sophia Spahr') }}</h2>
+<span class="member-badge">{{ _('Projektassistenz') }}</span>
+<p class="member-bio">
+<strong>{{ _('B.A. Sophia Spahr') }}</strong> {{ _('unterstützt im Projektmanagement, in der Buchhaltung sowie in der Kommunikation. Sie gewährleistet reibungslose Abläufe im operativen Betrieb.') }}
+        </p>
+<div class="member-roles">
+<span class="role-chip">{{ _('Projektassistenz') }}</span>
+<span class="role-chip">{{ _('Kaufmännische Unterstützung') }}</span>
+<span class="role-chip">{{ _('Teamassistenz') }}</span>
+<span class="role-chip">{{ _('Marketing') }}</span>
+</div>
+</div>
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+</div>
+<!-- Prof. Dr. Jan-Niklas Voigt-Antons -->
+<div class="member member--flip">
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+<div class="member-text">
+<h2 class="member-name">{{ _('Prof. Dr. Jan-Niklas Voigt-Antons') }}</h2>
+<p class="member-bio">
+<strong>{{ _('Prof. Dr. Jan-Niklas Voigt-Antons') }}</strong> {{ _('ist Professor für angewandte Informatik mit Schwerpunkt immersive Medien und Leiter des Immersive Reality Lab an der Hochschule Hamm-Lippstadt (HSHL).') }}
+        </p>
+</div>
+</div>
+<!-- Prof. Dr. Steffen Prowe -->
+<div class="member">
+<div class="member-text">
+<h2 class="member-name">{{ _('Prof. Dr. Steffen Prowe') }}</h2>
+<p class="member-bio">
+<strong>{{ _('Prof. Dr. Steffen Prowe') }}</strong> {{ _('ist Professor für Mikrobiologie und Biotechnologie an der Berliner Hochschule für Technik und verfügt über langjährige Erfahrung in der Entwicklung und Evaluation von VR-basierten Lehrformaten.') }}
+        </p>
+</div>
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+</div>
+<!-- M.Sc. Thorbjörn Ruppel -->
+<div class="member member--flip">
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+<div class="member-text">
+<h2 class="member-name">{{ _('M.Sc. Thorbjörn Ruppel') }}</h2>
+<p class="member-bio">
+<strong>{{ _('M.Sc. Thorbjörn Ruppel') }}</strong> {{ _('ist als wissenschaftlicher Mitarbeiter und Dozent für Informatik an der HAW Hamburg tätig und bringt seine Expertise aus Forschung, Lehre und Praxis in die Entwicklung immersiver XR-Anwendungen ein.') }}
+        </p>
+</div>
+</div>
+<!-- M.Eng. Miladin Ćeranić -->
+<div class="member">
+<div class="member-text">
+<h2 class="member-name">{{ _('M.Eng. Miladin Ćeranić') }}</h2>
+<p class="member-bio">
+<strong>{{ _('M.Eng. Miladin Ćeranić') }}</strong> {{ _('ist wissenschaftlicher Mitarbeiter an der Hochschule Hamm-Lippstadt im Bereich Business and Systems Engineering und verfügt über einen interdisziplinären Hintergrund aus Mechatronik, Softwareentwicklung und Wirtschaft.') }}
+        </p>
+</div>
+<div class="member-photo">
+<svg viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" fill="#ECEAE4" r="80"></circle>
+<circle cx="80" cy="62" fill="#D8D6CE" r="26"></circle>
+<ellipse cx="80" cy="130" fill="#D8D6CE" rx="42" ry="30"></ellipse>
+</svg>
+</div>
+</div>
+</div>
+</div>
 <!-- ── CTA ── -->
 <section class="team-cta">
-  <h2>Wir freuen uns über Ihre Nachricht.</h2>
-  <p>Haben Sie Fragen zum Team oder möchten Sie gemeinsam etwas aufbauen?</p>
-  <a href="#cta" class="btn-primary">
-    Kontakt aufnehmen
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-      stroke-linecap="round">
-      <path d="M5 12h14M12 5l7 7-7 7" />
-    </svg>
-  </a>
+<h2>{{ _('Wir freuen uns über Ihre Nachricht.') }}</h2>
+<p>{{ _('Haben Sie Fragen zum Team oder möchten Sie gemeinsam etwas aufbauen?') }}</p>
+<a class="btn-primary" href="#cta">
+    {{ _('Kontakt aufnehmen') }}
+    <svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-width="2.5" viewbox="0 0 24 24" width="16">
+<path d="M5 12h14M12 5l7 7-7 7"></path>
+</svg>
+</a>
 </section>
 
 {% endblock %}

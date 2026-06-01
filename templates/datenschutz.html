@@ -2,261 +2,122 @@
 {% block content %}
 
 <div class="pt-30 min-h-screen p-5 flex flex-col gap-5">
-
-    <h1>Datenschutz</h1>
-
-    <h3>1. Datenschutz auf einen Blick</h3>
-
-    <h4>Allgemeine Hinweise</h4>
-
-    <div>
-        Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert,
-        wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert
-        werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text
-        aufgeführten Datenschutzerklärung.
+<h1>{{ _('Datenschutz') }}</h1>
+<h3>{{ _('1. Datenschutz auf einen Blick') }}</h3>
+<h4>{{ _('Allgemeine Hinweise') }}</h4>
+<div>
+        {{ _('Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.') }}
     </div>
-
-    <h3>Datenerfassung auf dieser Website</h3>
-
-    <div class="font-bold">
-        Wer ist verantwortlich für die Datenerfassung auf dieser Website?</div>
-
-    <div>
-        Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem
-        Impressum dieser Website entnehmen.</div>
-
-    <div class="font-bold">
-        Wie erfassen wir Ihre Daten?
+<h3>{{ _('Datenerfassung auf dieser Website') }}</h3>
+<div class="font-bold">
+        {{ _('Wer ist verantwortlich für die Datenerfassung auf dieser Website?') }}</div>
+<div>
+        {{ _('Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.') }}</div>
+<div class="font-bold">
+        {{ _('Wie erfassen wir Ihre Daten?') }}
     </div>
-    <div>
-        Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten
-        handeln, die Sie in ein Kontaktformular eingeben.
-
-        Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme
-        erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des
-        Seitenaufrufs).
-        Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
+<div>
+        {{ _('Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.') }}
     </div>
-    <div class="font-bold">
-        Wofür nutzen wir Ihre Daten?</div>
-
-    <div>
-        Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten
-        können zur Analyse Ihres Nutzerverhaltens verwendet werden.
+<div class="font-bold">
+        {{ _('Wofür nutzen wir Ihre Daten?') }}</div>
+<div>
+        {{ _('Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.') }}
     </div>
+<div class="font-bold">
+        {{ _('Welche Rechte haben Sie bezüglich Ihrer Daten?') }}</div>
+<div>
+        {{ _('Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.') }}<br/>
 
-
-    <div class="font-bold">
-        Welche Rechte haben Sie bezüglich Ihrer Daten?</div>
-
-    <div>
-        Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten
-        personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten
-        zu
-        verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung
-        jederzeit
-        für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der
-        Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der
-        zuständigen Aufsichtsbehörde zu.<br />
-
-        Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum
-        angegebenen
-        Adresse an uns wenden.</div>
-
-    <h3>
-        2. Hosting und Content Delivery Networks (CDN)</h3>
-
-    <h3>
-        Externes Hosting
+        {{ _('Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.') }}</div>
+<h3>
+        {{ _('2. Hosting und Content Delivery Networks (CDN)') }}</h3>
+<h3>
+        {{ _('Externes Hosting') }}
     </h3>
-    <div>
-        Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf
-        dieser
-        Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um
-        IP-Adressen,
-        Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige
-        Daten, die über eine Website generiert werden, handeln.
-
-        Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden
-        Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung
-        unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).
-
-        Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten
-        erforderlich
-        ist und unsere Weisungen in Bezug auf diese Daten befolgen.
+<div>
+        {{ _('Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln. Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.') }}
     </div>
+<h3>
+        {{ _('3. Allgemeine Hinweise und Pflicht­informationen') }}</h3>
+<h3>
+        {{ _('Datenschutz') }}</h3>
+<div>
+        {{ _('Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.') }}<br/><br/>
 
-    <h3>
-        3. Allgemeine Hinweise und Pflicht­informationen</h3>
+        {{ _('Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.') }}<br/><br/>
 
-    <h3>
-        Datenschutz</h3>
+        {{ _('Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.') }}<br/><br/>
+<h4>
+            {{ _('Hinweis zur verantwortlichen Stelle') }}</h4>
+<div>
+            {{ _('Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:') }}<br/><br/>
 
-    <div>
-        Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
-        personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser
-        Datenschutzerklärung.<br /><br />
+            {{ _('HAW Hamburg') }}<br/>
+            {{ _('Finkenau 35') }}<br/>
+            {{ _('22081 Hamburg') }}<br/>
+            {{ _('Prof. Dr. Roland Greule') }}<br/><br/>
 
-        Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind
-        Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert,
-        welche
-        Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das
-        geschieht.<br /><br />
+            {{ _('Telefon: +49 040 428 75 7664') }}<br/>
+            {{ _('E-Mail: roland.greule@haw-hamburg.de') }}<br/><br/>
 
-        Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail)
-        Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht
-        möglich.<br /><br />
+            {{ _('Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.') }}</div>
+<br/><br/>
+<h4>
+            {{ _('Widerruf Ihrer Einwilligung zur Datenverarbeitung') }}</h4>
+<div>
 
-        <h4>
-            Hinweis zur verantwortlichen Stelle</h4>
-
-        <div>
-            Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br /><br />
-
-            HAW Hamburg<br />
-            Finkenau 35<br />
-            22081 Hamburg<br />
-            Prof. Dr. Roland Greule<br /><br />
-
-            Telefon: +49 040 428 75 7664<br />
-            E-Mail: roland.greule@haw-hamburg.de<br /><br />
-
-            Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen
-            über
-            die
-            Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
-            entscheidet.</div>
-        <br /><br />
-        <h4>
-            Widerruf Ihrer Einwilligung zur Datenverarbeitung</h4>
-
-        <div>
-
-            Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine
-            bereits
-            erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten
-            Datenverarbeitung
-            bleibt vom Widerruf unberührt.</div>
-        <br /><br />
-        <h4>
-            Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)
+            {{ _('Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.') }}</div>
+<br/><br/>
+<h4>
+            {{ _('Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)') }}
         </h4>
+<div>
 
-        <div>
+            {{ _('WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO). WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).') }}</div>
+<br/><br/>
+<h4>
+            {{ _('Beschwerde­recht bei der zuständigen Aufsichts­behörde') }}</h4>
+<div>
 
-            WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT
-            DAS
-            RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER
-            PERSONENBEZOGENEN
-            DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE
-            JEWEILIGE
-            RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE
-            WIDERSPRUCH
-            EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR
-            KÖNNEN
-            ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN
-            ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN
-            (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).
+            {{ _('Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.') }}</div>
+<br/><br/>
+<h4>
+            {{ _('Recht auf Daten­übertrag­barkeit') }}</h4>
+<div>
 
-            WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT,
-            JEDERZEIT
-            WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG
-            EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN
-            SIE
-            WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG
-            VERWENDET
-            (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).</div>
-        <br /><br />
-        <h4>
-            Beschwerde­recht bei der zuständigen Aufsichts­behörde</h4>
-
-        <div>
-
-            Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde,
-            insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des
-            mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder
-            gerichtlicher Rechtsbehelfe.</div>
-        <br /><br />
-        <h4>
-            Recht auf Daten­übertrag­barkeit</h4>
-
-        <div>
-
-            Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags
-            automatisiert
-            verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu
-            lassen.
-            Sofern
-            Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit
-            es
-            technisch machbar ist.</div>
-        <br /><br />
-        <h4>
-            Auskunft, Löschung und Berichtigung
+            {{ _('Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.') }}</div>
+<br/><br/>
+<h4>
+            {{ _('Auskunft, Löschung und Berichtigung') }}
         </h4>
-
-        <div>
-            Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft
-            über
-            Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung
-            und
-            ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema
-            personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
+<div>
+            {{ _('Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.') }}
         </div>
-        <br /><br />
-        <h4>
-            Recht auf Einschränkung der Verarbeitung</h4>
+<br/><br/>
+<h4>
+            {{ _('Recht auf Einschränkung der Verarbeitung') }}</h4>
+<div>
 
-        <div>
+            {{ _('Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:') }}<br/><br/>
 
-            Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu
-            können
-            Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der
-            Verarbeitung besteht in folgenden Fällen:<br /><br />
+            {{ _('Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.') }}<br/>
+            {{ _('Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.') }}<br/>
+            {{ _('Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.') }}<br/>
+            {{ _('Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.') }}<br/><br/>
 
-            Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in
-            der
-            Regel
-            Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der
-            Verarbeitung
-            Ihrer
-            personenbezogenen Daten zu verlangen.<br />
-            Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der
-            Löschung
-            die Einschränkung der Datenverarbeitung verlangen.<br />
-            Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder
-            Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der
-            Verarbeitung Ihrer personenbezogenen Daten zu verlangen.<br />
-            Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und
-            unseren
-            Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das
-            Recht,
-            die
-            Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.<br /><br />
-
-            Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer
-            Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von
-            Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus
-            Gründen
-            eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
+            {{ _('Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.') }}
         </div>
-        <br /><br />
-        <h4>
-            Widerspruch gegen Werbe-E-Mails</h4>
+<br/><br/>
+<h4>
+            {{ _('Widerspruch gegen Werbe-E-Mails') }}</h4>
+<div>
 
-        <div>
-
-            Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht
-            ausdrücklich
-            angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten
-            behalten
-            sich
-            ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch
-            Spam-E-Mails, vor.<br /><br />
-            <div class="text-rose-400">
-                <a href="https://www.e-recht24.de">Quelle: https://www.e-recht24.de</a>
-            </div>
-        </div>
-    </div>
+            {{ _('Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.') }}<br/><br/>
+<div class="text-rose-400">
+<a href="https://www.e-recht24.de">{{ _('Quelle: https://www.e-recht24.de') }}</a>
+</div>
+</div>
+</div>
 </div>
 {% endblock content %}

@@ -205,126 +205,77 @@
         font-style: italic;
     }
 </style>
-
 <div class="blog-wrap">
-    <div class="blog-container">
-        <span class="blog-eyebrow">News · Digitales Museum</span>
-        <h1 class="blog-title">Das digitale Museum</h1>
-        <p class="blog-subtitle">Warum virtuelle Museen mehr sind als digitale Kopien — und wie Immersion Kultur neu
-            erfahrbar macht.</p>
-        <hr class="blog-divider" />
-        <!-- Section 1 -->
-        <section class="blog-section">
-            <div class="blog-split">
-                <div class="blog-prose md:order-2">
-                    <h3>Warum virtuelle Museen mehr sind als digitale Kopien</h3>
-                    <p>Museen leben nicht nur von ihren Exponaten, sondern vor allem von der Atmosphäre, die sie
-                        erschaffen. Der Gang durch historische Räume, das Gefühl, einem Artefakt ganz nah zu sein, und
-                        die Möglichkeit, Details aus einer neuen Perspektive zu entdecken, machen den Museumsbesuch zu
-                        einem besonderen Erlebnis. Genau hier setzt Virtual Reality an: VR ist weit mehr als eine
-                        klassische 2D-Online-Tour. Sie schafft Immersion — das Gefühl, tatsächlich vor Ort zu sein.</p>
-                    <p>Während immer mehr Museen ihre Sammlungen digitalisieren, wächst auch die Bedeutung digitaler
-                        Archive und virtueller Ausstellungen. Unser digitales Museum geht bewusst einen Schritt weiter:
-                        Statt einer reinen Online-Galerie entsteht ein lebendiger virtueller Raum mit fotorealistischen
-                        Umgebungen, hochaufgelösten 3D-Modellen und interaktiven Erlebnissen.</p>
-                </div>
-                <figure class="blog-figure md:order-1">
-                    <img src="/static/img/blog/blog-museum-1.png" alt="Museum" />
-                </figure>
-            </div>
-        </section>
-
-        <!-- Section 2 -->
-        <section class="blog-section">
-            <div class="blog-split reverse">
-                <div class="blog-prose md:order-1">
-                    <h3>Digitale Museen im Allgemeinen</h3>
-                    <p>Die Idee einer virtuellen Museumserfahrung wird immer häufiger umgesetzt. Die Londoner National
-                        Gallery nutzt im Rahmen ihrer „Virtual Gallery"-Initiative und des Innovationslabors National
-                        Gallery X (NGX) verschiedene XR-Technologien, um Kunstwerke digital erlebbar zu machen. Ihr im
-                        März 2025 gestartetes <em>Imaginarium</em> ist ein browserbasierter Raum, der Soundscapes und
-                        Animationen kombiniert.</p>
-                    <p>Trotz der multisensorischen Erfahrung ist das Imaginarium jedoch nicht wirklich immersiv: Es
-                        nutzt keine digitalen Zwillinge der echten Museumsgegenstände — stattdessen werden lediglich
-                        animierte Szenen in den virtuellen Raum eingebettet. Die Special Effects werden des Öfteren als
-                        störend wahrgenommen, weil die originalen Gegenstände nicht vollständig wahrheitsgetreu
-                        abgebildet werden.</p>
-                </div>
-                <figure class="blog-figure md:order-2">
-                    <img src="/static/img/blog/blog-museum-2.png" alt="Museum 2" />
-                </figure>
-            </div>
-        </section>
-
-        <!-- Section 3 — rein virtuelle Museen -->
-        <section class="blog-section">
-            <div class="blog-card accent">
-                <h3>Rein virtuelle Museen</h3>
-                <p>Im Gegensatz zu realen Museen mit virtuellen Applikationen existieren vielfältige, rein virtuelle
-                    Museen, deren Ausstellungen in der realen Welt physikalisch oft unmöglich umzusetzen wären:</p>
-                <ul class="blog-list">
-                    <li><strong>Museum of Other Realities (MOR)</strong> — eine rein virtuelle Kunstgalerie für
-                        zeitgenössische VR-Kunst, speziell für VR-Headsets entwickelt.</li>
-                    <li><strong>Kremer Museum VR</strong> — Sammlung flämischer und niederländischer Malerei in einer
-                        futuristischen, virtuellen Architektur.</li>
-                    <li><strong>VR Space Museum Cosmoria</strong> — fokussiert auf Weltall und Astronomie mit
-                        interaktiven Exponaten in einer digitalen Umgebung.</li>
-                    <li><strong>VR Museum of Fine Art</strong> — weltbekannte Skulpturen und Gemälde per VR-Simulation
-                        in Originalgröße.</li>
-                    <li><strong>OmniGallery</strong> — virtuelle Galerie für digitale, zeitgenössische Kunst.</li>
-                    <li><strong>National Women's History Museum</strong> — existiert seit Jahren fast ausschließlich im
-                        digitalen Raum.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Section 4 -->
-        <section class="blog-section">
-            <div class="blog-card blog-prose">
-                <h3>Museums-Apps</h3>
-                <p>Neben digitalen Museen sind Apps ein sinnvolles Tool, um Museumserfahrungen intensiver zu gestalten:
-                    <strong>Google Arts & Culture</strong> bietet 360-Grad-Touren durch hunderte Museen und Kunstwerke
-                    in sehr hoher Auflösung. <strong>Smartify</strong> identifiziert Gemälde und Skulpturen per
-                    Smartphone-Kamera und liefert detaillierte Informationen. <strong>MuseumStars</strong> ermöglicht
-                    es, in über 100 Museen Punkte zu sammeln und Level aufzusteigen. Viele Museen bieten zudem eigene
-                    Apps für Audioguides vor Ort an.
+<div class="blog-container">
+<span class="blog-eyebrow">{{ _('News · Digitales Museum') }}</span>
+<h1 class="blog-title">{{ _('Das digitale Museum') }}</h1>
+<p class="blog-subtitle">{{ _('Warum virtuelle Museen mehr sind als digitale Kopien - und wie Immersion Kultur neu erfahrbar macht.') }}</p>
+<hr class="blog-divider"/>
+<!-- Section 1 -->
+<section class="blog-section">
+<div class="blog-split">
+<div class="blog-prose md:order-2">
+<h3>{{ _('Warum virtuelle Museen mehr sind als digitale Kopien') }}</h3>
+<p>{{ _('Museen leben nicht nur von ihren Exponaten, sondern vor allem von der Atmosphäre, die sie erschaffen. Der Gang durch historische Räume, das Gefühl, einem Artefakt ganz nah zu sein, und die Möglichkeit, Details aus einer neuen Perspektive zu entdecken, machen den Museumsbesuch zu einem besonderen Erlebnis. Genau hier setzt Virtual Reality an: VR ist weit mehr als eine klassische 2D-Online-Tour. Sie schafft Immersion - das Gefühl, tatsächlich vor Ort zu sein.') }}</p>
+<p>{{ _('Während immer mehr Museen ihre Sammlungen digitalisieren, wächst auch die Bedeutung digitaler Archive und virtueller Ausstellungen. Unser digitales Museum geht bewusst einen Schritt weiter: Statt einer reinen Online-Galerie entsteht ein lebendiger virtueller Raum mit fotorealistischen Umgebungen, hochaufgelösten 3D-Modellen und interaktiven Erlebnissen.') }}</p>
+</div>
+<figure class="blog-figure md:order-1">
+<img alt="{{ _('Museum') }}" src="/static/img/blog/blog-museum-1.png"/>
+</figure>
+</div>
+</section>
+<!-- Section 2 -->
+<section class="blog-section">
+<div class="blog-split reverse">
+<div class="blog-prose md:order-1">
+<h3>{{ _('Digitale Museen im Allgemeinen') }}</h3>
+<p>{{ _('Die Idee einer virtuellen Museumserfahrung wird immer häufiger umgesetzt. Die Londoner National Gallery nutzt im Rahmen ihrer „Virtual Gallery"-Initiative und des Innovationslabors National Gallery X (NGX) verschiedene XR-Technologien, um Kunstwerke digital erlebbar zu machen. Ihr im März 2025 gestartetes') }} <em>{{ _('Imaginarium') }}</em> {{ _('ist ein browserbasierter Raum, der Soundscapes und Animationen kombiniert.') }}</p>
+<p>{{ _('Trotz der multisensorischen Erfahrung ist das Imaginarium jedoch nicht wirklich immersiv: Es nutzt keine digitalen Zwillinge der echten Museumsgegenstände - stattdessen werden lediglich animierte Szenen in den virtuellen Raum eingebettet. Die Special Effects werden des Öfteren als störend wahrgenommen, weil die originalen Gegenstände nicht vollständig wahrheitsgetreu abgebildet werden.') }}</p>
+</div>
+<figure class="blog-figure md:order-2">
+<img alt="{{ _('Museum 2') }}" src="/static/img/blog/blog-museum-2.png"/>
+</figure>
+</div>
+</section>
+<!-- Section 3 - rein virtuelle Museen -->
+<section class="blog-section">
+<div class="blog-card accent">
+<h3>{{ _('Rein virtuelle Museen') }}</h3>
+<p>{{ _('Im Gegensatz zu realen Museen mit virtuellen Applikationen existieren vielfältige, rein virtuelle Museen, deren Ausstellungen in der realen Welt physikalisch oft unmöglich umzusetzen wären:') }}</p>
+<ul class="blog-list">
+<li><strong>{{ _('Museum of Other Realities (MOR)') }}</strong> {{ _('eine rein virtuelle Kunstgalerie für zeitgenössische VR-Kunst, speziell für VR-Headsets entwickelt.') }}</li>
+<li><strong>{{ _('Kremer Museum VR') }}</strong> {{ _('Sammlung flämischer und niederländischer Malerei in einer futuristischen, virtuellen Architektur.') }}</li>
+<li><strong>{{ _('VR Space Museum Cosmoria') }}</strong> {{ _('fokussiert auf Weltall und Astronomie mit interaktiven Exponaten in einer digitalen Umgebung.') }}</li>
+<li><strong>{{ _('VR Museum of Fine Art') }}</strong> {{ _('weltbekannte Skulpturen und Gemälde per VR-Simulation in Originalgröße.') }}</li>
+<li><strong>{{ _('OmniGallery') }}</strong> {{ _('virtuelle Galerie für digitale, zeitgenössische Kunst.') }}</li>
+<li><strong>{{ _('National Women\'s History Museum') }}</strong> {{ _('existiert seit Jahren fast ausschließlich im digitalen Raum.') }}</li>
+</ul>
+</div>
+</section>
+<!-- Section 4 -->
+<section class="blog-section">
+<div class="blog-card blog-prose">
+<h3>{{ _('Museums-Apps') }}</h3>
+<p>{{ _('Neben digitalen Museen sind Apps ein sinnvolles Tool, um Museumserfahrungen intensiver zu gestalten:') }}
+                    <strong>{{ _('Google Arts &amp; Culture') }}</strong> {{ _('bietet 360-Grad-Touren durch hunderte Museen und Kunstwerke in sehr hoher Auflösung.') }} <strong>{{ _('Smartify') }}</strong> {{ _('identifiziert Gemälde und Skulpturen per Smartphone-Kamera und liefert detaillierte Informationen.') }} <strong>{{ _('MuseumStars') }}</strong> {{ _('ermöglicht es, in über 100 Museen Punkte zu sammeln und Level aufzusteigen. Viele Museen bieten zudem eigene Apps für Audioguides vor Ort an.') }}
                 </p>
-            </div>
-        </section>
-
-        <!-- Section 5 -->
-        <section class="blog-section">
-            <div class="blog-card blog-prose">
-                <h3>Technische Umsetzung</h3>
-                <p>Ein spannendes Beispiel ist <strong>Das Digitale Museum</strong>: eine browserbasierte, auf Unity
-                    WebGL entwickelte Anwendung, die hochauflösende 3D-Modelle, wissenschaftliche Daten und Kunstwerke
-                    in einer immersiven Umgebung zugänglich macht.</p>
-
-                <div class="pull-quote">Ein persönlicher Museumsbesuch bietet die Ausstellungsstücke in einem
-                    würdevollen Umfeld und feierlichen Rahmen — genau das soll digital reproduziert werden.</div>
-
-                <p>Durch Unitys <strong>Addressable-System</strong> können große Datenmengen effizient geladen und
-                    wieder entladen werden — entscheidend für performante Webanwendungen mit komplexen 3D-Inhalten.
-                    Objekte, die nicht sichtbar oder hörbar sind, werden aus dem Speicher entfernt. So bleibt die
-                    Anwendung an jedem Punkt performant und nahezu unbegrenzt erweiterbar.</p>
-                <p>Hochaufgelöste Texturen werden komprimiert in <strong>ktx2-Containern</strong> verpackt — einem
-                    modernen GPU-freundlichen Datenformat. Gemälde können so in 8K-Auflösung dargestellt werden, winzige
-                    Details bleiben erhalten und Besucher:innen können buchstäblich auf Nasenlänge an die Werke
-                    herantreten.</p>
-                <p>Das Digitale Museum basiert auf der <strong>XRwise Cross-Reality Plattform</strong> und ermöglicht
-                    eine flexible Gestaltung immersiver Ausstellungsräume. Durch die Verknüpfung physischer und
-                    virtueller Räume entstehen neue hybride Vermittlungsformate, die live mit vielen anderen zusammen
-                    erlebt werden können. Inhalte lassen sich ohne Programmieraufwand anpassen, aktualisieren oder neu
-                    kuratieren.</p>
-            </div>
-        </section>
-
-        <!-- Video -->
-        <div class="blog-video">
-            <iframe src="https://www.youtube.com/embed/COFNvTRIO0E?si=79urFBkokCqoavhk" title="YouTube video player"
-                allowfullscreen></iframe>
-        </div>
-
-    </div>
+</div>
+</section>
+<!-- Section 5 -->
+<section class="blog-section">
+<div class="blog-card blog-prose">
+<h3>{{ _('Technische Umsetzung') }}</h3>
+<p>{{ _('Ein spannendes Beispiel ist') }} <strong>{{ _('Das Digitale Museum') }}</strong>{{ _(': eine browserbasierte, auf Unity WebGL entwickelte Anwendung, die hochauflösende 3D-Modelle, wissenschaftliche Daten und Kunstwerke in einer immersiven Umgebung zugänglich macht.') }}</p>
+<div class="pull-quote">{{ _('Ein persönlicher Museumsbesuch bietet die Ausstellungsstücke in einem würdevollen Umfeld und feierlichen Rahmen - genau das soll digital reproduziert werden.') }}</div>
+<p>{{ _('Durch Unitys') }} <strong>{{ _('Addressable-System') }}</strong> {{ _('können große Datenmengen effizient geladen und wieder entladen werden - entscheidend für performante Webanwendungen mit komplexen 3D-Inhalten. Objekte, die nicht sichtbar oder hörbar sind, werden aus dem Speicher entfernt. So bleibt die Anwendung an jedem Punkt performant und nahezu unbegrenzt erweiterbar.') }}</p>
+<p>{{ _('Hochaufgelöste Texturen werden komprimiert in') }} <strong>{{ _('ktx2-Containern') }}</strong> {{ _('verpackt - einem modernen GPU-freundlichen Datenformat. Gemälde können so in 8K-Auflösung dargestellt werden, winzige Details bleiben erhalten und Besucher:innen können buchstäblich auf Nasenlänge an die Werke herantreten.') }}</p>
+<p>{{ _('Das Digitale Museum basiert auf der') }} <strong>{{ _('XRwise Cross-Reality Plattform') }}</strong> {{ _('und ermöglicht eine flexible Gestaltung immersiver Ausstellungsräume. Durch die Verknüpfung physischer und virtueller Räume entstehen neue hybride Vermittlungsformate, die live mit vielen anderen zusammen erlebt werden können. Inhalte lassen sich ohne Programmieraufwand anpassen, aktualisieren oder neu kuratieren.') }}</p>
+</div>
+</section>
+<!-- Video -->
+<div class="blog-video">
+<iframe allowfullscreen="" src="https://www.youtube.com/embed/COFNvTRIO0E?si=79urFBkokCqoavhk" title="{{ _('YouTube video player') }}"></iframe>
+</div>
+</div>
 </div>
 {% endblock content %}

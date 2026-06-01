@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>XRwise — Vernetzte Realitäten für nachhaltigen Kompetenzaufbau</title>
+    <title> _(XRwise — Vernetzte Realitäten für nachhaltigen Kompetenzaufbau) </title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -51,11 +51,16 @@
 
         <!-- Links -->
         <div class="nav-links" id="navLinks">
-            <a href="/#zielgruppen">Lösungen</a>
-            <a href="/#szenarien">Anwendungen</a>
-            <a href="/news">News</a>
-            <a href="/team">Team</a>
-            <a href="/#cta" class="nav-cta">Kontakt</a>
+            <a href="/#zielgruppen">{{ _('Lösungen') }}</a>
+            <a href="/#szenarien">{{ _('Anwendungen') }}</a>
+            <a href="/news">{{ _('News') }}</a>
+            <a href="/team">{{ _('Team') }}</a>
+            <a href="/#cta" class="nav-cta">{{ _('Kontakt') }}</a>
+        </div>
+
+        <div class="lang-switcher">
+            <a href="{{ url_for('set_lang', lang='de') }}" class="{{ 'active' if get_locale()|string == 'de' }}">DE</a>
+            <a href="{{ url_for('set_lang', lang='en') }}" class="{{ 'active' if get_locale()|string == 'en' }}">EN</a>
         </div>
     </nav>
 
