@@ -1777,7 +1777,7 @@ msgstr "About Us"
 
 #: templates/xrwise_team.html:7
 msgid "Das sind"
-msgstr "We are"
+msgstr "This is"
 
 #: templates/xrwise_team.html:7
 msgid "wir."
