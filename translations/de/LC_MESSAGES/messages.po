@@ -5,50 +5,115 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-06-01 08:17+0200\n"
-"PO-Revision-Date: 2026-05-29 09:27+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
+
+#: templates/base.html:7
+msgid "XRwise - Vernetzte Realitäten für nachhaltigen Kompetenzaufbau"
+msgstr ""
+
+#: templates/base.html:35 templates/base.html:36 templates/base.html:66
+#, fuzzy
+msgid "XRwise"
+msgstr ""
+
+#: templates/base.html:46 templates/base.html:70
+msgid "Lösungen"
+msgstr ""
+
+#: templates/base.html:47
+msgid "Anwendungen"
+msgstr ""
+
+#: templates/base.html:48 templates/base.html:82
+msgid "News"
+msgstr ""
+
+#: templates/base.html:49 templates/base.html:81 templates/xrwise_team.html:13
+msgid "Team"
+msgstr ""
+
+#: templates/base.html:50 templates/base.html:84 templates/impressum.html:13
+msgid "Kontakt"
+msgstr ""
+
+#: templates/base.html:53
+msgid "DE"
+msgstr ""
 
 #: templates/base.html:54
-msgid "Lösungen"
-msgstr "Solutions"
+msgid "EN"
+msgstr ""
 
-#: templates/base.html:55
-msgid "Anwendungen"
-msgstr "Applications"
+#: templates/base.html:67
+msgid ""
+"Vernetzte Realitäten für nachhaltigen Kompetenzaufbau — für Unternehmen, "
+"Hochschulen und öffentliche Einrichtungen."
+msgstr ""
 
-#: templates/base.html:56
-msgid "News"
-msgstr "News"
+#: templates/base.html:71
+#, fuzzy
+msgid "Für Unternehmen"
+msgstr ""
 
-#: templates/base.html:57 templates/xrwise_team.html:12
-msgid "Team"
-msgstr "Team"
+#: templates/base.html:72
+#, fuzzy
+msgid "Für Hochschulen"
+msgstr ""
 
-#: templates/base.html:58 templates/impressum.html:12
-msgid "Kontakt"
-msgstr "Contact"
+#: templates/base.html:73
+#, fuzzy
+msgid "Für Einrichtungen"
+msgstr ""
 
-#: templates/datenschutz.html:4 templates/datenschutz.html:43
+#: templates/base.html:76
+#, fuzzy
+msgid "Plattform"
+msgstr ""
+
+#: templates/base.html:77 templates/xrwise_landingpage.html:392
+#: templates/xrwise_landingpage.html:393
+msgid "XRwise Creator"
+msgstr ""
+
+#: templates/base.html:80 templates/xrwise_landingpage.html:142
+#: templates/xrwise_landingpage.html:143 templates/xrwise_landingpage.html:149
+#: templates/xrwise_landingpage.html:150 templates/xrwise_landingpage.html:459
+#: templates/xrwise_landingpage.html:460 templates/xrwise_landingpage.html:522
+#: templates/xrwise_landingpage.html:523 templates/xrwise_landingpage.html:574
+#: templates/xrwise_landingpage.html:575 templates/xrwise_landingpage.html:671
+#: templates/xrwise_landingpage.html:672
+msgid "Unternehmen"
+msgstr ""
+
+#: templates/base.html:83 templates/xrwise_landingpage.html:710
+#: templates/xrwise_landingpage.html:711
+msgid "Standorte"
+msgstr ""
+
+#: templates/base.html:88
+msgid "© 2026 XRwise."
+msgstr ""
+
+#: templates/base.html:88
+msgid "Alle Rechte vorbehalten."
+msgstr ""
+
+#: templates/base.html:90 templates/datenschutz.html:4
+#: templates/datenschutz.html:5 templates/datenschutz.html:43
+#: templates/datenschutz.html:44
 msgid "Datenschutz"
-msgstr "Privacy Policy"
+msgstr ""
+
+#: templates/base.html:92 templates/impressum.html:4 templates/impressum.html:5
+msgid "Impressum"
+msgstr ""
 
 #: templates/datenschutz.html:5
 msgid "1. Datenschutz auf einen Blick"
-msgstr "1. Privacy at a Glance"
+msgstr ""
 
 #: templates/datenschutz.html:6
 msgid "Allgemeine Hinweise"
-msgstr "General Information"
+msgstr ""
 
 #: templates/datenschutz.html:8
 msgid ""
@@ -59,19 +124,14 @@ msgid ""
 "Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten "
 "Datenschutzerklärung."
 msgstr ""
-"The following information provides a simple overview of what happens to "
-"your personal data when you visit this website. Personal data is any data"
-" that can be used to identify you personally. For detailed information on"
-" data protection, please refer to our privacy policy listed below this "
-"text."
 
 #: templates/datenschutz.html:10
 msgid "Datenerfassung auf dieser Website"
-msgstr "Data Collection on This Website"
+msgstr ""
 
 #: templates/datenschutz.html:12
 msgid "Wer ist verantwortlich für die Datenerfassung auf dieser Website?"
-msgstr "Who is responsible for data collection on this website?"
+msgstr ""
 
 #: templates/datenschutz.html:14
 msgid ""
@@ -79,12 +139,10 @@ msgid ""
 "Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser "
 "Website entnehmen."
 msgstr ""
-"Data processing on this website is carried out by the website operator. "
-"You can find their contact details in the legal notice of this website."
 
 #: templates/datenschutz.html:16
 msgid "Wie erfassen wir Ihre Daten?"
-msgstr "How do we collect your data?"
+msgstr ""
 
 #: templates/datenschutz.html:19
 msgid ""
@@ -96,16 +154,10 @@ msgid ""
 "Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser "
 "Daten erfolgt automatisch, sobald Sie diese Website betreten."
 msgstr ""
-"Your data is collected in part by you providing it to us. This may "
-"include, for example, data you enter into a contact form. Other data is "
-"collected automatically or with your consent when you visit the website "
-"by our IT systems. This is primarily technical data (e.g. internet "
-"browser, operating system, or time of page access). This data is "
-"collected automatically as soon as you enter this website."
 
 #: templates/datenschutz.html:22
 msgid "Wofür nutzen wir Ihre Daten?"
-msgstr "What do we use your data for?"
+msgstr ""
 
 #: templates/datenschutz.html:24
 msgid ""
@@ -113,12 +165,10 @@ msgid ""
 "Website zu gewährleisten. Andere Daten können zur Analyse Ihres "
 "Nutzerverhaltens verwendet werden."
 msgstr ""
-"Some of the data is collected to ensure the website functions correctly. "
-"Other data may be used to analyse your user behaviour."
 
 #: templates/datenschutz.html:27
 msgid "Welche Rechte haben Sie bezüglich Ihrer Daten?"
-msgstr "What rights do you have regarding your data?"
+msgstr ""
 
 #: templates/datenschutz.html:29
 msgid ""
@@ -132,30 +182,20 @@ msgid ""
 "personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein "
 "Beschwerderecht bei der zuständigen Aufsichtsbehörde zu."
 msgstr ""
-"You have the right at any time to obtain free information about the "
-"origin, recipient, and purpose of your stored personal data. You also "
-"have the right to request the correction or deletion of this data. If you"
-" have given consent to data processing, you may revoke this consent at "
-"any time for the future. Furthermore, you have the right under certain "
-"circumstances to request the restriction of processing of your personal "
-"data. You also have the right to lodge a complaint with the competent "
-"supervisory authority."
 
 #: templates/datenschutz.html:31
 msgid ""
 "Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich "
 "jederzeit unter der im Impressum angegebenen Adresse an uns wenden."
 msgstr ""
-"For this and other questions on data protection, you can contact us at "
-"any time at the address given in the legal notice."
 
 #: templates/datenschutz.html:33
 msgid "2. Hosting und Content Delivery Networks (CDN)"
-msgstr "2. Hosting and Content Delivery Networks (CDN)"
+msgstr ""
 
 #: templates/datenschutz.html:35
 msgid "Externes Hosting"
-msgstr "External Hosting"
+msgstr ""
 
 #: templates/datenschutz.html:38
 msgid ""
@@ -173,21 +213,10 @@ msgid ""
 "zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere "
 "Weisungen in Bezug auf diese Daten befolgen."
 msgstr ""
-"This website is hosted by an external service provider (hoster). Personal"
-" data collected on this website is stored on the hoster's servers. This "
-"may include IP addresses, contact requests, meta and communication data, "
-"contract data, contact details, names, website access data, and other "
-"data generated via a website. The use of the hoster serves the purpose of"
-" fulfilling the contract with our potential and existing customers (Art. "
-"6 Abs. 1 lit. b DSGVO) and in the interest of secure, fast, and efficient"
-" provision of our online offering by a professional provider (Art. 6 Abs."
-" 1 lit. f DSGVO). Our hoster will only process your data to the extent "
-"necessary to fulfil its service obligations and will follow our "
-"instructions regarding this data."
 
 #: templates/datenschutz.html:41
 msgid "3. Allgemeine Hinweise und Pflicht­informationen"
-msgstr "3. General Information and Mandatory Disclosures"
+msgstr ""
 
 #: templates/datenschutz.html:45
 msgid ""
@@ -196,10 +225,6 @@ msgid ""
 "entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser "
 "Datenschutzerklärung."
 msgstr ""
-"The operators of these pages take the protection of your personal data "
-"very seriously. We treat your personal data confidentially and in "
-"accordance with statutory data protection regulations and this privacy "
-"policy."
 
 #: templates/datenschutz.html:47
 msgid ""
@@ -209,10 +234,6 @@ msgid ""
 "Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir "
 "sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht."
 msgstr ""
-"When you use this website, various personal data is collected. Personal "
-"data is data that can be used to identify you personally. This privacy "
-"policy explains what data we collect and what we use it for. It also "
-"explains how and for what purpose this is done."
 
 #: templates/datenschutz.html:49
 msgid ""
@@ -221,44 +242,41 @@ msgid ""
 "lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht "
 "möglich."
 msgstr ""
-"We would like to point out that data transmission over the internet (e.g."
-" when communicating by e-mail) may have security vulnerabilities. "
-"Complete protection of data from access by third parties is not possible."
 
 #: templates/datenschutz.html:51
 msgid "Hinweis zur verantwortlichen Stelle"
-msgstr "Notice Regarding the Responsible Party"
+msgstr ""
 
 #: templates/datenschutz.html:53
 msgid ""
 "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website "
 "ist:"
-msgstr "The party responsible for data processing on this website is:"
+msgstr ""
 
 #: templates/datenschutz.html:55 templates/impressum.html:6
 msgid "HAW Hamburg"
-msgstr "HAW Hamburg"
+msgstr ""
 
 #: templates/datenschutz.html:56 templates/impressum.html:7
 msgid "Finkenau 35"
-msgstr "Finkenau 35"
+msgstr ""
 
 #: templates/datenschutz.html:57 templates/impressum.html:8
 msgid "22081 Hamburg"
-msgstr "22081 Hamburg"
+msgstr ""
 
 #: templates/datenschutz.html:58 templates/impressum.html:11
 #: templates/impressum.html:17
 msgid "Prof. Dr. Roland Greule"
-msgstr "Prof. Dr. Roland Greule"
+msgstr ""
 
 #: templates/datenschutz.html:60
 msgid "Telefon: +49 040 428 75 7664"
-msgstr "Phone: +49 040 428 75 7664"
+msgstr ""
 
 #: templates/datenschutz.html:61 templates/impressum.html:15
 msgid "E-Mail: roland.greule@haw-hamburg.de"
-msgstr "E-Mail: roland.greule@haw-hamburg.de"
+msgstr ""
 
 #: templates/datenschutz.html:63
 msgid ""
@@ -267,13 +285,10 @@ msgid ""
 "Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o."
 " Ä.) entscheidet."
 msgstr ""
-"The responsible party is the natural or legal person who, alone or "
-"jointly with others, decides on the purposes and means of processing "
-"personal data (e.g. names, e-mail addresses, etc.)."
 
 #: templates/datenschutz.html:66
 msgid "Widerruf Ihrer Einwilligung zur Datenverarbeitung"
-msgstr "Revocation of Your Consent to Data Processing"
+msgstr ""
 
 #: templates/datenschutz.html:69
 msgid ""
@@ -282,18 +297,12 @@ msgid ""
 "jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten "
 "Datenverarbeitung bleibt vom Widerruf unberührt."
 msgstr ""
-"Many data processing operations are only possible with your express "
-"consent. You may revoke any consent you have already given at any time. "
-"The lawfulness of data processing carried out prior to the revocation "
-"remains unaffected."
 
 #: templates/datenschutz.html:72
 msgid ""
 "Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie "
 "gegen Direktwerbung (Art. 21 DSGVO)"
 msgstr ""
-"Right to Object to Data Collection in Special Cases and to Direct "
-"Marketing (Art. 21 DSGVO)"
 
 #: templates/datenschutz.html:76
 msgid ""
@@ -317,26 +326,10 @@ msgid ""
 "PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER "
 "DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO)."
 msgstr ""
-"IF DATA PROCESSING IS CARRIED OUT ON THE BASIS OF ART. 6 ABS. 1 LIT. E OR"
-" F DSGVO, YOU HAVE THE RIGHT AT ANY TIME TO OBJECT TO THE PROCESSING OF "
-"YOUR PERSONAL DATA ON GROUNDS ARISING FROM YOUR PARTICULAR SITUATION; "
-"THIS ALSO APPLIES TO PROFILING BASED ON THESE PROVISIONS. THE RESPECTIVE "
-"LEGAL BASIS ON WHICH PROCESSING IS BASED CAN BE FOUND IN THIS PRIVACY "
-"POLICY. IF YOU OBJECT, WE WILL NO LONGER PROCESS YOUR AFFECTED PERSONAL "
-"DATA UNLESS WE CAN DEMONSTRATE COMPELLING LEGITIMATE GROUNDS FOR THE "
-"PROCESSING THAT OVERRIDE YOUR INTERESTS, RIGHTS AND FREEDOMS, OR THE "
-"PROCESSING SERVES THE ESTABLISHMENT, EXERCISE OR DEFENCE OF LEGAL CLAIMS "
-"(OBJECTION PURSUANT TO ART. 21 ABS. 1 DSGVO). IF YOUR PERSONAL DATA IS "
-"PROCESSED FOR THE PURPOSE OF DIRECT MARKETING, YOU HAVE THE RIGHT AT ANY "
-"TIME TO OBJECT TO THE PROCESSING OF PERSONAL DATA CONCERNING YOU FOR THE "
-"PURPOSE OF SUCH MARKETING; THIS ALSO APPLIES TO PROFILING TO THE EXTENT "
-"THAT IT IS RELATED TO SUCH DIRECT MARKETING. IF YOU OBJECT, YOUR PERSONAL"
-" DATA WILL SUBSEQUENTLY NO LONGER BE USED FOR THE PURPOSE OF DIRECT "
-"MARKETING (OBJECTION PURSUANT TO ART. 21 ABS. 2 DSGVO)."
 
 #: templates/datenschutz.html:79
 msgid "Beschwerde­recht bei der zuständigen Aufsichts­behörde"
-msgstr "Right to Lodge a Complaint with the Competent Supervisory Authority"
+msgstr ""
 
 #: templates/datenschutz.html:82
 msgid ""
@@ -347,15 +340,10 @@ msgid ""
 "unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher "
 "Rechtsbehelfe."
 msgstr ""
-"In the event of violations of the GDPR, data subjects have the right to "
-"lodge a complaint with a supervisory authority, in particular in the "
-"Member State of their habitual residence, place of work, or the place of "
-"the alleged infringement. The right to lodge a complaint is without "
-"prejudice to other administrative or judicial remedies."
 
 #: templates/datenschutz.html:85
 msgid "Recht auf Daten­übertrag­barkeit"
-msgstr "Right to Data Portability"
+msgstr ""
 
 #: templates/datenschutz.html:88
 msgid ""
@@ -366,15 +354,10 @@ msgid ""
 "Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar"
 " ist."
 msgstr ""
-"You have the right to have data that we process automatically on the "
-"basis of your consent or in fulfilment of a contract handed over to you "
-"or to a third party in a commonly used, machine-readable format. If you "
-"request the direct transfer of the data to another controller, this will "
-"only be done to the extent technically feasible."
 
 #: templates/datenschutz.html:91
 msgid "Auskunft, Löschung und Berichtigung"
-msgstr "Access, Deletion, and Rectification"
+msgstr ""
 
 #: templates/datenschutz.html:94
 msgid ""
@@ -386,16 +369,10 @@ msgid ""
 "Daten können Sie sich jederzeit unter der im Impressum angegebenen "
 "Adresse an uns wenden."
 msgstr ""
-"Within the scope of applicable legal provisions, you have the right at "
-"any time to obtain free information about your stored personal data, its "
-"origin and recipients, and the purpose of data processing, and, if "
-"applicable, a right to rectification or deletion of such data. For this "
-"and other questions on personal data, you may contact us at any time at "
-"the address given in the legal notice."
 
 #: templates/datenschutz.html:98
 msgid "Recht auf Einschränkung der Verarbeitung"
-msgstr "Right to Restriction of Processing"
+msgstr ""
 
 #: templates/datenschutz.html:101
 msgid ""
@@ -404,10 +381,6 @@ msgid ""
 "unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf "
 "Einschränkung der Verarbeitung besteht in folgenden Fällen:"
 msgstr ""
-"You have the right to request the restriction of the processing of your "
-"personal data. You may contact us at any time at the address given in the"
-" legal notice for this purpose. The right to restriction of processing "
-"exists in the following cases:"
 
 #: templates/datenschutz.html:103
 msgid ""
@@ -416,10 +389,6 @@ msgid ""
 " Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der "
 "Verarbeitung Ihrer personenbezogenen Daten zu verlangen."
 msgstr ""
-"If you dispute the accuracy of the personal data stored by us, we "
-"generally need time to verify this. For the duration of the review, you "
-"have the right to request the restriction of the processing of your "
-"personal data."
 
 #: templates/datenschutz.html:104
 msgid ""
@@ -427,8 +396,6 @@ msgid ""
 "geschah/geschieht, können Sie statt der Löschung die Einschränkung der "
 "Datenverarbeitung verlangen."
 msgstr ""
-"If the processing of your personal data was/is unlawful, you may request "
-"the restriction of data processing instead of deletion."
 
 #: templates/datenschutz.html:105
 msgid ""
@@ -438,9 +405,6 @@ msgid ""
 "Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu "
 "verlangen."
 msgstr ""
-"If we no longer need your personal data, but you require it for the "
-"exercise, defence, or assertion of legal claims, you have the right to "
-"request the restriction of processing instead of deletion."
 
 #: templates/datenschutz.html:106
 msgid ""
@@ -450,10 +414,6 @@ msgid ""
 " Sie das Recht, die Einschränkung der Verarbeitung Ihrer "
 "personenbezogenen Daten zu verlangen."
 msgstr ""
-"If you have lodged an objection pursuant to Art. 21 Abs. 1 DSGVO, a "
-"balance must be struck between your interests and ours. As long as it has"
-" not yet been determined whose interests prevail, you have the right to "
-"request the restriction of processing of your personal data."
 
 #: templates/datenschutz.html:108
 msgid ""
@@ -465,16 +425,10 @@ msgid ""
 "Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet "
 "werden."
 msgstr ""
-"If you have restricted the processing of your personal data, such data "
-"may – apart from its storage – only be processed with your consent or for"
-" the establishment, exercise, or defence of legal claims, or for the "
-"protection of the rights of another natural or legal person, or for "
-"reasons of important public interest of the European Union or a Member "
-"State."
 
 #: templates/datenschutz.html:112
 msgid "Widerspruch gegen Werbe-E-Mails"
-msgstr "Objection to Advertising Emails"
+msgstr ""
 
 #: templates/datenschutz.html:115
 msgid ""
@@ -485,55 +439,44 @@ msgid ""
 "unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, "
 "vor."
 msgstr ""
-"The use of contact details published as part of the legal notice "
-"obligation for the purpose of sending unsolicited advertising and "
-"informational materials is hereby objected to. The operators of these "
-"pages expressly reserve the right to take legal action in the event of "
-"unsolicited advertising information being sent, such as spam emails."
 
 #: templates/datenschutz.html:117
 msgid "Quelle: https://www.e-recht24.de"
-msgstr "Source: https://www.e-recht24.de"
-
-#: templates/impressum.html:4
-msgid "Impressum"
-msgstr "Legal Notice"
+msgstr ""
 
 #: templates/impressum.html:5
 msgid "Angaben gemäß § 5 TMG"
-msgstr "Information pursuant to § 5 TMG"
+msgstr ""
 
 #: templates/impressum.html:10
 msgid "Vertreten durch:"
-msgstr "Represented by:"
+msgstr ""
 
 #: templates/impressum.html:13
 msgid "Telefon: +49 40 42875 7664"
-msgstr "Phone: +49 40 42875 7664"
+msgstr ""
 
 #: templates/impressum.html:14
 msgid "Telefax: +49 40 42875 7609"
-msgstr "Fax: +49 40 42875 7609"
+msgstr ""
 
 #: templates/impressum.html:16
 msgid "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV"
-msgstr "Responsible for content pursuant to § 55 Abs. 2 RStV"
+msgstr ""
 
 #: templates/impressum.html:18
 msgid "Verbraucherstreitbeilegung/Universalschlichtungsstelle"
-msgstr "Consumer Dispute Resolution / Universal Arbitration Board"
+msgstr ""
 
 #: templates/impressum.html:19
 msgid ""
 "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor"
 " einer Verbraucherschlichtungsstelle teilzunehmen."
 msgstr ""
-"We are neither willing nor obliged to participate in dispute resolution "
-"proceedings before a consumer arbitration board."
 
 #: templates/impressum.html:20
 msgid "Haftung für Inhalte"
-msgstr "Liability for Content"
+msgstr ""
 
 #: templates/impressum.html:23
 msgid ""
@@ -549,19 +492,10 @@ msgid ""
 "entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend "
 "entfernen."
 msgstr ""
-"As a service provider, we are responsible for our own content on these "
-"pages in accordance with general law pursuant to § 7 Abs. 1 TMG. However,"
-" according to §§ 8 to 10 TMG, we as a service provider are not obliged to"
-" monitor transmitted or stored third-party information or to investigate "
-"circumstances that indicate illegal activity. Obligations to remove or "
-"block the use of information in accordance with general laws remain "
-"unaffected. However, liability in this regard is only possible from the "
-"time of knowledge of a specific legal infringement. Upon becoming aware "
-"of such violations, we will remove this content immediately."
 
 #: templates/impressum.html:26
 msgid "Haftung für Links"
-msgstr "Liability for Links"
+msgstr ""
 
 #: templates/impressum.html:28
 msgid ""
@@ -576,20 +510,10 @@ msgid ""
 "einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von "
 "Rechtsverletzungen werden wir derartige Links umgehend entfernen."
 msgstr ""
-"Our website contains links to external third-party websites, the content "
-"of which we have no control over. Therefore, we cannot accept any "
-"liability for this third-party content. The respective provider or "
-"operator of the linked pages is always responsible for the content of "
-"those pages. The linked pages were checked for possible legal violations "
-"at the time of linking. Illegal content was not recognisable at the time "
-"of linking. However, permanent monitoring of the content of the linked "
-"pages is not reasonable without concrete evidence of a legal violation. "
-"Upon becoming aware of legal violations, we will remove such links "
-"immediately."
 
 #: templates/impressum.html:30
 msgid "Urheberrecht"
-msgstr "Copyright"
+msgstr ""
 
 #: templates/impressum.html:32
 msgid ""
@@ -606,44 +530,32 @@ msgid ""
 "entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden "
 "wir derartige Inhalte umgehend entfernen."
 msgstr ""
-"The content and works created by the site operators on these pages are "
-"subject to German copyright law. Reproduction, editing, distribution, and"
-" any kind of use beyond the limits of copyright law require the written "
-"consent of the respective author or creator. Downloads and copies of this"
-" page are only permitted for private, non-commercial use. Where content "
-"on this site was not created by the operator, the copyrights of third "
-"parties are respected. In particular, third-party content is identified "
-"as such. Should you nevertheless become aware of a copyright "
-"infringement, please notify us accordingly. Upon becoming aware of legal "
-"violations, we will remove such content immediately."
 
 #: templates/impressum.html:35
 msgid "Quelle:"
-msgstr "Source:"
+msgstr ""
 
 #: templates/impressum.html:35
 msgid "https://www.e-recht24.de/impressum-generator.html"
-msgstr "https://www.e-recht24.de/impressum-generator.html"
+msgstr ""
 
 #: templates/news.html:208
 msgid "News · Digitales Museum"
-msgstr "News · Digital Museum"
+msgstr ""
 
 #: templates/news.html:209
 msgid "Das digitale Museum"
-msgstr "The Digital Museum"
+msgstr ""
 
 #: templates/news.html:210
 msgid ""
 "Warum virtuelle Museen mehr sind als digitale Kopien - und wie Immersion "
 "Kultur neu erfahrbar macht."
 msgstr ""
-"Why virtual museums are more than digital copies - and how immersion "
-"makes culture newly experienceable."
 
 #: templates/news.html:216
 msgid "Warum virtuelle Museen mehr sind als digitale Kopien"
-msgstr "Why Virtual Museums Are More Than Digital Copies"
+msgstr ""
 
 #: templates/news.html:217
 msgid ""
@@ -655,12 +567,6 @@ msgid ""
 "mehr als eine klassische 2D-Online-Tour. Sie schafft Immersion - das "
 "Gefühl, tatsächlich vor Ort zu sein."
 msgstr ""
-"Museums thrive not only on their exhibits, but above all on the "
-"atmosphere they create. Walking through historic rooms, the feeling of "
-"being up close to an artefact, and the opportunity to discover details "
-"from a new perspective make a museum visit a special experience. This is "
-"exactly where virtual reality comes in: VR is far more than a classic 2D "
-"online tour. It creates immersion - the feeling of actually being there."
 
 #: templates/news.html:218
 msgid ""
@@ -671,19 +577,14 @@ msgid ""
 "fotorealistischen Umgebungen, hochaufgelösten 3D-Modellen und "
 "interaktiven Erlebnissen."
 msgstr ""
-"As more and more museums digitise their collections, the importance of "
-"digital archives and virtual exhibitions is also growing. Our digital "
-"museum deliberately goes one step further: instead of a purely online "
-"gallery, a vibrant virtual space is created with photorealistic "
-"environments, high-resolution 3D models, and interactive experiences."
 
 #: templates/news.html:221
 msgid "Museum"
-msgstr "Museum"
+msgstr ""
 
 #: templates/news.html:229
 msgid "Digitale Museen im Allgemeinen"
-msgstr "Digital Museums in General"
+msgstr ""
 
 #: templates/news.html:230
 msgid ""
@@ -692,20 +593,17 @@ msgid ""
 "Gallery\"-Initiative und des Innovationslabors National Gallery X (NGX) "
 "verschiedene XR-Technologien, um Kunstwerke digital erlebbar zu machen. "
 "Ihr im März 2025 gestartetes"
-msgstr ""
-"The idea of a virtual museum experience is being implemented more and "
-"more frequently. The London National Gallery uses various XR technologies"
-" as part of its \"Virtual Gallery\" initiative and the National Gallery X"
+msgstr ""Virtual Gallery\" initiative and the National Gallery X"
 " (NGX) innovation lab to make artworks digitally experienceable. Its "
 "launch in March 2025"
 
 #: templates/news.html:230
 msgid "Imaginarium"
-msgstr "Imaginarium"
+msgstr ""
 
 #: templates/news.html:230
 msgid "ist ein browserbasierter Raum, der Soundscapes und Animationen kombiniert."
-msgstr "is a browser-based space that combines soundscapes and animations."
+msgstr ""
 
 #: templates/news.html:231
 msgid ""
@@ -716,19 +614,14 @@ msgid ""
 "störend wahrgenommen, weil die originalen Gegenstände nicht vollständig "
 "wahrheitsgetreu abgebildet werden."
 msgstr ""
-"Despite the multisensory experience, the Imaginarium is not truly "
-"immersive: it does not use digital twins of the real museum objects - "
-"instead, only animated scenes are embedded in the virtual space. The "
-"special effects are often perceived as disruptive because the original "
-"objects are not fully and faithfully reproduced."
 
 #: templates/news.html:234
 msgid "Museum 2"
-msgstr "Museum 2"
+msgstr ""
 
 #: templates/news.html:241
 msgid "Rein virtuelle Museen"
-msgstr "Purely Virtual Museums"
+msgstr ""
 
 #: templates/news.html:242
 msgid ""
@@ -736,111 +629,94 @@ msgid ""
 "vielfältige, rein virtuelle Museen, deren Ausstellungen in der realen "
 "Welt physikalisch oft unmöglich umzusetzen wären:"
 msgstr ""
-"In contrast to real museums with virtual applications, there are various "
-"purely virtual museums whose exhibitions would often be physically "
-"impossible to realise in the real world:"
 
 #: templates/news.html:244
 msgid "Museum of Other Realities (MOR)"
-msgstr "Museum of Other Realities (MOR)"
+msgstr ""
 
 #: templates/news.html:244
 msgid ""
 "eine rein virtuelle Kunstgalerie für zeitgenössische VR-Kunst, speziell "
 "für VR-Headsets entwickelt."
 msgstr ""
-"a purely virtual art gallery for contemporary VR art, developed "
-"specifically for VR headsets."
 
 #: templates/news.html:245
 msgid "Kremer Museum VR"
-msgstr "Kremer Museum VR"
+msgstr ""
 
 #: templates/news.html:245
 msgid ""
 "Sammlung flämischer und niederländischer Malerei in einer futuristischen,"
 " virtuellen Architektur."
 msgstr ""
-"collection of Flemish and Dutch paintings in a futuristic, virtual "
-"architecture."
 
 #: templates/news.html:246
 msgid "VR Space Museum Cosmoria"
-msgstr "VR Space Museum Cosmoria"
+msgstr ""
 
 #: templates/news.html:246
 msgid ""
 "fokussiert auf Weltall und Astronomie mit interaktiven Exponaten in einer"
 " digitalen Umgebung."
 msgstr ""
-"focused on space and astronomy with interactive exhibits in a digital "
-"environment."
 
 #: templates/news.html:247
 msgid "VR Museum of Fine Art"
-msgstr "VR Museum of Fine Art"
+msgstr ""
 
 #: templates/news.html:247
 msgid "weltbekannte Skulpturen und Gemälde per VR-Simulation in Originalgröße."
 msgstr ""
-"world-famous sculptures and paintings in their original size via VR "
-"simulation."
 
 #: templates/news.html:248
 msgid "OmniGallery"
-msgstr "OmniGallery"
+msgstr ""
 
 #: templates/news.html:248
 msgid "virtuelle Galerie für digitale, zeitgenössische Kunst."
-msgstr "virtual gallery for digital, contemporary art."
+msgstr ""
 
 #: templates/news.html:249
 msgid "National Women's History Museum"
-msgstr "National Women's History Museum"
+msgstr ""
 
 #: templates/news.html:249
 msgid "existiert seit Jahren fast ausschließlich im digitalen Raum."
-msgstr "has existed for years almost exclusively in the digital space."
+msgstr ""
 
 #: templates/news.html:256
 msgid "Museums-Apps"
-msgstr "Museum Apps"
+msgstr ""
 
 #: templates/news.html:257
 msgid ""
 "Neben digitalen Museen sind Apps ein sinnvolles Tool, um "
 "Museumserfahrungen intensiver zu gestalten:"
 msgstr ""
-"In addition to digital museums, apps are a useful tool for enhancing "
-"museum experiences:"
 
 #: templates/news.html:258
 msgid "Google Arts & Culture"
-msgstr "Google Arts & Culture"
+msgstr ""
 
 #: templates/news.html:258
 msgid ""
 "bietet 360-Grad-Touren durch hunderte Museen und Kunstwerke in sehr hoher"
 " Auflösung."
 msgstr ""
-"offers 360-degree tours through hundreds of museums and artworks in very "
-"high resolution."
 
 #: templates/news.html:258
 msgid "Smartify"
-msgstr "Smartify"
+msgstr ""
 
 #: templates/news.html:258
 msgid ""
 "identifiziert Gemälde und Skulpturen per Smartphone-Kamera und liefert "
 "detaillierte Informationen."
 msgstr ""
-"identifies paintings and sculptures via smartphone camera and provides "
-"detailed information."
 
 #: templates/news.html:258
 msgid "MuseumStars"
-msgstr "MuseumStars"
+msgstr ""
 
 #: templates/news.html:258
 msgid ""
@@ -848,20 +724,18 @@ msgid ""
 "aufzusteigen. Viele Museen bieten zudem eigene Apps für Audioguides vor "
 "Ort an."
 msgstr ""
-"allows users to collect points and level up in over 100 museums. Many "
-"museums also offer their own apps for on-site audio guides."
 
 #: templates/news.html:265
 msgid "Technische Umsetzung"
-msgstr "Technical Implementation"
+msgstr ""
 
 #: templates/news.html:266
 msgid "Ein spannendes Beispiel ist"
-msgstr "An exciting example is"
+msgstr ""
 
 #: templates/news.html:266
 msgid "Das Digitale Museum"
-msgstr "The Digital Museum"
+msgstr ""
 
 #: templates/news.html:266
 msgid ""
@@ -869,9 +743,6 @@ msgid ""
 "hochauflösende 3D-Modelle, wissenschaftliche Daten und Kunstwerke in "
 "einer immersiven Umgebung zugänglich macht."
 msgstr ""
-": a browser-based application developed with Unity WebGL that makes high-"
-"resolution 3D models, scientific data, and artworks accessible in an "
-"immersive environment."
 
 #: templates/news.html:267
 msgid ""
@@ -879,17 +750,14 @@ msgid ""
 "würdevollen Umfeld und feierlichen Rahmen - genau das soll digital "
 "reproduziert werden."
 msgstr ""
-"A personal museum visit presents the exhibits in a dignified setting and "
-"ceremonial atmosphere - this is exactly what is to be reproduced "
-"digitally."
 
 #: templates/news.html:268
 msgid "Durch Unitys"
-msgstr "Through Unity's"
+msgstr ""
 
 #: templates/news.html:268
 msgid "Addressable-System"
-msgstr "Addressable System"
+msgstr ""
 
 #: templates/news.html:268
 msgid ""
@@ -899,19 +767,14 @@ msgid ""
 "entfernt. So bleibt die Anwendung an jedem Punkt performant und nahezu "
 "unbegrenzt erweiterbar."
 msgstr ""
-"large amounts of data can be efficiently loaded and unloaded - crucial "
-"for high-performance web applications with complex 3D content. Objects "
-"that are neither visible nor audible are removed from memory. This keeps "
-"the application performant at all times and virtually infinitely "
-"extensible."
 
 #: templates/news.html:269
 msgid "Hochaufgelöste Texturen werden komprimiert in"
-msgstr "High-resolution textures are compressed into"
+msgstr ""
 
 #: templates/news.html:269
 msgid "ktx2-Containern"
-msgstr "ktx2 containers"
+msgstr ""
 
 #: templates/news.html:269
 msgid ""
@@ -920,17 +783,14 @@ msgid ""
 " Besucher:innen können buchstäblich auf Nasenlänge an die Werke "
 "herantreten."
 msgstr ""
-"packaged in a modern GPU-friendly data format. Paintings can thus be "
-"displayed in 8K resolution, tiny details are preserved, and visitors can "
-"literally get up close to the works."
 
 #: templates/news.html:270
 msgid "Das Digitale Museum basiert auf der"
-msgstr "The Digital Museum is based on the"
+msgstr ""
 
 #: templates/news.html:270
 msgid "XRwise Cross-Reality Plattform"
-msgstr "XRwise Cross-Reality Platform"
+msgstr ""
 
 #: templates/news.html:270
 msgid ""
@@ -940,30 +800,26 @@ msgid ""
 "werden können. Inhalte lassen sich ohne Programmieraufwand anpassen, "
 "aktualisieren oder neu kuratieren."
 msgstr ""
-"and enables flexible design of immersive exhibition spaces. By linking "
-"physical and virtual spaces, new hybrid presentation formats are created "
-"that can be experienced live together with many others. Content can be "
-"adapted, updated, or re-curated without any programming effort."
 
 #: templates/news.html:275
 msgid "YouTube video player"
-msgstr "YouTube video player"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:7
 msgid "Cross-Reality Plattform"
-msgstr "Cross-Reality Platform"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:8
 msgid "Erleben, was"
-msgstr "Experience what"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:8
 msgid "wirklich"
-msgstr "truly"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:8
 msgid "wirkt."
-msgstr "works."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:9
 msgid ""
@@ -972,79 +828,75 @@ msgid ""
 "begeistert. Barrierefrei, jederzeit erweiterbar und ohne technische "
 "Vorkenntnisse nutzbar."
 msgstr ""
-"XRwise connects real and virtual worlds - for training that is more "
-"sustainable, teaching that goes deeper, and communication that inspires. "
-"Accessible, infinitely extensible, and usable without any technical prior"
-" knowledge."
 
 #: templates/xrwise_landingpage.html:12
 msgid "Lösung entdecken"
-msgstr "Discover Solution"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:17
 msgid "Demo anfragen"
-msgstr "Request Demo"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:21 templates/xrwise_landingpage.html:91
 msgid "Hero Illustration"
-msgstr "Hero Illustration"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:28
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:28
 msgid "x"
-msgstr "x"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:29
 msgid "Schnellere Trainingsabschlüsse vs. Präsenzunterricht"
-msgstr "Faster training completions vs. in-person instruction"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:29 templates/xrwise_landingpage.html:37
 msgid "Quelle: PwC 2020"
-msgstr "Source: PwC 2020"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:32
 msgid "80"
-msgstr "80"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:33
 #, python-format
 msgid "Wissensretention nach einem Jahr - vs. 20 %% bei klassischen Methoden"
-msgstr "Knowledge retention after one year - vs. 20 %% with traditional methods"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:33
 msgid "Quelle: PwC / Accenture"
-msgstr "Source: PwC / Accenture"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:36
 msgid "275"
-msgstr "275"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:37
 msgid "Mehr Handlungssicherheit bei Mitarbeitenden nach dem Training"
-msgstr "Greater confidence in action among employees after training"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:40
 msgid "52"
-msgstr "52"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:41
 msgid "Kürzere Gesamttrainingszeit im Vergleich zu klassischen Formaten"
-msgstr "Shorter total training time compared to traditional formats"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:41
 msgid "Quelle: Strivr / PwC"
-msgstr "Source: Strivr / PwC"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:50
 msgid "Das Problem"
-msgstr "The Problem"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:51
 msgid "Klassische Formate stoßen an ihre Grenzen."
-msgstr "Traditional formats are reaching their limits."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:52
 msgid ""
@@ -1053,54 +905,44 @@ msgid ""
 "Theorie und Praxis - und sorgt so für besseren Lernerfolg und mehr "
 "Motivation."
 msgstr ""
-"In-person training is expensive, time-consuming, and difficult to scale. "
-"From pure instructional videos to immersive experiences: XRwise bridges "
-"the gap between theory and practice - resulting in better learning "
-"outcomes and more motivation."
 
 #: templates/xrwise_landingpage.html:62
 msgid "Hohe Kosten, begrenzte Reichweite"
-msgstr "High costs, limited reach"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:63
 msgid ""
 "Präsenztrainings erfordern Reise, Raum und Ressourcen - und lassen sich "
 "kaum skalieren."
 msgstr ""
-"In-person training requires travel, space, and resources - and is "
-"difficult to scale."
 
 #: templates/xrwise_landingpage.html:73
 msgid "Abstrakte Inhalte, geringer Transfer"
-msgstr "Abstract content, low transfer"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:74
 msgid ""
 "Was nur erklärt wird, wird vergessen. Wissen braucht Erfahrung - auch "
 "wenn die Realität das nicht immer erlaubt."
 msgstr ""
-"What is only explained is forgotten. Knowledge needs experience - even "
-"when reality does not always allow for it."
 
 #: templates/xrwise_landingpage.html:84
 msgid "Riskante Echtübungen ohne Alternative"
-msgstr "Risky real-world exercises with no alternative"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:85
 msgid ""
 "Notfalltrainings, chirurgische Eingriffe oder Labore: Fehler haben "
 "Konsequenzen - in VR nicht."
 msgstr ""
-"Emergency training, surgical procedures, or laboratories: mistakes have "
-"consequences - in VR they do not."
 
 #: templates/xrwise_landingpage.html:100
 msgid "Wie es funktioniert"
-msgstr "How It Works"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:101
 msgid "Drei Schritte. Keine Programmierung."
-msgstr "Three steps. No coding."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:102
 msgid ""
@@ -1108,33 +950,28 @@ msgid ""
 "Inhaltserstellung bis zur Liveübertragung, zentral administriert und ohne"
 " benötigte technische Vorkenntnisse."
 msgstr ""
-"XRwise is designed as a complete infrastructure - from content creation "
-"to live broadcasting, centrally administered and requiring no technical "
-"prior knowledge."
 
 #: templates/xrwise_landingpage.html:106
 msgid "01"
-msgstr "01"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:107
 msgid "Erstellen"
-msgstr "Create"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:108
 msgid ""
 "Im webbasierten XRwise Creator laden Sie 3D-Modelle, Videos oder eigene "
 "Inhalte hoch und gestalten Szenarien - ohne eine einzige Zeile Code."
 msgstr ""
-"In the web-based XRwise Creator, you upload 3D models, videos, or your "
-"own content and design scenarios - without a single line of code."
 
 #: templates/xrwise_landingpage.html:116
 msgid "02"
-msgstr "02"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:117
 msgid "Verteilen"
-msgstr "Distribute"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:118
 msgid ""
@@ -1142,17 +979,14 @@ msgid ""
 "keine zusätzliche Hardware nötig. Zentral administriert, jederzeit "
 "aktualisierbar."
 msgstr ""
-"The Campus App delivers your content to PC, Mac, VR headset, and web - no"
-" additional hardware required. Centrally administered, updatable at any "
-"time."
 
 #: templates/xrwise_landingpage.html:126
 msgid "03"
-msgstr "03"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:127
 msgid "Erleben"
-msgstr "Experience"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:128
 msgid ""
@@ -1160,41 +994,32 @@ msgid ""
 "gewährleistet eine Live-Übertragung. IoT-Assets verbinden den physischen "
 "mit dem virtuellen Raum in Echtzeit.“"
 msgstr ""
-"Participants immerse themselves - on-site or remotely. The XRwise "
-"Broadcaster ensures live transmission. IoT assets connect the physical "
-"with the virtual space in real time."
 
 #: templates/xrwise_landingpage.html:137
 msgid "Für wen"
-msgstr "For Whom"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:138
 msgid "Maßgeschneidert für Ihre Herausforderung."
-msgstr "Tailored to your challenge."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:139
 msgid ""
 "XRwise löst unterschiedliche Probleme - individuell nach Ihren "
 "Vorstellungen."
-msgstr "XRwise solves different problems - individually according to your needs."
-
-#: templates/xrwise_landingpage.html:142 templates/xrwise_landingpage.html:149
-#: templates/xrwise_landingpage.html:459 templates/xrwise_landingpage.html:522
-#: templates/xrwise_landingpage.html:574 templates/xrwise_landingpage.html:671
-msgid "Unternehmen"
-msgstr "Companies"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:143 templates/xrwise_landingpage.html:226
 msgid "Hochschulen"
-msgstr "Universities"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:144 templates/xrwise_landingpage.html:300
 msgid "Öffentliche Einrichtungen"
-msgstr "Public Institutions"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:150
 msgid "Trainings, die Ihre Mitarbeitenden wirklich vorbereiten."
-msgstr "Training that truly prepares your employees."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:151
 msgid ""
@@ -1202,14 +1027,11 @@ msgid ""
 "Erfolg. Klassische Schulungen sind teuer, schwer skalierbar und "
 "hinterlassen kaum nachweisbaren Effekt."
 msgstr ""
-"The qualification of your teams determines your long-term success. "
-"Traditional training is expensive, difficult to scale, and leaves little "
-"measurable impact."
 
 #: templates/xrwise_landingpage.html:153 templates/xrwise_landingpage.html:230
 #: templates/xrwise_landingpage.html:305
 msgid "Ihr Problem"
-msgstr "Your Problem"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:154
 msgid ""
@@ -1218,75 +1040,65 @@ msgid ""
 "Echtübungen sind riskant. Mit Seminaren prägen sich nicht so viele "
 "Informationen ein. Die Anwendung in der Praxis scheitert."
 msgstr ""
-"Employees need to train complex procedures - from emergency evacuations "
-"to machine handling and compliance scenarios. Real-world exercises are "
-"risky. Seminars do not reinforce as much information. Application in "
-"practice fails."
 
 #: templates/xrwise_landingpage.html:160
 msgid "Individualisierte Trainingsszenarien"
-msgstr "Individualised Training Scenarios"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:161
 msgid ""
 "Wir entwickeln mit Ihnen XR-Trainings für Ihre spezifischen Abläufe - von"
 " der Maschineneinweisung bis zum Evakuierungsplan."
 msgstr ""
-"We develop XR training with you for your specific processes - from "
-"machine instruction to evacuation plans."
 
 #: templates/xrwise_landingpage.html:166
 msgid "Skalierbar & standortunabhängig"
-msgstr "Scalable & location-independent"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:167
 msgid ""
 "Dieselbe Qualität, ob 5 oder 500 Mitarbeitende, ob Hamburg oder München -"
 " kein Reiseaufwand, keine Raummiete. Herausragende Qualität."
 msgstr ""
-"The same quality, whether 5 or 500 employees, whether Hamburg or Munich -"
-" no travel costs, no room rental. Outstanding quality."
 
 #: templates/xrwise_landingpage.html:172
 msgid "Messbar & nachweisbar"
-msgstr "Measurable & verifiable"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:173
 msgid ""
 "Fortschritte, Wiederholungen und Lernerfolge werden erfasst - für "
 "Compliance-Nachweise und HR-Reporting."
 msgstr ""
-"Progress, repetitions, and learning outcomes are recorded - for "
-"compliance documentation and HR reporting."
 
 #: templates/xrwise_landingpage.html:180 templates/xrwise_landingpage.html:257
 #: templates/xrwise_landingpage.html:331
 msgid "Passende Szenarien"
-msgstr "Suitable Scenarios"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:181
 msgid "Typische Anwendungen für Unternehmen"
-msgstr "Typical Applications for Companies"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:190
 msgid "Evakuierungsübungen & Notfalltraining"
-msgstr "Evacuation Drills & Emergency Training"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:199
 msgid "Maschinenbau & Produktionssimulation"
-msgstr "Mechanical Engineering & Production Simulation"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:208
 msgid "Innendesign & Architekturplanung"
-msgstr "Interior Design & Architectural Planning"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:218
 msgid "Onboarding & Compliance-Training"
-msgstr "Onboarding & Compliance Training"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:227
 msgid "Eine Lernmethode, die Studierende wirklich erreicht."
-msgstr "A learning method that truly reaches students."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:228
 msgid ""
@@ -1294,9 +1106,6 @@ msgid ""
 "Inhalte, weniger Zeit. Frontale Wissensvermittlung greift zu kurz - "
 "gerade bei praxisnahen Fächern."
 msgstr ""
-"University teaching is under pressure: more students, more complex "
-"content, less time. Frontal knowledge transfer falls short - especially "
-"in practice-oriented subjects."
 
 #: templates/xrwise_landingpage.html:231
 msgid ""
@@ -1305,14 +1114,10 @@ msgid ""
 "Echtexperimente teuer, und der Praxistransfer gelingt oft erst nach dem "
 "Studium."
 msgstr ""
-"Students need to understand complex systems - in medicine, engineering, "
-"social work, or architecture. Laboratory places are scarce, real "
-"experiments are expensive, and practical transfer often only succeeds "
-"after graduation."
 
 #: templates/xrwise_landingpage.html:237
 msgid "Didaktische Methode für komplexe Inhalte"
-msgstr "Didactic Method for Complex Content"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:238
 msgid ""
@@ -1320,57 +1125,50 @@ msgid ""
 "zeigen lassen - chirurgische Eingriffe, Laborexperimente, historische "
 "Stätten."
 msgstr ""
-"XRwise enables the experience of subjects that cannot otherwise be "
-"demonstrated - surgical procedures, laboratory experiments, historical "
-"sites."
 
 #: templates/xrwise_landingpage.html:243
 msgid "Eigene Projekte ohne Programmierkenntnisse"
-msgstr "Own Projects Without Programming Knowledge"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:244
 msgid ""
 "Lehrkräfte erstellen ihre eigenen XR-Lernräume im Creator - kein IT-"
 "Studium, keine externe Agentur nötig."
 msgstr ""
-"Teachers create their own XR learning spaces in the Creator - no IT "
-"degree, no external agency required."
 
 #: templates/xrwise_landingpage.html:249
 msgid "Barrierefrei & inklusiv"
-msgstr "Accessible & inclusive"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:250
 msgid ""
 "Virtuelle Lernräume ermöglichen Austausch über Standorte und "
 "Einschränkungen hinweg - synchron oder asynchron."
 msgstr ""
-"Virtual learning spaces enable exchange across locations and limitations "
-"- synchronously or asynchronously."
 
 #: templates/xrwise_landingpage.html:258
 msgid "Typische Anwendungen für Hochschulen"
-msgstr "Typical Applications for Universities"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:267
 msgid "Laborexperimente ohne Materialverbrauch"
-msgstr "Laboratory Experiments Without Material Consumption"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:275
 msgid "Chirurgische Simulation (Medizin)"
-msgstr "Surgical Simulation (Medicine)"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:283
 msgid "Archäologie & Cultural Heritage"
-msgstr "Archaeology & Cultural Heritage"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:292
 msgid "Pflege-Training & Sozialberufe"
-msgstr "Care Training & Social Professions"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:301
 msgid "Vermittlung, die Menschen wirklich berührt."
-msgstr "Communication that truly moves people."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:302
 msgid ""
@@ -1378,9 +1176,6 @@ msgid ""
 "Programm erlebnisreicher und zugänglicher zu gestalten. Klassische "
 "Ausstellungen und Vorführungen stoßen an Grenzen."
 msgstr ""
-"Museums, authorities, cultural institutions, and theatres are looking for"
-" new ways to make their programmes more experiential and accessible. "
-"Traditional exhibitions and performances are reaching their limits."
 
 #: templates/xrwise_landingpage.html:306
 msgid ""
@@ -1388,101 +1183,84 @@ msgid ""
 " erreichen Sie Zielgruppen, die nicht vor Ort erscheinen können? Wie "
 "machen Sie komplexe Themen erfahrbar statt nur erklärbar?"
 msgstr ""
-"How do you show something that no longer exists - or does not yet exist? "
-"How do you reach target audiences who cannot appear on-site? How do you "
-"make complex topics experiential rather than merely explainable?"
 
 #: templates/xrwise_landingpage.html:311
 msgid "Gestalterische Programmerweiterung"
-msgstr "Creative Programme Extension"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:312
 msgid ""
 "Virtuelle Rundgänge, rekonstruierte historische Orte oder immersive "
 "Ausstellungsformate - als Ergänzung zu Ihrem bestehenden Angebot."
 msgstr ""
-"Virtual tours, reconstructed historical sites, or immersive exhibition "
-"formats - as a supplement to your existing offering."
 
 #: templates/xrwise_landingpage.html:317
 msgid "Standortübergreifende Reichweite"
-msgstr "Cross-location Reach"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:318
 msgid ""
 "Ihr Programm ist nicht an Ihre vier Wände gebunden - Schulklassen, "
 "Interessierte oder internationale Besucher kommen virtuell zu Ihnen."
 msgstr ""
-"Your programme is not confined to your four walls - school classes, "
-"interested parties, or international visitors come to you virtually."
 
 #: templates/xrwise_landingpage.html:323
 msgid "Niedrigschwellige Umsetzung"
-msgstr "Low-barrier Implementation"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:324
 msgid ""
 "Kein eigenes Tech-Team nötig. XRwise begleitet Sie von der Konzeption bis"
 " zur Live-Umgebung - und bleibt als Infrastrukturpartner an Ihrer Seite."
 msgstr ""
-"No in-house tech team required. XRwise guides you from conception to the "
-"live environment - and remains by your side as an infrastructure partner."
 
 #: templates/xrwise_landingpage.html:332
 msgid "Typische Anwendungen für öffentliche Einrichtungen"
-msgstr "Typical Applications for Public Institutions"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:342
 msgid "Virtuelle Museumsrundgänge"
-msgstr "Virtual Museum Tours"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:351
 msgid "Cultural Heritage & Orte wiedererwecken"
-msgstr "Cultural Heritage & Reviving Places"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:360
 msgid "Immersives Theater-Training (ITT)"
-msgstr "Immersive Theatre Training (ITT)"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:368
 msgid "Evakuierung & Notfallsimulation"
-msgstr "Evacuation & Emergency Simulation"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:379
 msgid "Die Plattform"
-msgstr "The Platform"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:380
 msgid "Alles aus einer Hand."
-msgstr "Everything from one source."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:381
 msgid ""
 "XRwise ist kein Tool - es ist eine vollständige Infrastruktur. Drei "
 "Komponenten, ein nahtloses System."
 msgstr ""
-"XRwise is not a tool - it is a complete infrastructure. Three components,"
-" one seamless system."
 
 #: templates/xrwise_landingpage.html:391
 msgid "Creator"
-msgstr "Creator"
-
-#: templates/xrwise_landingpage.html:392
-msgid "XRwise Creator"
-msgstr "XRwise Creator"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:393
 msgid ""
 "Der webbasierte Editor zum Erstellen eigener XR-Szenarien. 3D-Modelle "
 "hochladen, Szenen gestalten, Lernpfade definieren - ohne eine Zeile Code."
 msgstr ""
-"The web-based editor for creating your own XR scenarios. Upload 3D "
-"models, design scenes, define learning paths - without a line of code."
 
 #: templates/xrwise_landingpage.html:402 templates/xrwise_landingpage.html:403
 msgid "Campus App"
-msgstr "Campus App"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:404
 msgid ""
@@ -1490,241 +1268,220 @@ msgid ""
 "Hardware nötig - intuitiv bedienbar, on demand verfügbar, administriert "
 "aus der Ferne."
 msgstr ""
-"The cross-platform app for participants. No additional hardware required "
-"- intuitively operated, available on demand, administered remotely."
 
 #: templates/xrwise_landingpage.html:413
 msgid "Broadcaster"
-msgstr "Broadcaster"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:414
 msgid "XRwise Broadcaster"
-msgstr "XRwise Broadcaster"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:415
 msgid ""
 "Liveübertragung realer Veranstaltungen in den virtuellen Raum. Externe "
 "Personen nehmen in Echtzeit teil - ortsunabhängig, synchron, immersiv."
 msgstr ""
-"Live transmission of real events into the virtual space. External "
-"participants join in real time - location-independent, synchronous, "
-"immersive."
 
 #: templates/xrwise_landingpage.html:424
 msgid "Anwendungsbeispiele"
-msgstr "Use Cases"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:425
 msgid "Was mit XRwise möglich ist."
-msgstr "What is possible with XRwise."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:426
 msgid "12 Szenarien aus Praxis, Forschung und Vermittlung."
-msgstr "12 scenarios from practice, research, and communication."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:442 templates/xrwise_landingpage.html:597
 #: templates/xrwise_landingpage.html:622 templates/xrwise_landingpage.html:646
 msgid "Hochschule"
-msgstr "University"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:443
 msgid "Fluss-Habitat Simulation"
-msgstr "River Habitat Simulation"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:444
 msgid ""
 "VR-Darstellung ökologischer Veränderungen eines Fluss-Habitats durch "
 "Licht oder Nitrat-Zugabe"
 msgstr ""
-"VR representation of ecological changes in a river habitat through light "
-"or nitrate addition"
 
 #: templates/xrwise_landingpage.html:460
 msgid "Architektur-Begehung"
-msgstr "Architecture Walk-through"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:461
 msgid ""
 "Architekt:innen begehen ihre 3D-Entwürfe mit den Auftraggebenden - ohne "
 "Programmierung"
 msgstr ""
-"Architects walk through their 3D designs with clients - without "
-"programming"
 
 #: templates/xrwise_landingpage.html:478 templates/xrwise_landingpage.html:501
 #: templates/xrwise_landingpage.html:546 templates/xrwise_landingpage.html:699
 msgid "Öffentlich"
-msgstr "Public"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:479
 msgid "Evakuierungsübung"
-msgstr "Evacuation Drill"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:480
 msgid "Notfallszenarien sicher und wiederholbar im virtuellen Raum trainieren"
-msgstr "Train emergency scenarios safely and repeatedly in virtual space"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:502
 msgid "Theater-Training"
-msgstr "Theatre Training"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:503
 msgid ""
 "Immersive Trainingsszenarien für Situationen mit technischen Problemen "
 "oder schnellen Notentscheidungen unter Zeitdruck"
 msgstr ""
-"Immersive training scenarios for situations with technical problems or "
-"rapid emergency decisions under time pressure"
 
 #: templates/xrwise_landingpage.html:523
 msgid "Innendesign-Simulationen"
-msgstr "Interior Design Simulations"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:524
 msgid "Entwürfe im virtuellen Raum testen, bevor Entscheidungen getroffen werden"
-msgstr "Test designs in virtual space before decisions are made"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:547
 msgid "Cultural Heritage"
-msgstr "Cultural Heritage"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:548
 msgid "Historische Orte und Stätten werden digital wiedererweckt und erlebbar"
-msgstr "Historical places and sites are digitally revived and made experienceable"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:575
 msgid "Maschinenbau"
-msgstr "Mechanical Engineering"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:576
 msgid "3D-Modelle von Kesselmaschinen oder Anlagen virtuell entwickeln und testen"
-msgstr "Virtually develop and test 3D models of boiler machines or systems"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:598
 msgid "Medizin & Chirurgie"
-msgstr "Medicine & Surgery"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:599
 msgid ""
 "Chirurgische Eingriffe virtuell trainieren - ohne Risiko, unbegrenzt "
 "wiederholbar"
-msgstr "Train surgical procedures virtually - without risk, infinitely repeatable"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:623
 msgid "Laborexperimente"
-msgstr "Laboratory Experiments"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:624
 msgid ""
 "Wissenschaftliche Versuche ohne Materialverbrauch und Labortiere "
 "durchführen"
 msgstr ""
-"Conduct scientific experiments without consuming materials or using "
-"laboratory animals"
 
 #: templates/xrwise_landingpage.html:647
 msgid "Soziale Pflege"
-msgstr "Social Care"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:648
 msgid "Auszubildende trainieren Pflegeprozesse sicher im virtuellen Raum"
-msgstr "Trainees practise care processes safely in virtual space"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:672
 msgid "Einsatzkräfte"
-msgstr "Emergency Services"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:673
 msgid "Feuerwehr und Rettungsdienste trainieren Notfallszenarien risikofrei"
-msgstr "Fire and rescue services train emergency scenarios risk-free"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:700
 msgid "Virtuelle Museen"
-msgstr "Virtual Museums"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:701
 msgid ""
 "Museumsrundgänge ohne räumliche Grenzen - für Schulen, Ferne und "
 "Neugierige"
 msgstr ""
-"Museum tours without spatial limits - for schools, remote visitors, and "
-"the curious"
-
-#: templates/xrwise_landingpage.html:710
-msgid "Standorte"
-msgstr "Locations"
 
 #: templates/xrwise_landingpage.html:711
 msgid "Vor Ort. In ganz Deutschland."
-msgstr "On-site. Throughout Germany."
+msgstr ""
 
 #: templates/xrwise_landingpage.html:756
 msgid "Berlin"
-msgstr "Berlin"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:757
 msgid "Colbestraße 31 · 10247 Berlin"
-msgstr "Colbestraße 31 · 10247 Berlin"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:795
 msgid "Hamburg"
-msgstr "Hamburg"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:796
 msgid "Am Sandtorkai 27 · 20457 Hamburg"
-msgstr "Am Sandtorkai 27 · 20457 Hamburg"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:831
 msgid "Lippstadt"
-msgstr "Lippstadt"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:832
 msgid "Dr.-Arnold-Hueck-Straße 3 · 59557 Lippstadt"
-msgstr "Dr.-Arnold-Hueck-Straße 3 · 59557 Lippstadt"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:841
 msgid "Partner & Förderung"
-msgstr "Partners & Funding"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:842
 msgid "Partner"
-msgstr "Partners"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:849
 msgid "Loslegen"
-msgstr "Get Started"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:850
 msgid "Bereit, die Lücke zwischen Theorie und Praxis zu schließen?"
-msgstr "Ready to bridge the gap between theory and practice?"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:851
 msgid ""
 "Wir zeigen Ihnen in einem 30-minütigen Demo-Gespräch, wie XRwise konkret "
 "für Ihre Zielgruppe und Ihren Anwendungsfall aussehen kann."
 msgstr ""
-"We will show you in a 30-minute demo call how XRwise can look "
-"specifically for your target audience and use case."
 
 #: templates/xrwise_landingpage.html:853
 msgid "Ihre E-Mail-Adresse"
-msgstr "Your email address"
+msgstr ""
 
 #: templates/xrwise_landingpage.html:854
 msgid "Demo anfragen →"
-msgstr "Request demo →"
+msgstr ""
 
 #: templates/xrwise_team.html:6
 msgid "Über uns"
-msgstr "About Us"
+msgstr ""
 
 #: templates/xrwise_team.html:7
 msgid "Das sind"
-msgstr "We are"
+msgstr ""
 
 #: templates/xrwise_team.html:7
 msgid "wir."
-msgstr "us."
+msgstr ""
 
 #: templates/xrwise_team.html:8
 msgid ""
@@ -1732,21 +1489,18 @@ msgid ""
 " und Didaktik - vereint durch den Anspruch, immersives Lernen zugänglich "
 "zu machen."
 msgstr ""
-"An interdisciplinary team from science, software development, design, and"
-" didactics - united by the ambition to make immersive learning "
-"accessible."
 
 #: templates/xrwise_team.html:17
 msgid "Anke von der Heide"
-msgstr "Anke von der Heide"
+msgstr ""
 
 #: templates/xrwise_team.html:18
 msgid "Geschäftsführung"
-msgstr "Management"
+msgstr ""
 
 #: templates/xrwise_team.html:20
 msgid "M.Sc. Anke von der Heide"
-msgstr "M.Sc. Anke von der Heide"
+msgstr ""
 
 #: templates/xrwise_team.html:20
 msgid ""
@@ -1754,37 +1508,34 @@ msgid ""
 "verbindet technisches Verständnis mit einem tiefen Gespür für Design und "
 "Didaktik."
 msgstr ""
-"is responsible for the strategic and operational management of XRwise. "
-"She combines technical understanding with a deep sense for design and "
-"didactics."
 
 #: templates/xrwise_team.html:23
 msgid "Projektleitung"
-msgstr "Project Management"
+msgstr ""
 
 #: templates/xrwise_team.html:24
 msgid "Evaluation didaktischer Werkzeuge"
-msgstr "Evaluation of Didactic Tools"
+msgstr ""
 
 #: templates/xrwise_team.html:25
 msgid "Projektmanagement"
-msgstr "Project Management"
+msgstr ""
 
 #: templates/xrwise_team.html:26
 msgid "Kund:innenakquise"
-msgstr "Customer Acquisition"
+msgstr ""
 
 #: templates/xrwise_team.html:47
 msgid "Francesco Vona"
-msgstr "Francesco Vona"
+msgstr ""
 
 #: templates/xrwise_team.html:48 templates/xrwise_team.html:54
 msgid "XR-Entwicklung"
-msgstr "XR Development"
+msgstr ""
 
 #: templates/xrwise_team.html:50
 msgid "Ph.D. Francesco Vona"
-msgstr "Ph.D. Francesco Vona"
+msgstr ""
 
 #: templates/xrwise_team.html:50
 msgid ""
@@ -1793,33 +1544,30 @@ msgid ""
 "Schwerpunkt auf Extended Reality, User Experience und immersiven "
 "Systemen."
 msgstr ""
-"is a PhD scientist (2023) in Information Technology with a degree from "
-"Politecnico di Milano and a developer specialising in Extended Reality, "
-"User Experience, and immersive systems."
 
 #: templates/xrwise_team.html:53 templates/xrwise_team.html:71
 msgid "Software-Entwicklung"
-msgstr "Software Development"
+msgstr ""
 
 #: templates/xrwise_team.html:55
 msgid "Unity Entwicklung"
-msgstr "Unity Development"
+msgstr ""
 
 #: templates/xrwise_team.html:56
 msgid "Technische Konzeption"
-msgstr "Technical Conception"
+msgstr ""
 
 #: templates/xrwise_team.html:63
 msgid "Tom Milter"
-msgstr "Tom Milter"
+msgstr ""
 
 #: templates/xrwise_team.html:64
 msgid "Backend & Architektur"
-msgstr "Backend & Architecture"
+msgstr ""
 
 #: templates/xrwise_team.html:66
 msgid "B.Sc. Tom Milter"
-msgstr "B.Sc. Tom Milter"
+msgstr ""
 
 #: templates/xrwise_team.html:66
 msgid ""
@@ -1827,33 +1575,30 @@ msgid ""
 "Systemarchitektur von XRwise. Er sorgt dafür, dass die Plattform "
 "skalierbar und stabil bleibt."
 msgstr ""
-"is primarily responsible for the backend as well as the modular server "
-"and system architecture of XRwise. He ensures that the platform remains "
-"scalable and stable."
 
 #: templates/xrwise_team.html:69 templates/xrwise_team.html:100
 msgid "Backend-Entwicklung"
-msgstr "Backend Development"
+msgstr ""
 
 #: templates/xrwise_team.html:70
 msgid "Server- & Systemarchitektur"
-msgstr "Server & System Architecture"
+msgstr ""
 
 #: templates/xrwise_team.html:72
 msgid "Technische Skalierung"
-msgstr "Technical Scaling"
+msgstr ""
 
 #: templates/xrwise_team.html:93
 msgid "Luzie Ahrens"
-msgstr "Luzie Ahrens"
+msgstr ""
 
 #: templates/xrwise_team.html:94
 msgid "Frontend & Didaktik"
-msgstr "Frontend & Didactics"
+msgstr ""
 
 #: templates/xrwise_team.html:96
 msgid "M.Sc. Luzie Ahrens"
-msgstr "M.Sc. Luzie Ahrens"
+msgstr ""
 
 #: templates/xrwise_team.html:96
 msgid ""
@@ -1862,34 +1607,30 @@ msgid ""
 "digitaler Lernformate und der Verbindung von Informatik, Lehre und "
 "experimentellen Technologien."
 msgstr ""
-"combines theoretical computer science with practical implementation and "
-"strengthens the team particularly in software development, the conception"
-" of digital learning formats, and the connection between computer "
-"science, teaching, and experimental technologies."
 
 #: templates/xrwise_team.html:99
 msgid "Frontend-Entwicklung"
-msgstr "Frontend Development"
+msgstr ""
 
 #: templates/xrwise_team.html:101
 msgid "UI/UX Gestaltung"
-msgstr "UI/UX Design"
+msgstr ""
 
 #: templates/xrwise_team.html:102
 msgid "Didaktische Tools"
-msgstr "Didactic Tools"
+msgstr ""
 
 #: templates/xrwise_team.html:109
 msgid "Sophia Spahr"
-msgstr "Sophia Spahr"
+msgstr ""
 
 #: templates/xrwise_team.html:110 templates/xrwise_team.html:115
 msgid "Projektassistenz"
-msgstr "Project Assistance"
+msgstr ""
 
 #: templates/xrwise_team.html:112
 msgid "B.A. Sophia Spahr"
-msgstr "B.A. Sophia Spahr"
+msgstr ""
 
 #: templates/xrwise_team.html:112
 msgid ""
@@ -1897,24 +1638,22 @@ msgid ""
 "Kommunikation. Sie gewährleistet reibungslose Abläufe im operativen "
 "Betrieb."
 msgstr ""
-"supports project management, accounting, and communication. She ensures "
-"smooth processes in day-to-day operations."
 
 #: templates/xrwise_team.html:116
 msgid "Kaufmännische Unterstützung"
-msgstr "Commercial Support"
+msgstr ""
 
 #: templates/xrwise_team.html:117
 msgid "Teamassistenz"
-msgstr "Team Assistance"
+msgstr ""
 
 #: templates/xrwise_team.html:118
 msgid "Marketing"
-msgstr "Marketing"
+msgstr ""
 
 #: templates/xrwise_team.html:139 templates/xrwise_team.html:141
 msgid "Prof. Dr. Jan-Niklas Voigt-Antons"
-msgstr "Prof. Dr. Jan-Niklas Voigt-Antons"
+msgstr ""
 
 #: templates/xrwise_team.html:141
 msgid ""
@@ -1922,13 +1661,10 @@ msgid ""
 "und Leiter des Immersive Reality Lab an der Hochschule Hamm-Lippstadt "
 "(HSHL)."
 msgstr ""
-"is a Professor of Applied Computer Science with a focus on immersive "
-"media and head of the Immersive Reality Lab at Hamm-Lippstadt University "
-"of Applied Sciences (HSHL)."
 
 #: templates/xrwise_team.html:148 templates/xrwise_team.html:150
 msgid "Prof. Dr. Steffen Prowe"
-msgstr "Prof. Dr. Steffen Prowe"
+msgstr ""
 
 #: templates/xrwise_team.html:150
 msgid ""
@@ -1936,13 +1672,10 @@ msgid ""
 "Hochschule für Technik und verfügt über langjährige Erfahrung in der "
 "Entwicklung und Evaluation von VR-basierten Lehrformaten."
 msgstr ""
-"is a Professor of Microbiology and Biotechnology at the Berlin University"
-" of Applied Sciences and Technology and has many years of experience in "
-"the development and evaluation of VR-based teaching formats."
 
 #: templates/xrwise_team.html:171 templates/xrwise_team.html:173
 msgid "M.Sc. Thorbjörn Ruppel"
-msgstr "M.Sc. Thorbjörn Ruppel"
+msgstr ""
 
 #: templates/xrwise_team.html:173
 msgid ""
@@ -1950,13 +1683,10 @@ msgid ""
 "HAW Hamburg tätig und bringt seine Expertise aus Forschung, Lehre und "
 "Praxis in die Entwicklung immersiver XR-Anwendungen ein."
 msgstr ""
-"works as a research associate and lecturer in computer science at HAW "
-"Hamburg and brings his expertise from research, teaching, and practice to"
-" the development of immersive XR applications."
 
 #: templates/xrwise_team.html:180 templates/xrwise_team.html:182
 msgid "M.Eng. Miladin Ćeranić"
-msgstr "M.Eng. Miladin Ćeranić"
+msgstr ""
 
 #: templates/xrwise_team.html:182
 msgid ""
@@ -1965,48 +1695,42 @@ msgid ""
 "interdisziplinären Hintergrund aus Mechatronik, Softwareentwicklung und "
 "Wirtschaft."
 msgstr ""
-"is a research associate at Hamm-Lippstadt University of Applied Sciences "
-"in the field of Business and Systems Engineering and has an "
-"interdisciplinary background in mechatronics, software development, and "
-"business."
 
 #: templates/xrwise_team.html:197
 msgid "Wir freuen uns über Ihre Nachricht."
-msgstr "We look forward to hearing from you."
+msgstr ""
 
 #: templates/xrwise_team.html:198
 msgid "Haben Sie Fragen zum Team oder möchten Sie gemeinsam etwas aufbauen?"
 msgstr ""
-"Do you have questions about the team or would you like to build something"
-" together?"
 
 #: templates/xrwise_team.html:200
 msgid "Kontakt aufnehmen"
-msgstr "Get in Touch"
+msgstr ""
 
 #~ msgid "Lösungen"
-#~ msgstr "Solutions"
+#~ msgstr ""
 
 #~ msgid "Anwendungen"
-#~ msgstr "Applications"
+#~ msgstr ""
 
 #~ msgid "News"
-#~ msgstr "News"
+#~ msgstr ""
 
 #~ msgid "Team"
-#~ msgstr "Team"
+#~ msgstr ""
 
 #~ msgid "Kontakt"
-#~ msgstr "Contact"
+#~ msgstr ""
 
 #~ msgid "Datenschutz"
-#~ msgstr "Privacy Policy"
+#~ msgstr ""
 
 #~ msgid "1. Datenschutz auf einen Blick"
-#~ msgstr "1. Privacy at a Glance"
+#~ msgstr ""
 
 #~ msgid "Allgemeine Hinweise"
-#~ msgstr "General Information"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die folgenden Hinweise geben einen "
@@ -2031,10 +1755,10 @@ msgstr "Get in Touch"
 #~ " text."
 
 #~ msgid "Datenerfassung auf dieser Website"
-#~ msgstr "Data Collection on This Website"
+#~ msgstr ""
 
 #~ msgid "Wer ist verantwortlich für die Datenerfassung auf dieser Website?"
-#~ msgstr "Who is responsible for data collection on this website?"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die Datenverarbeitung auf dieser Website "
@@ -2049,7 +1773,7 @@ msgstr "Get in Touch"
 #~ "website."
 
 #~ msgid "Wie erfassen wir Ihre Daten?"
-#~ msgstr "How do we collect your data?"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Ihre Daten werden zum einen dadurch "
@@ -2080,7 +1804,7 @@ msgstr "Get in Touch"
 #~ " enter this website."
 
 #~ msgid "Wofür nutzen wir Ihre Daten?"
-#~ msgstr "What do we use your data for?"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Ein Teil der Daten wird erhoben, "
@@ -2095,7 +1819,7 @@ msgstr "Get in Touch"
 #~ "analyse your user behaviour."
 
 #~ msgid "Welche Rechte haben Sie bezüglich Ihrer Daten?"
-#~ msgstr "What rights do you have regarding your data?"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Sie haben jederzeit das Recht, "
@@ -2143,10 +1867,10 @@ msgstr "Get in Touch"
 #~ " in the legal notice."
 
 #~ msgid "2. Hosting und Content Delivery Networks (CDN)"
-#~ msgstr "2. Hosting and Content Delivery Networks (CDN)"
+#~ msgstr ""
 
 #~ msgid "Externes Hosting"
-#~ msgstr "External Hosting"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Diese Website wird bei einem externen"
@@ -2198,7 +1922,7 @@ msgstr "Get in Touch"
 #~ "data."
 
 #~ msgid "3. Allgemeine Hinweise und Pflicht­informationen"
-#~ msgstr "3. General Information and Mandatory Disclosures"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die Betreiber dieser Seiten nehmen den"
@@ -2251,30 +1975,30 @@ msgstr "Get in Touch"
 #~ "third parties is not possible."
 
 #~ msgid "Hinweis zur verantwortlichen Stelle"
-#~ msgstr "Notice Regarding the Responsible Party"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die verantwortliche Stelle für die "
 #~ "Datenverarbeitung auf dieser Website ist:"
-#~ msgstr "The party responsible for data processing on this website is:"
+#~ msgstr ""
 
 #~ msgid "HAW Hamburg"
-#~ msgstr "HAW Hamburg"
+#~ msgstr ""
 
 #~ msgid "Finkenau 35"
-#~ msgstr "Finkenau 35"
+#~ msgstr ""
 
 #~ msgid "22081 Hamburg"
-#~ msgstr "22081 Hamburg"
+#~ msgstr ""
 
 #~ msgid "Prof. Dr. Roland Greule"
-#~ msgstr "Prof. Dr. Roland Greule"
+#~ msgstr ""
 
 #~ msgid "Telefon: +49 040 428 75 7664"
-#~ msgstr "Phone: +49 040 428 75 7664"
+#~ msgstr ""
 
 #~ msgid "E-Mail: roland.greule@haw-hamburg.de"
-#~ msgstr "E-Mail: roland.greule@haw-hamburg.de"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Verantwortliche Stelle ist die natürliche "
@@ -2292,7 +2016,7 @@ msgstr "Get in Touch"
 #~ "addresses, etc.)."
 
 #~ msgid "Widerruf Ihrer Einwilligung zur Datenverarbeitung"
-#~ msgstr "Revocation of Your Consent to Data Processing"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Viele Datenverarbeitungsvorgänge sind nur mit"
@@ -2392,7 +2116,7 @@ msgstr "Get in Touch"
 #~ " 2 DSGVO)."
 
 #~ msgid "Beschwerde­recht bei der zuständigen Aufsichts­behörde"
-#~ msgstr "Right to Lodge a Complaint with the Competent Supervisory Authority"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Im Falle von Verstößen gegen die "
@@ -2417,7 +2141,7 @@ msgstr "Get in Touch"
 #~ "or judicial remedies."
 
 #~ msgid "Recht auf Daten­übertrag­barkeit"
-#~ msgstr "Right to Data Portability"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Sie haben das Recht, Daten, die "
@@ -2443,7 +2167,7 @@ msgstr "Get in Touch"
 #~ "to the extent technically feasible."
 
 #~ msgid "Auskunft, Löschung und Berichtigung"
-#~ msgstr "Access, Deletion, and Rectification"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Sie haben im Rahmen der geltenden "
@@ -2473,7 +2197,7 @@ msgstr "Get in Touch"
 #~ "legal notice."
 
 #~ msgid "Recht auf Einschränkung der Verarbeitung"
-#~ msgstr "Right to Restriction of Processing"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Sie haben das Recht, die Einschränkung"
@@ -2584,7 +2308,7 @@ msgstr "Get in Touch"
 #~ "Member State."
 
 #~ msgid "Widerspruch gegen Werbe-E-Mails"
-#~ msgstr "Objection to Advertising Emails"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Der Nutzung von im Rahmen der "
@@ -2609,28 +2333,28 @@ msgstr "Get in Touch"
 #~ "as spam emails."
 
 #~ msgid "Quelle: https://www.e-recht24.de"
-#~ msgstr "Source: https://www.e-recht24.de"
+#~ msgstr ""
 
 #~ msgid "Impressum"
-#~ msgstr "Legal Notice"
+#~ msgstr ""
 
 #~ msgid "Angaben gemäß § 5 TMG"
-#~ msgstr "Information pursuant to § 5 TMG"
+#~ msgstr ""
 
 #~ msgid "Vertreten durch:"
-#~ msgstr "Represented by:"
+#~ msgstr ""
 
 #~ msgid "Telefon: +49 40 42875 7664"
-#~ msgstr "Phone: +49 40 42875 7664"
+#~ msgstr ""
 
 #~ msgid "Telefax: +49 40 42875 7609"
-#~ msgstr "Fax: +49 40 42875 7609"
+#~ msgstr ""
 
 #~ msgid "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV"
-#~ msgstr "Responsible for content pursuant to § 55 Abs. 2 RStV"
+#~ msgstr ""
 
 #~ msgid "Verbraucherstreitbeilegung/Universalschlichtungsstelle"
-#~ msgstr "Consumer Dispute Resolution / Universal Arbitration Board"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Wir sind nicht bereit oder verpflichtet,"
@@ -2643,7 +2367,7 @@ msgstr "Get in Touch"
 #~ "board."
 
 #~ msgid "Haftung für Inhalte"
-#~ msgstr "Liability for Content"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Als Diensteanbieter sind wir gemäß § "
@@ -2686,7 +2410,7 @@ msgstr "Get in Touch"
 #~ "we will remove this content immediately."
 
 #~ msgid "Haftung für Links"
-#~ msgstr "Liability for Links"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Unser Angebot enthält Links zu externen"
@@ -2728,7 +2452,7 @@ msgstr "Get in Touch"
 #~ " remove such links immediately."
 
 #~ msgid "Urheberrecht"
-#~ msgstr "Copyright"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die durch die Seitenbetreiber erstellten "
@@ -2773,16 +2497,16 @@ msgstr "Get in Touch"
 #~ " will remove such content immediately."
 
 #~ msgid "Quelle:"
-#~ msgstr "Source:"
+#~ msgstr ""
 
 #~ msgid "https://www.e-recht24.de/impressum-generator.html"
-#~ msgstr "https://www.e-recht24.de/impressum-generator.html"
+#~ msgstr ""
 
 #~ msgid "News · Digitales Museum"
-#~ msgstr "News · Digital Museum"
+#~ msgstr ""
 
 #~ msgid "Das digitale Museum"
-#~ msgstr "The Digital Museum"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Warum virtuelle Museen mehr sind als "
@@ -2794,7 +2518,7 @@ msgstr "Get in Touch"
 #~ "makes culture newly experienceable."
 
 #~ msgid "Warum virtuelle Museen mehr sind als digitale Kopien"
-#~ msgstr "Why Virtual Museums Are More Than Digital Copies"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Museen leben nicht nur von ihren "
@@ -2848,10 +2572,10 @@ msgstr "Get in Touch"
 #~ "experiences."
 
 #~ msgid "Museum"
-#~ msgstr "Museum"
+#~ msgstr ""
 
 #~ msgid "Digitale Museen im Allgemeinen"
-#~ msgstr "Digital Museums in General"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die Idee einer virtuellen Museumserfahrung "
@@ -2874,12 +2598,12 @@ msgstr "Get in Touch"
 #~ " in March 2025"
 
 #~ msgid "Imaginarium"
-#~ msgstr "Imaginarium"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "ist ein browserbasierter Raum, der "
 #~ "Soundscapes und Animationen kombiniert."
-#~ msgstr "is a browser-based space that combines soundscapes and animations."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Trotz der multisensorischen Erfahrung ist "
@@ -2904,10 +2628,10 @@ msgstr "Get in Touch"
 #~ "fully and faithfully reproduced."
 
 #~ msgid "Museum 2"
-#~ msgstr "Museum 2"
+#~ msgstr ""
 
 #~ msgid "Rein virtuelle Museen"
-#~ msgstr "Purely Virtual Museums"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Im Gegensatz zu realen Museen mit "
@@ -2923,7 +2647,7 @@ msgstr "Get in Touch"
 #~ " realise in the real world:"
 
 #~ msgid "Museum of Other Realities (MOR)"
-#~ msgstr "Museum of Other Realities (MOR)"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "- eine rein virtuelle Kunstgalerie für"
@@ -2935,7 +2659,7 @@ msgstr "Get in Touch"
 #~ "specifically for VR headsets."
 
 #~ msgid "Kremer Museum VR"
-#~ msgstr "Kremer Museum VR"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "- Sammlung flämischer und niederländischer "
@@ -2947,7 +2671,7 @@ msgstr "Get in Touch"
 #~ "architecture."
 
 #~ msgid "VR Space Museum Cosmoria"
-#~ msgstr "VR Space Museum Cosmoria"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "- fokussiert auf Weltall und Astronomie"
@@ -2959,7 +2683,7 @@ msgstr "Get in Touch"
 #~ " environment."
 
 #~ msgid "VR Museum of Fine Art"
-#~ msgstr "VR Museum of Fine Art"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "- weltbekannte Skulpturen und Gemälde "
@@ -2970,19 +2694,19 @@ msgstr "Get in Touch"
 #~ "simulation."
 
 #~ msgid "OmniGallery"
-#~ msgstr "OmniGallery"
+#~ msgstr ""
 
 #~ msgid "- virtuelle Galerie für digitale, zeitgenössische Kunst."
-#~ msgstr "- virtual gallery for digital, contemporary art."
+#~ msgstr ""
 
 #~ msgid "National Women's History Museum"
-#~ msgstr "National Women's History Museum"
+#~ msgstr ""
 
 #~ msgid "- existiert seit Jahren fast ausschließlich im digitalen Raum."
-#~ msgstr "- has existed for years almost exclusively in the digital space."
+#~ msgstr ""
 
 #~ msgid "Museums-Apps"
-#~ msgstr "Museum Apps"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Neben digitalen Museen sind Apps ein "
@@ -2994,7 +2718,7 @@ msgstr "Get in Touch"
 #~ "museum experiences:"
 
 #~ msgid "Google Arts & Culture"
-#~ msgstr "Google Arts & Culture"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "bietet 360-Grad-Touren durch hunderte "
@@ -3006,7 +2730,7 @@ msgstr "Get in Touch"
 #~ "high resolution."
 
 #~ msgid "Smartify"
-#~ msgstr "Smartify"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "identifiziert Gemälde und Skulpturen per "
@@ -3018,7 +2742,7 @@ msgstr "Get in Touch"
 #~ "information."
 
 #~ msgid "MuseumStars"
-#~ msgstr "MuseumStars"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "ermöglicht es, in über 100 Museen "
@@ -3033,13 +2757,13 @@ msgstr "Get in Touch"
 #~ " for on-site audio guides."
 
 #~ msgid "Technische Umsetzung"
-#~ msgstr "Technical Implementation"
+#~ msgstr ""
 
 #~ msgid "Ein spannendes Beispiel ist"
-#~ msgstr "An exciting example is"
+#~ msgstr ""
 
 #~ msgid "Das Digitale Museum"
-#~ msgstr "The Digital Museum"
+#~ msgstr ""
 
 #~ msgid ""
 #~ ": eine browserbasierte, auf Unity WebGL"
@@ -3066,10 +2790,10 @@ msgstr "Get in Touch"
 #~ " what is to be reproduced digitally."
 
 #~ msgid "Durch Unitys"
-#~ msgstr "Through Unity's"
+#~ msgstr ""
 
 #~ msgid "Addressable-System"
-#~ msgstr "Addressable System"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "können große Datenmengen effizient geladen "
@@ -3092,10 +2816,10 @@ msgstr "Get in Touch"
 #~ "extensible."
 
 #~ msgid "Hochaufgelöste Texturen werden komprimiert in"
-#~ msgstr "High-resolution textures are compressed into"
+#~ msgstr ""
 
 #~ msgid "ktx2-Containern"
-#~ msgstr "ktx2 containers"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "verpackt - einem modernen GPU-"
@@ -3113,10 +2837,10 @@ msgstr "Get in Touch"
 #~ "works."
 
 #~ msgid "Das Digitale Museum basiert auf der"
-#~ msgstr "The Digital Museum is based on the"
+#~ msgstr ""
 
 #~ msgid "XRwise Cross-Reality Plattform"
-#~ msgstr "XRwise Cross-Reality Platform"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "und ermöglicht eine flexible Gestaltung "
@@ -3138,19 +2862,19 @@ msgstr "Get in Touch"
 #~ " programming effort."
 
 #~ msgid "YouTube video player"
-#~ msgstr "YouTube video player"
+#~ msgstr ""
 
 #~ msgid "Cross-Reality Plattform"
-#~ msgstr "Cross-Reality Platform"
+#~ msgstr ""
 
 #~ msgid "Erleben, was"
-#~ msgstr "Experience what"
+#~ msgstr ""
 
 #~ msgid "wirklich"
-#~ msgstr "truly"
+#~ msgstr ""
 
 #~ msgid "wirkt."
-#~ msgstr "works."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "XRwise verbindet reale und virtuelle "
@@ -3168,55 +2892,55 @@ msgstr "Get in Touch"
 #~ " any technical prior knowledge."
 
 #~ msgid "Lösung entdecken"
-#~ msgstr "Discover Solution"
+#~ msgstr ""
 
 #~ msgid "Demo anfragen"
-#~ msgstr "Request Demo"
+#~ msgstr ""
 
 #~ msgid "Hero Illustration"
-#~ msgstr "Hero Illustration"
+#~ msgstr ""
 
 #~ msgid "4"
-#~ msgstr "4"
+#~ msgstr ""
 
 #~ msgid "x"
-#~ msgstr "x"
+#~ msgstr ""
 
 #~ msgid "Schnellere Trainingsabschlüsse vs. Präsenzunterricht"
-#~ msgstr "Faster training completions vs. in-person instruction"
+#~ msgstr ""
 
 #~ msgid "Quelle: PwC 2020"
-#~ msgstr "Source: PwC 2020"
+#~ msgstr ""
 
 #~ msgid "80"
-#~ msgstr "80"
+#~ msgstr ""
 
 #~ msgid "Wissensretention nach einem Jahr - vs. 20 %% bei klassischen Methoden"
-#~ msgstr "Knowledge retention after one year - vs. 20 %% with traditional methods"
+#~ msgstr ""
 
 #~ msgid "Quelle: PwC / Accenture"
-#~ msgstr "Source: PwC / Accenture"
+#~ msgstr ""
 
 #~ msgid "275"
-#~ msgstr "275"
+#~ msgstr ""
 
 #~ msgid "Mehr Handlungssicherheit bei Mitarbeitenden nach dem Training"
-#~ msgstr "Greater confidence in action among employees after training"
+#~ msgstr ""
 
 #~ msgid "52"
-#~ msgstr "52"
+#~ msgstr ""
 
 #~ msgid "Kürzere Gesamttrainingszeit im Vergleich zu klassischen Formaten"
-#~ msgstr "Shorter total training time compared to traditional formats"
+#~ msgstr ""
 
 #~ msgid "Quelle: Strivr / PwC"
-#~ msgstr "Source: Strivr / PwC"
+#~ msgstr ""
 
 #~ msgid "Das Problem"
-#~ msgstr "The Problem"
+#~ msgstr ""
 
 #~ msgid "Klassische Formate stoßen an ihre Grenzen."
-#~ msgstr "Traditional formats are reaching their limits."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Präsenztrainings sind teuer, aufwendig und "
@@ -3235,7 +2959,7 @@ msgstr "Get in Touch"
 #~ "and more motivation."
 
 #~ msgid "Hohe Kosten, begrenzte Reichweite"
-#~ msgstr "High costs, limited reach"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Präsenztrainings erfordern Reise, Raum und "
@@ -3247,7 +2971,7 @@ msgstr "Get in Touch"
 #~ "difficult to scale."
 
 #~ msgid "Abstrakte Inhalte, geringer Transfer"
-#~ msgstr "Abstract content, low transfer"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Was nur erklärt wird, wird vergessen."
@@ -3261,7 +2985,7 @@ msgstr "Get in Touch"
 #~ " it."
 
 #~ msgid "Riskante Echtübungen ohne Alternative"
-#~ msgstr "Risky real-world exercises with no alternative"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Notfalltrainings, chirurgische Eingriffe oder "
@@ -3273,10 +2997,10 @@ msgstr "Get in Touch"
 #~ " in VR they do not."
 
 #~ msgid "Wie es funktioniert"
-#~ msgstr "How It Works"
+#~ msgstr ""
 
 #~ msgid "Drei Schritte. Keine Programmierung."
-#~ msgstr "Three steps. No coding."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "XRwise ist als vollständige Infrastruktur "
@@ -3291,10 +3015,10 @@ msgstr "Get in Touch"
 #~ "knowledge."
 
 #~ msgid "01"
-#~ msgstr "01"
+#~ msgstr ""
 
 #~ msgid "Erstellen"
-#~ msgstr "Create"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Im webbasierten XRwise Creator laden Sie"
@@ -3309,10 +3033,10 @@ msgstr "Get in Touch"
 #~ "code."
 
 #~ msgid "02"
-#~ msgstr "02"
+#~ msgstr ""
 
 #~ msgid "Verteilen"
-#~ msgstr "Distribute"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die Campus App liefert Ihre Inhalte "
@@ -3327,10 +3051,10 @@ msgstr "Get in Touch"
 #~ "time."
 
 #~ msgid "03"
-#~ msgstr "03"
+#~ msgstr ""
 
 #~ msgid "Erleben"
-#~ msgstr "Experience"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Teilnehmende tauchen ein - vor Ort "
@@ -3346,10 +3070,10 @@ msgstr "Get in Touch"
 #~ " space in real time."
 
 #~ msgid "Für wen"
-#~ msgstr "For Whom"
+#~ msgstr ""
 
 #~ msgid "Maßgeschneidert für Ihre Herausforderung."
-#~ msgstr "Tailored to your challenge."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "XRwise löst unterschiedliche Probleme - "
@@ -3359,16 +3083,16 @@ msgstr "Get in Touch"
 #~ "individually according to your needs."
 
 #~ msgid "Unternehmen"
-#~ msgstr "Companies"
+#~ msgstr ""
 
 #~ msgid "Hochschulen"
-#~ msgstr "Universities"
+#~ msgstr ""
 
 #~ msgid "Öffentliche Einrichtungen"
-#~ msgstr "Public Institutions"
+#~ msgstr ""
 
 #~ msgid "Trainings, die Ihre Mitarbeitenden wirklich vorbereiten."
-#~ msgstr "Training that truly prepares your employees."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die Qualifikation Ihrer Teams entscheidet "
@@ -3384,7 +3108,7 @@ msgstr "Get in Touch"
 #~ "measurable impact."
 
 #~ msgid "Ihr Problem"
-#~ msgstr "Your Problem"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Mitarbeitende müssen komplexe Abläufe "
@@ -3404,7 +3128,7 @@ msgstr "Get in Touch"
 #~ "fails."
 
 #~ msgid "Individualisierte Trainingsszenarien"
-#~ msgstr "Individualised Training Scenarios"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Wir entwickeln mit Ihnen XR-Trainings"
@@ -3417,7 +3141,7 @@ msgstr "Get in Touch"
 #~ "machine instruction to evacuation plans."
 
 #~ msgid "Skalierbar & standortunabhängig"
-#~ msgstr "Scalable & location-independent"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Dieselbe Qualität, ob 5 oder 500 "
@@ -3431,7 +3155,7 @@ msgstr "Get in Touch"
 #~ " Outstanding quality."
 
 #~ msgid "Messbar & nachweisbar"
-#~ msgstr "Measurable & verifiable"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Fortschritte, Wiederholungen und Lernerfolge "
@@ -3443,25 +3167,25 @@ msgstr "Get in Touch"
 #~ "documentation and HR reporting."
 
 #~ msgid "Passende Szenarien"
-#~ msgstr "Suitable Scenarios"
+#~ msgstr ""
 
 #~ msgid "Typische Anwendungen für Unternehmen"
-#~ msgstr "Typical Applications for Companies"
+#~ msgstr ""
 
 #~ msgid "Evakuierungsübungen & Notfalltraining"
-#~ msgstr "Evacuation Drills & Emergency Training"
+#~ msgstr ""
 
 #~ msgid "Maschinenbau & Produktionssimulation"
-#~ msgstr "Mechanical Engineering & Production Simulation"
+#~ msgstr ""
 
 #~ msgid "Innendesign & Architekturplanung"
-#~ msgstr "Interior Design & Architectural Planning"
+#~ msgstr ""
 
 #~ msgid "Onboarding & Compliance-Training"
-#~ msgstr "Onboarding & Compliance Training"
+#~ msgstr ""
 
 #~ msgid "Eine Lernmethode, die Studierende wirklich erreicht."
-#~ msgstr "A learning method that truly reaches students."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die Hochschullehre steht unter Druck: "
@@ -3492,7 +3216,7 @@ msgstr "Get in Touch"
 #~ " only succeeds after graduation."
 
 #~ msgid "Didaktische Methode für komplexe Inhalte"
-#~ msgstr "Didactic Method for Complex Content"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "XRwise ermöglicht das Erleben von "
@@ -3506,7 +3230,7 @@ msgstr "Get in Touch"
 #~ " experiments, historical sites."
 
 #~ msgid "Eigene Projekte ohne Programmierkenntnisse"
-#~ msgstr "Own Projects Without Programming Knowledge"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Lehrkräfte erstellen ihre eigenen XR-"
@@ -3518,7 +3242,7 @@ msgstr "Get in Touch"
 #~ " degree, no external agency required."
 
 #~ msgid "Barrierefrei & inklusiv"
-#~ msgstr "Accessible & inclusive"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Virtuelle Lernräume ermöglichen Austausch über"
@@ -3530,22 +3254,22 @@ msgstr "Get in Touch"
 #~ "synchronously or asynchronously."
 
 #~ msgid "Typische Anwendungen für Hochschulen"
-#~ msgstr "Typical Applications for Universities"
+#~ msgstr ""
 
 #~ msgid "Laborexperimente ohne Materialverbrauch"
-#~ msgstr "Laboratory Experiments Without Material Consumption"
+#~ msgstr ""
 
 #~ msgid "Chirurgische Simulation (Medizin)"
-#~ msgstr "Surgical Simulation (Medicine)"
+#~ msgstr ""
 
 #~ msgid "Archäologie & Cultural Heritage"
-#~ msgstr "Archaeology & Cultural Heritage"
+#~ msgstr ""
 
 #~ msgid "Pflege-Training & Sozialberufe"
-#~ msgstr "Care Training & Social Professions"
+#~ msgstr ""
 
 #~ msgid "Vermittlung, die Menschen wirklich berührt."
-#~ msgstr "Communication that truly moves people."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Museen, Behörden, Kultureinrichtungen und "
@@ -3577,7 +3301,7 @@ msgstr "Get in Touch"
 #~ "experiential rather than merely explainable?"
 
 #~ msgid "Gestalterische Programmerweiterung"
-#~ msgstr "Creative Programme Extension"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Virtuelle Rundgänge, rekonstruierte historische "
@@ -3591,7 +3315,7 @@ msgstr "Get in Touch"
 #~ "offering."
 
 #~ msgid "Standortübergreifende Reichweite"
-#~ msgstr "Cross-location Reach"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Ihr Programm ist nicht an Ihre "
@@ -3605,7 +3329,7 @@ msgstr "Get in Touch"
 #~ " come to you virtually."
 
 #~ msgid "Niedrigschwellige Umsetzung"
-#~ msgstr "Low-barrier Implementation"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Kein eigenes Tech-Team nötig. XRwise "
@@ -3620,25 +3344,25 @@ msgstr "Get in Touch"
 #~ "partner."
 
 #~ msgid "Typische Anwendungen für öffentliche Einrichtungen"
-#~ msgstr "Typical Applications for Public Institutions"
+#~ msgstr ""
 
 #~ msgid "Virtuelle Museumsrundgänge"
-#~ msgstr "Virtual Museum Tours"
+#~ msgstr ""
 
 #~ msgid "Cultural Heritage & Orte wiedererwecken"
-#~ msgstr "Cultural Heritage & Reviving Places"
+#~ msgstr ""
 
 #~ msgid "Immersives Theater-Training (ITT)"
-#~ msgstr "Immersive Theatre Training (ITT)"
+#~ msgstr ""
 
 #~ msgid "Evakuierung & Notfallsimulation"
-#~ msgstr "Evacuation & Emergency Simulation"
+#~ msgstr ""
 
 #~ msgid "Die Plattform"
-#~ msgstr "The Platform"
+#~ msgstr ""
 
 #~ msgid "Alles aus einer Hand."
-#~ msgstr "Everything from one source."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "XRwise ist kein Tool - es ist "
@@ -3650,10 +3374,10 @@ msgstr "Get in Touch"
 #~ "components, one seamless system."
 
 #~ msgid "Creator"
-#~ msgstr "Creator"
+#~ msgstr ""
 
 #~ msgid "XRwise Creator"
-#~ msgstr "XRwise Creator"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Der webbasierte Editor zum Erstellen "
@@ -3667,7 +3391,7 @@ msgstr "Get in Touch"
 #~ "paths - without a line of code."
 
 #~ msgid "Campus App"
-#~ msgstr "Campus App"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Die plattformübergreifende App für "
@@ -3681,10 +3405,10 @@ msgstr "Get in Touch"
 #~ "administered remotely."
 
 #~ msgid "Broadcaster"
-#~ msgstr "Broadcaster"
+#~ msgstr ""
 
 #~ msgid "XRwise Broadcaster"
-#~ msgstr "XRwise Broadcaster"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Liveübertragung realer Veranstaltungen in den"
@@ -3698,19 +3422,19 @@ msgstr "Get in Touch"
 #~ "independent, synchronous, immersive."
 
 #~ msgid "Anwendungsbeispiele"
-#~ msgstr "Use Cases"
+#~ msgstr ""
 
 #~ msgid "Was mit XRwise möglich ist."
-#~ msgstr "What is possible with XRwise."
+#~ msgstr ""
 
 #~ msgid "12 Szenarien aus Praxis, Forschung und Vermittlung."
-#~ msgstr "12 scenarios from practice, research, and communication."
+#~ msgstr ""
 
 #~ msgid "Hochschule"
-#~ msgstr "University"
+#~ msgstr ""
 
 #~ msgid "Fluss-Habitat Simulation"
-#~ msgstr "River Habitat Simulation"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "VR-Darstellung ökologischer Veränderungen "
@@ -3722,7 +3446,7 @@ msgstr "Get in Touch"
 #~ "or nitrate addition"
 
 #~ msgid "Architektur-Begehung"
-#~ msgstr "Architecture Walk-through"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Architekt:innen begehen ihre 3D-Entwürfe "
@@ -3733,16 +3457,16 @@ msgstr "Get in Touch"
 #~ " with clients - without programming"
 
 #~ msgid "Öffentlich"
-#~ msgstr "Public"
+#~ msgstr ""
 
 #~ msgid "Evakuierungsübung"
-#~ msgstr "Evacuation Drill"
+#~ msgstr ""
 
 #~ msgid "Notfallszenarien sicher und wiederholbar im virtuellen Raum trainieren"
-#~ msgstr "Train emergency scenarios safely and repeatedly in virtual space"
+#~ msgstr ""
 
 #~ msgid "Theater-Training"
-#~ msgstr "Theatre Training"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Immersive Trainingsszenarien für Situationen "
@@ -3754,15 +3478,15 @@ msgstr "Get in Touch"
 #~ "emergency decisions under time pressure"
 
 #~ msgid "Innendesign-Simulationen"
-#~ msgstr "Interior Design Simulations"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Entwürfe im virtuellen Raum testen, "
 #~ "bevor Entscheidungen getroffen werden"
-#~ msgstr "Test designs in virtual space before decisions are made"
+#~ msgstr ""
 
 #~ msgid "Cultural Heritage"
-#~ msgstr "Cultural Heritage"
+#~ msgstr ""
 
 #~ msgid "Historische Orte und Stätten werden digital wiedererweckt und erlebbar"
 #~ msgstr ""
@@ -3770,15 +3494,15 @@ msgstr "Get in Touch"
 #~ "digitally revived and made experienceable"
 
 #~ msgid "Maschinenbau"
-#~ msgstr "Mechanical Engineering"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "3D-Modelle von Kesselmaschinen oder "
 #~ "Anlagen virtuell entwickeln und testen"
-#~ msgstr "Virtually develop and test 3D models of boiler machines or systems"
+#~ msgstr ""
 
 #~ msgid "Medizin & Chirurgie"
-#~ msgstr "Medicine & Surgery"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Chirurgische Eingriffe virtuell trainieren -"
@@ -3788,7 +3512,7 @@ msgstr "Get in Touch"
 #~ "without risk, infinitely repeatable"
 
 #~ msgid "Laborexperimente"
-#~ msgstr "Laboratory Experiments"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Wissenschaftliche Versuche ohne Materialverbrauch"
@@ -3799,19 +3523,19 @@ msgstr "Get in Touch"
 #~ "animals"
 
 #~ msgid "Soziale Pflege"
-#~ msgstr "Social Care"
+#~ msgstr ""
 
 #~ msgid "Auszubildende trainieren Pflegeprozesse sicher im virtuellen Raum"
-#~ msgstr "Trainees practise care processes safely in virtual space"
+#~ msgstr ""
 
 #~ msgid "Einsatzkräfte"
-#~ msgstr "Emergency Services"
+#~ msgstr ""
 
 #~ msgid "Feuerwehr und Rettungsdienste trainieren Notfallszenarien risikofrei"
-#~ msgstr "Fire and rescue services train emergency scenarios risk-free"
+#~ msgstr ""
 
 #~ msgid "Virtuelle Museen"
-#~ msgstr "Virtual Museums"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Museumsrundgänge ohne räumliche Grenzen - "
@@ -3822,40 +3546,40 @@ msgstr "Get in Touch"
 #~ "the curious"
 
 #~ msgid "Standorte"
-#~ msgstr "Locations"
+#~ msgstr ""
 
 #~ msgid "Vor Ort. In ganz Deutschland."
-#~ msgstr "On-site. Throughout Germany."
+#~ msgstr ""
 
 #~ msgid "Berlin"
-#~ msgstr "Berlin"
+#~ msgstr ""
 
 #~ msgid "Colbestraße 31 · 10247 Berlin"
-#~ msgstr "Colbestraße 31 · 10247 Berlin"
+#~ msgstr ""
 
 #~ msgid "Hamburg"
-#~ msgstr "Hamburg"
+#~ msgstr ""
 
 #~ msgid "Am Sandtorkai 27 · 20457 Hamburg"
-#~ msgstr "Am Sandtorkai 27 · 20457 Hamburg"
+#~ msgstr ""
 
 #~ msgid "Lippstadt"
-#~ msgstr "Lippstadt"
+#~ msgstr ""
 
 #~ msgid "Dr.-Arnold-Hueck-Straße 3 · 59557 Lippstadt"
-#~ msgstr "Dr.-Arnold-Hueck-Straße 3 · 59557 Lippstadt"
+#~ msgstr ""
 
 #~ msgid "Partner & Förderung"
-#~ msgstr "Partners & Funding"
+#~ msgstr ""
 
 #~ msgid "Partner"
-#~ msgstr "Partners"
+#~ msgstr ""
 
 #~ msgid "Loslegen"
-#~ msgstr "Get Started"
+#~ msgstr ""
 
 #~ msgid "Bereit, die Lücke zwischen Theorie und Praxis zu schließen?"
-#~ msgstr "Ready to bridge the gap between theory and practice?"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Wir zeigen Ihnen in einem 30-minütigen"
@@ -3869,19 +3593,19 @@ msgstr "Get in Touch"
 #~ "and use case."
 
 #~ msgid "Ihre E-Mail-Adresse"
-#~ msgstr "Your email address"
+#~ msgstr ""
 
 #~ msgid "Demo anfragen →"
-#~ msgstr "Request demo →"
+#~ msgstr ""
 
 #~ msgid "Über uns"
-#~ msgstr "About Us"
+#~ msgstr ""
 
 #~ msgid "Das sind"
-#~ msgstr "We are"
+#~ msgstr ""
 
 #~ msgid "wir."
-#~ msgstr "us."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Ein interdisziplinäres Team aus Wissenschaft,"
@@ -3895,13 +3619,13 @@ msgstr "Get in Touch"
 #~ "make immersive learning accessible."
 
 #~ msgid "Anke von der Heide"
-#~ msgstr "Anke von der Heide"
+#~ msgstr ""
 
 #~ msgid "Geschäftsführung"
-#~ msgstr "Management"
+#~ msgstr ""
 
 #~ msgid "M.Sc. Anke von der Heide"
-#~ msgstr "M.Sc. Anke von der Heide"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "verantwortet die strategische und operative"
@@ -3915,25 +3639,25 @@ msgstr "Get in Touch"
 #~ "deep sense for design and didactics."
 
 #~ msgid "Projektleitung"
-#~ msgstr "Project Management"
+#~ msgstr ""
 
 #~ msgid "Evaluation didaktischer Werkzeuge"
-#~ msgstr "Evaluation of Didactic Tools"
+#~ msgstr ""
 
 #~ msgid "Projektmanagement"
-#~ msgstr "Project Management"
+#~ msgstr ""
 
 #~ msgid "Kund:innenakquise"
-#~ msgstr "Customer Acquisition"
+#~ msgstr ""
 
 #~ msgid "Francesco Vona"
-#~ msgstr "Francesco Vona"
+#~ msgstr ""
 
 #~ msgid "XR-Entwicklung"
-#~ msgstr "XR Development"
+#~ msgstr ""
 
 #~ msgid "Ph.D. Francesco Vona"
-#~ msgstr "Ph.D. Francesco Vona"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "ist ein promovierter Wissenschaftler (2023)"
@@ -3950,22 +3674,22 @@ msgstr "Get in Touch"
 #~ " User Experience, and immersive systems."
 
 #~ msgid "Software-Entwicklung"
-#~ msgstr "Software Development"
+#~ msgstr ""
 
 #~ msgid "Unity Entwicklung"
-#~ msgstr "Unity Development"
+#~ msgstr ""
 
 #~ msgid "Technische Konzeption"
-#~ msgstr "Technical Conception"
+#~ msgstr ""
 
 #~ msgid "Tom Milter"
-#~ msgstr "Tom Milter"
+#~ msgstr ""
 
 #~ msgid "Backend & Architektur"
-#~ msgstr "Backend & Architecture"
+#~ msgstr ""
 
 #~ msgid "B.Sc. Tom Milter"
-#~ msgstr "B.Sc. Tom Milter"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "verantwortet insbesondere das Backend sowie"
@@ -3981,22 +3705,22 @@ msgstr "Get in Touch"
 #~ "scalable and stable."
 
 #~ msgid "Backend-Entwicklung"
-#~ msgstr "Backend Development"
+#~ msgstr ""
 
 #~ msgid "Server- & Systemarchitektur"
-#~ msgstr "Server & System Architecture"
+#~ msgstr ""
 
 #~ msgid "Technische Skalierung"
-#~ msgstr "Technical Scaling"
+#~ msgstr ""
 
 #~ msgid "Luzie Ahrens"
-#~ msgstr "Luzie Ahrens"
+#~ msgstr ""
 
 #~ msgid "Frontend & Didaktik"
-#~ msgstr "Frontend & Didactics"
+#~ msgstr ""
 
 #~ msgid "M.Sc. Luzie Ahrens"
-#~ msgstr "M.Sc. Luzie Ahrens"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "verbindet theoretische Informatik mit "
@@ -4015,22 +3739,22 @@ msgstr "Get in Touch"
 #~ " technologies."
 
 #~ msgid "Frontend-Entwicklung"
-#~ msgstr "Frontend Development"
+#~ msgstr ""
 
 #~ msgid "UI/UX Gestaltung"
-#~ msgstr "UI/UX Design"
+#~ msgstr ""
 
 #~ msgid "Didaktische Tools"
-#~ msgstr "Didactic Tools"
+#~ msgstr ""
 
 #~ msgid "Sophia Spahr"
-#~ msgstr "Sophia Spahr"
+#~ msgstr ""
 
 #~ msgid "Projektassistenz"
-#~ msgstr "Project Assistance"
+#~ msgstr ""
 
 #~ msgid "B.A. Sophia Spahr"
-#~ msgstr "B.A. Sophia Spahr"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "unterstützt im Projektmanagement, in der "
@@ -4043,16 +3767,16 @@ msgstr "Get in Touch"
 #~ "processes in day-to-day operations."
 
 #~ msgid "Kaufmännische Unterstützung"
-#~ msgstr "Commercial Support"
+#~ msgstr ""
 
 #~ msgid "Teamassistenz"
-#~ msgstr "Team Assistance"
+#~ msgstr ""
 
 #~ msgid "Marketing"
-#~ msgstr "Marketing"
+#~ msgstr ""
 
 #~ msgid "Prof. Dr. Jan-Niklas Voigt-Antons"
-#~ msgstr "Prof. Dr. Jan-Niklas Voigt-Antons"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "ist Professor für angewandte Informatik "
@@ -4067,7 +3791,7 @@ msgstr "Get in Touch"
 #~ " of Applied Sciences (HSHL)."
 
 #~ msgid "Prof. Dr. Steffen Prowe"
-#~ msgstr "Prof. Dr. Steffen Prowe"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "ist Professor für Mikrobiologie und "
@@ -4084,7 +3808,7 @@ msgstr "Get in Touch"
 #~ "based teaching formats."
 
 #~ msgid "M.Sc. Thorbjörn Ruppel"
-#~ msgstr "M.Sc. Thorbjörn Ruppel"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "ist als wissenschaftlicher Mitarbeiter und "
@@ -4102,7 +3826,7 @@ msgstr "Get in Touch"
 #~ "applications."
 
 #~ msgid "M.Eng. Miladin Ćeranić"
-#~ msgstr "M.Eng. Miladin Ćeranić"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "ist wissenschaftlicher Mitarbeiter an der "
@@ -4120,7 +3844,7 @@ msgstr "Get in Touch"
 #~ "software development, and business."
 
 #~ msgid "Wir freuen uns über Ihre Nachricht."
-#~ msgstr "We look forward to hearing from you."
+#~ msgstr ""
 
 #~ msgid "Haben Sie Fragen zum Team oder möchten Sie gemeinsam etwas aufbauen?"
 #~ msgstr ""
@@ -4129,5 +3853,5 @@ msgstr "Get in Touch"
 #~ " something together?"
 
 #~ msgid "Kontakt aufnehmen"
-#~ msgstr "Get in Touch"
+#~ msgstr ""
 

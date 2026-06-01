@@ -1,21 +1,18 @@
 <!DOCTYPE html>
+
 <html lang="de">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> _(XRwise — Vernetzte Realitäten für nachhaltigen Kompetenzaufbau) </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
-        rel="stylesheet" />
-    <link href="/static/css/base.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/tailwind.css') }}">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title> {{ _('XRwise - Vernetzte Realitäten für nachhaltigen Kompetenzaufbau') }} </title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&amp;display=swap" rel="stylesheet"/>
+<link href="/static/css/base.css" rel="stylesheet"/>
+<link href="{{ url_for('static', filename='css/tailwind.css') }}" rel="stylesheet"/>
 </head>
-
 <body>
-    <script id="navjs01">
+<script id="navjs01">
         function toggleMenu() {
             document.getElementById("navLinks").classList.toggle("active");
         }
@@ -32,79 +29,72 @@
             });
         });
     </script>
-
-    <!-- ── NAVIGATION ── -->
-
-    <nav class="nav">
-
-        <a href="/" class="nav-logo">
-            <img src="/static/xrwise-pink.png" alt="XRwise" style="height:36px" />
-            XRwise
+<!-- ── NAVIGATION ── -->
+<nav class="nav">
+<a class="nav-logo" href="/">
+<img alt="{{ _('XRwise') }}" src="/static/xrwise-pink.png" style="height:36px"/>
+            {{ _('XRwise') }}
         </a>
-
-        <!-- Burger -->
-        <div class="burger" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <!-- Links -->
-        <div class="nav-links" id="navLinks">
-            <a href="/#zielgruppen">{{ _('Lösungen') }}</a>
-            <a href="/#szenarien">{{ _('Anwendungen') }}</a>
-            <a href="/news">{{ _('News') }}</a>
-            <a href="/team">{{ _('Team') }}</a>
-            <a href="/#cta" class="nav-cta">{{ _('Kontakt') }}</a>
-        </div>
-
-        <div class="lang-switcher">
-            <a href="{{ url_for('set_lang', lang='de') }}" class="{{ 'active' if get_locale()|string == 'de' }}">DE</a>
-            <a href="{{ url_for('set_lang', lang='en') }}" class="{{ 'active' if get_locale()|string == 'en' }}">EN</a>
-        </div>
-    </nav>
+<!-- Burger -->
+<div class="burger" onclick="toggleMenu()">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<!-- Links -->
+<div class="nav-links" id="navLinks">
+<a href="/#zielgruppen">{{ _('Lösungen') }}</a>
+<a href="/#szenarien">{{ _('Anwendungen') }}</a>
+<a href="/news">{{ _('News') }}</a>
+<a href="/team">{{ _('Team') }}</a>
+<a class="nav-cta" href="/#cta">{{ _('Kontakt') }}</a>
+</div>
+<div class="flex gap-2 items-center">
+<a class="{{ 'active' if get_locale()|string == 'de' }}" href="{{ url_for('set_lang', lang='de') }}">{{ _('DE') }}</a>
+<div class="h-5 w-0.5 rounded-full bg-gray-300"></div>
+<a class="{{ 'active' if get_locale()|string == 'en' }}" href="{{ url_for('set_lang', lang='en') }}">{{ _('EN') }}</a>
+</div>
+</nav>
 
     {% block content %}
     {% endblock %}
 
 
     <!-- ── FOOTER ── -->
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <h3>XRwise</h3>
-                <p>Vernetzte Realitäten für nachhaltigen Kompetenzaufbau — für Unternehmen, Hochschulen und öffentliche
-                    Einrichtungen.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Lösungen</h4>
-                <a href="/#zielgruppen">Für Unternehmen</a>
-                <a href="/#zielgruppen">Für Hochschulen</a>
-                <a href="/#zielgruppen">Für Einrichtungen</a>
-            </div>
-            <div class="footer-col">
-                <h4>Plattform</h4>
-                <a href="https://creator.xrwise.tech">XRwise Creator</a>
-            </div>
-            <div class="footer-col">
-                <h4>Unternehmen</h4>
-                <a href="/team">Team</a>
-                <a href="/news">News</a>
-                <a href="/#standorte">Standorte</a>
-                <a href="/#cta">Kontakt</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <span>© 2026 XRwise.<br />Alle Rechte vorbehalten.</span>
-            <div>
-                <a href="/datenschutz">Datenschutz</a>
-                <span> - </span>
-                <a href="/impressum">Impressum</a>
-            </div>
-        </div>
-    </footer>
-
-    <script>
+<footer>
+<div class="footer-grid">
+<div class="footer-brand">
+<h3>{{ _('XRwise') }}</h3>
+<p>{{ _('Vernetzte Realitäten für nachhaltigen Kompetenzaufbau — für Unternehmen, Hochschulen und öffentliche Einrichtungen.') }}</p>
+</div>
+<div class="footer-col">
+<h4>{{ _('Lösungen') }}</h4>
+<a href="/#zielgruppen">{{ _('Für Unternehmen') }}</a>
+<a href="/#zielgruppen">{{ _('Für Hochschulen') }}</a>
+<a href="/#zielgruppen">{{ _('Für Einrichtungen') }}</a>
+</div>
+<div class="footer-col">
+<h4>{{ _('Plattform') }}</h4>
+<a href="https://creator.xrwise.tech">{{ _('XRwise Creator') }}</a>
+</div>
+<div class="footer-col">
+<h4>{{ _('Unternehmen') }}</h4>
+<a href="/team">{{ _('Team') }}</a>
+<a href="/news">{{ _('News') }}</a>
+<a href="/#standorte">{{ _('Standorte') }}</a>
+<a href="/#cta">{{ _('Kontakt') }}</a>
+</div>
+</div>
+<div class="footer-bottom">
+<span>{{ _('© 2026 XRwise.') }}<br/>{{ _('Alle Rechte vorbehalten.') }}</span>
+<div>
+<a href="/datenschutz">{{ _('Datenschutz') }}</a>
+<span> - </span>
+<a href="/impressum">{{ _('Impressum') }}</a>
+</div>
+</div>
+</footer>
+<script>
         function showTab(id) {
             document.querySelectorAll('.zg-panel').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.zg-tab').forEach(t => t.classList.remove('active'));
@@ -113,5 +103,4 @@
         }
     </script>
 </body>
-
 </html>

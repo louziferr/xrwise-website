@@ -17,25 +17,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: templates/base.html:54
+#: templates/base.html:7
+msgid "XRwise - Vernetzte Realitäten für nachhaltigen Kompetenzaufbau"
+msgstr "XRwise — Connected Realities for Sustainable Skill Development"
+
+#: templates/base.html:35 templates/base.html:36 templates/base.html:66
+msgid "XRwise"
+msgstr "XRwise"
+
+#: templates/base.html:46 templates/base.html:70
 msgid "Lösungen"
 msgstr "Solutions"
 
-#: templates/base.html:55
+#: templates/base.html:47
 msgid "Anwendungen"
-msgstr "Applications"
+msgstr "Use Cases"
 
-#: templates/base.html:56
+#: templates/base.html:48 templates/base.html:82
 msgid "News"
 msgstr "News"
 
-#: templates/base.html:57 templates/xrwise_team.html:12
+#: templates/base.html:49 templates/base.html:81 templates/xrwise_team.html:13
 msgid "Team"
 msgstr "Team"
 
-#: templates/base.html:58 templates/impressum.html:12
+#: templates/base.html:50 templates/base.html:84 templates/impressum.html:13
 msgid "Kontakt"
 msgstr "Contact"
+
+#: templates/base.html:53
+msgid "DE"
+msgstr "DE"
+
+#: templates/base.html:54
+msgid "EN"
+msgstr "EN"
+
+#: templates/base.html:67
+msgid ""
+"Vernetzte Realitäten für nachhaltigen Kompetenzaufbau — für Unternehmen, "
+"Hochschulen und öffentliche Einrichtungen."
+msgstr ""
+"Connected realities for sustainable skill development — for companies, "
+"universities, and public institutions."
+
+#: templates/base.html:71
+msgid "Für Unternehmen"
+msgstr "For Companies"
+
+#: templates/base.html:72
+msgid "Für Hochschulen"
+msgstr "For Universities"
+
+#: templates/base.html:73
+msgid "Für Einrichtungen"
+msgstr "For Institutions"
+
+#: templates/base.html:76
+msgid "Plattform"
+msgstr "Platform"
+
+#: templates/base.html:77 templates/xrwise_landingpage.html:393
+msgid "XRwise Creator"
+msgstr "XRwise Creator"
+
+#: templates/base.html:80 templates/xrwise_landingpage.html:143
+#: templates/xrwise_landingpage.html:150 templates/xrwise_landingpage.html:460
+#: templates/xrwise_landingpage.html:523 templates/xrwise_landingpage.html:575
+#: templates/xrwise_landingpage.html:672
+msgid "Unternehmen"
+msgstr "Companies"
+
+#: templates/base.html:83 templates/xrwise_landingpage.html:711
+msgid "Standorte"
+msgstr "Locations"
+
+#: templates/base.html:88
+msgid "© 2026 XRwise."
+msgstr "© 2026 XRwise."
+
+#: templates/base.html:88
+msgid "Alle Rechte vorbehalten."
+msgstr "All rights reserved."
+
+#: templates/base.html:90 templates/datenschutz.html:5
+#: templates/datenschutz.html:44
+msgid "Datenschutz"
+msgstr "Privacy Policy"
+
+#: templates/base.html:92 templates/impressum.html:5
+msgid "Impressum"
+msgstr "Legal Notice"
 
 #: templates/datenschutz.html:4 templates/datenschutz.html:43
 msgid "Datenschutz"
