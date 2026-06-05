@@ -1708,6 +1708,130 @@ msgstr ""
 msgid "Kontakt aufnehmen"
 msgstr ""
 
+#: templates/news_list.html
+msgid "Aktuelles"
+msgstr "Aktuelles"
+
+#: templates/news_list.html
+msgid "Einblicke, Projekte und Neuigkeiten rund um XRwise und immersive Technologien."
+msgstr "Einblicke, Projekte und Neuigkeiten rund um XRwise und immersive Technologien."
+
+#: templates/news_post.html
+msgid "Zurück"
+msgstr "Zurück"
+
+#: templates/news/uff.html
+msgid "XRwise beim UFF Festival"
+msgstr "XRwise beim UFF Festival"
+
+#: templates/news/uff.html
+msgid "Wie kann Cross Reality (XR) sinnvoll, partizipativ und niedrigschwellig in die Hochschullehre integriert werden? Im Forschungsprojekt XRwise wird eine hybride Lehrarchitektur als No-code Plattform entwickelt, die Begegnungen in einer gemeinsamen virtuellen Umgebung ermöglicht und damit Lernen über physische und digitale Räume hinweg. Mit dieser Plattform wird das didaktische Potenzial von XR-Formaten aufgezeigt und praktische, didaktische und organisatorische Hürden realer Lehrkontexte diskutiert."
+msgstr "Wie kann Cross Reality (XR) sinnvoll, partizipativ und niedrigschwellig in die Hochschullehre integriert werden? Im Forschungsprojekt XRwise wird eine hybride Lehrarchitektur als No-code Plattform entwickelt, die Begegnungen in einer gemeinsamen virtuellen Umgebung ermöglicht und damit Lernen über physische und digitale Räume hinweg. Mit dieser Plattform wird das didaktische Potenzial von XR-Formaten aufgezeigt und praktische, didaktische und organisatorische Hürden realer Lehrkontexte diskutiert."
+
+#: templates/news/uff.html
+msgid "Am 23. Juni präsentieren wir ein besonderes Format: Lightning Talks aus einem gemeinsamen virtuellen Raum, live übertragen in die Festivalräume in Braunschweig und Berlin. Lehrende verschiedener Hochschulen teilen in je fünf Minuten ihre Erfahrungen – ob beim Entwickeln eigener XR-Lernumgebungen, beim fachbezogenen Einsatz von AR und VR oder beim Unterrichten in XR-Umgebungen. An allen weiteren Festivaltagen sind bestehende Lehr- und Vermittlungsräume sowohl online als auch in Berlin zugänglich und erkundbar. Teilnehmende können vor Ort dabei sein oder sich remote zuschalten."
+msgstr "Am 23. Juni präsentieren wir ein besonderes Format: Lightning Talks aus einem gemeinsamen virtuellen Raum, live übertragen in die Festivalräume in Braunschweig und Berlin. Lehrende verschiedener Hochschulen teilen in je fünf Minuten ihre Erfahrungen – ob beim Entwickeln eigener XR-Lernumgebungen, beim fachbezogenen Einsatz von AR und VR oder beim Unterrichten in XR-Umgebungen. An allen weiteren Festivaltagen sind bestehende Lehr- und Vermittlungsräume sowohl online als auch in Berlin zugänglich und erkundbar. Teilnehmende können vor Ort dabei sein oder sich remote zuschalten."
+
+#: templates/news/uff.html
+msgid "Das Programm und weitere Informationen finden Sie hier:"
+msgstr "Das Programm und weitere Informationen finden Sie hier:"
+
+#: templates/news/uff.html
+msgid "Informationen zur remote Teilnahme finden Sie hier:"
+msgstr "Informationen zur remote Teilnahme finden Sie hier:"
+
+#: templates/news/uff.html
+msgid "Programm"
+msgstr "Programm"
+
+#: templates/news/uff.html
+msgid "Uhrzeit"
+msgstr "Uhrzeit"
+
+#: templates/news/uff.html
+msgid "Redner:in"
+msgstr "Redner:in"
+
+#: templates/news/uff.html
+msgid "Vortragstitel"
+msgstr "Vortragstitel"
+
+#: templates/news/uff.html
+msgid "(englisch)"
+msgstr "(englisch)"
+
+#: templates/news/uff.html
+msgid "Lehre"
+msgstr "Lehre"
+
+#: templates/news/uff.html
+msgid "Diskussion"
+msgstr "Diskussion"
+
+#: templates/news/uff.html
+msgid "Moderation Anke von der Heide"
+msgstr "Moderation Anke von der Heide"
+
+#: templates/news/uff.html
+msgid "Pause"
+msgstr "Pause"
+
+#: templates/news/uff.html
+msgid "XR, VR, AR in der Lehre"
+msgstr "XR, VR, AR in der Lehre"
+
+#: templates/news/uff.html
+msgid "Mittagspause"
+msgstr "Mittagspause"
+
+#: templates/news/uff.html
+msgid "AR Anwendungen in der Architekturlehre"
+msgstr "AR Anwendungen in der Architekturlehre"
+
+#: templates/news/uff.html
+msgid "Lehre HTW"
+msgstr "Lehre HTW"
+
+#: templates/news/uff.html
+msgid "Lehre durch VR"
+msgstr "Lehre durch VR"
+
+#: templates/news/uff.html
+msgid "Lehre mit der No-Code Plattform XRwise"
+msgstr "Lehre mit der No-Code Plattform XRwise"
+
+#: templates/news/uff.html
+msgid "Vermittlung Szenografen Digital Labore"
+msgstr "Vermittlung Szenografen Digital Labore"
+
+#: templates/news/uff.html
+msgid "Entwicklung von Lehrräumen – Mint VR Labs"
+msgstr "Entwicklung von Lehrräumen – Mint VR Labs"
+
+#: templates/news/uff.html
+msgid "Words Across Europe"
+msgstr "Words Across Europe"
+
+#: templates/news/uff.html
+msgid "Vermittlung"
+msgstr "Vermittlung"
+
+#: templates/join.html
+msgid "Online teilnehmen"
+msgstr "Online teilnehmen"
+
+#: templates/join.html
+msgid "Links for joining online coming soon..."
+msgstr "Links for joining online coming soon..."
+
+#: templates/join.html
+msgid "Die Links zur Online-Teilnahme werden in Kürze hier veröffentlicht."
+msgstr "Die Links zur Online-Teilnahme werden in Kürze hier veröffentlicht."
+
+#: templates/join.html
+msgid "Zurück zum Programm"
+msgstr "Zurück zum Programm"
+
 #~ msgid "Lösungen"
 #~ msgstr ""
 

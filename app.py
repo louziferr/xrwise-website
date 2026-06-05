@@ -1,9 +1,10 @@
-from flask import Flask, jsonify, render_template, request, session, redirect, url_for
+from flask import Flask, jsonify, render_template, request, session, redirect, url_for, abort
 from flask_babel import Babel, get_locale
 from flask_mail import Message
 from dotenv import load_dotenv
 from extensions import mail
 from config import Config
+from news_posts import NEWS_POSTS
 import os
 
 load_dotenv()
@@ -49,7 +50,26 @@ def team():
 
 @app.route("/news")
 def news():
-    return render_template("news.html")
+    lang = str(get_locale() or 'de')
+    return render_template("news_list.html", posts=NEWS_POSTS, lang=lang)
+
+@app.route("/uff")
+def uff():
+    post = next((p for p in NEWS_POSTS if p["slug"] == "uff"), None)
+    lang = str(get_locale() or 'de')
+    return render_template("news/uff.html", post=post, lang=lang)
+
+@app.route("/news/<slug>")
+def news_post(slug):
+    post = next((p for p in NEWS_POSTS if p["slug"] == slug), None)
+    if post is None:
+        abort(404)
+    lang = str(get_locale() or 'de')
+    return render_template(f"news/{slug}.html", post=post, lang=lang)
+
+@app.route("/join")
+def join():
+    return render_template("join.html")
 
 @app.route("/impressum")
 def impressum():

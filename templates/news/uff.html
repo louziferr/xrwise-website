@@ -1,0 +1,270 @@
+{% extends "news_post.html" %}
+
+{% block post_content %}
+<style>
+    .uff-img {
+        width: 100%;
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: 0 20px 50px -20px rgba(77, 77, 75, 0.35);
+        margin-bottom: 2.5rem;
+    }
+
+    .uff-img img {
+        display: block;
+        width: 100%;
+        max-height: 480px;
+        object-fit: cover;
+    }
+
+    .uff-link {
+        color: var(--pink);
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.2s;
+    }
+
+    .uff-link:hover {
+        border-color: var(--pink);
+    }
+
+    .uff-table-wrap {
+        overflow-x: auto;
+        margin-top: 1.5rem;
+        border-radius: var(--radius);
+        border: 1px solid var(--gray-light);
+    }
+
+    .uff-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        color: var(--gray-dark);
+    }
+
+    .uff-table thead tr {
+        background: var(--pink);
+        color: var(--white);
+    }
+
+    .uff-table thead th {
+        padding: 0.85rem 1.1rem;
+        text-align: left;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        white-space: nowrap;
+    }
+
+    .uff-table tbody tr {
+        border-bottom: 1px solid var(--gray-light);
+        transition: background 0.15s;
+    }
+
+    .uff-table tbody tr:last-child {
+        border-bottom: none;
+    }
+
+    .uff-table tbody tr:hover {
+        background: var(--pink-light);
+    }
+
+    .uff-table td {
+        padding: 0.75rem 1.1rem;
+        vertical-align: top;
+    }
+
+    .uff-table td:first-child {
+        white-space: nowrap;
+        font-weight: 600;
+        color: var(--pink);
+        width: 90px;
+    }
+
+    .uff-table tr.uff-section td {
+        background: var(--gray-light);
+        font-weight: 700;
+        color: var(--gray-dark);
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 0.55rem 1.1rem;
+    }
+
+    .uff-table tr.uff-meta td {
+        color: var(--gray-mid);
+        font-style: italic;
+    }
+
+    .uff-table tr.uff-meta td:first-child {
+        color: var(--gray-mid);
+        font-weight: 400;
+    }
+
+    .uff-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        margin-top: 1.75rem;
+        padding: 0.7rem 1.5rem;
+        background: var(--pink);
+        color: var(--white);
+        font-size: 0.9rem;
+        font-weight: 600;
+        border-radius: 999px;
+        text-decoration: none;
+        transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 4px 14px -4px rgba(255, 31, 142, 0.45);
+    }
+
+    .uff-btn:hover {
+        background: color-mix(in srgb, var(--pink) 85%, black);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px -6px rgba(255, 31, 142, 0.5);
+    }
+
+    .uff-btn::after {
+        content: "→";
+    }
+</style>
+
+<section class="blog-section">
+    <div class="uff-img">
+        <img alt="{{ _('XRwise beim UFF Festival') }}" src="/static/img/blog/UFF.jpg"/>
+    </div>
+
+    <div class="blog-card blog-prose">
+        <p>{{ _('Wie kann Cross Reality (XR) sinnvoll, partizipativ und niedrigschwellig in die Hochschullehre integriert werden? Im Forschungsprojekt XRwise wird eine hybride Lehrarchitektur als No-code Plattform entwickelt, die Begegnungen in einer gemeinsamen virtuellen Umgebung ermöglicht und damit Lernen über physische und digitale Räume hinweg. Mit dieser Plattform wird das didaktische Potenzial von XR-Formaten aufgezeigt und praktische, didaktische und organisatorische Hürden realer Lehrkontexte diskutiert.') }}</p>
+        <p>{{ _('Am 23. Juni präsentieren wir ein besonderes Format: Lightning Talks aus einem gemeinsamen virtuellen Raum, live übertragen in die Festivalräume in Braunschweig und Berlin. Lehrende verschiedener Hochschulen teilen in je fünf Minuten ihre Erfahrungen – ob beim Entwickeln eigener XR-Lernumgebungen, beim fachbezogenen Einsatz von AR und VR oder beim Unterrichten in XR-Umgebungen. An allen weiteren Festivaltagen sind bestehende Lehr- und Vermittlungsräume sowohl online als auch in Berlin zugänglich und erkundbar. Teilnehmende können vor Ort dabei sein oder sich remote zuschalten.') }}</p>
+        <a class="uff-btn" href="/join">Join online</a>
+    </div>
+</section>
+
+<section class="blog-section">
+    <h3>{{ _('Programm') }}</h3>
+    <div class="uff-table-wrap">
+        <table class="uff-table">
+            <thead>
+                <tr>
+                    <th>{{ _('Uhrzeit') }}</th>
+                    <th>{{ _('Redner:in') }}</th>
+                    <th>{{ _('Vortragstitel') }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12:25</td>
+                    <td>Francesco Vona, Hochschule Hamm-Lippstadt <em>{{ _('(englisch)') }}</em></td>
+                    <td>{{ _('Lehre') }}</td>
+                </tr>
+                <tr>
+                    <td>12:30</td>
+                    <td>Juliane Henning, Hochschule Hamm-Lippstadt</td>
+                    <td>{{ _('Lehre') }}</td>
+                </tr>
+                <tr>
+                    <td>12:35</td>
+                    <td>Navid Ashrafi, Hochschule Hamm-Lippstadt <em>{{ _('(englisch)') }}</em></td>
+                    <td>{{ _('Lehre') }}</td>
+                </tr>
+                <tr>
+                    <td>12:40</td>
+                    <td>Nadine</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12:45</td>
+                    <td>Felix Beck, Fachhochschule Münster</td>
+                    <td></td>
+                </tr>
+                <tr class="uff-meta">
+                    <td>{{ _('Diskussion') }}</td>
+                    <td>{{ _('Moderation Anke von der Heide') }}</td>
+                    <td></td>
+                </tr>
+                <tr class="uff-meta">
+                    <td>{{ _('Pause') }}</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="uff-section">
+                    <td colspan="3">{{ _('XR, VR, AR in der Lehre') }}</td>
+                </tr>
+                <tr class="uff-meta">
+                    <td></td>
+                    <td>{{ _('Mittagspause') }}</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13:15</td>
+                    <td>Nadine</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13:20</td>
+                    <td>Leonie Wolf</td>
+                    <td>{{ _('AR Anwendungen in der Architekturlehre') }}</td>
+                </tr>
+                <tr>
+                    <td>13:25</td>
+                    <td>Dagmar Schürer, HTW Berlin</td>
+                    <td>{{ _('Lehre HTW') }}</td>
+                </tr>
+                <tr>
+                    <td>13:30</td>
+                    <td>Dan / Alex, Bauhaus-Universität Weimar</td>
+                    <td>{{ _('Lehre') }}</td>
+                </tr>
+                <tr>
+                    <td>13:35</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="uff-meta">
+                    <td>{{ _('Diskussion') }}</td>
+                    <td>{{ _('Moderation Anke von der Heide') }}</td>
+                    <td></td>
+                </tr>
+                <tr class="uff-meta">
+                    <td>{{ _('Pause') }}</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="uff-section">
+                    <td colspan="3">{{ _('Lehre durch VR') }}</td>
+                </tr>
+                <tr>
+                    <td>13:55</td>
+                    <td>Tom Milter, HAW Hamburg</td>
+                    <td>{{ _('Lehre mit der No-Code Plattform XRwise') }}</td>
+                </tr>
+                <tr>
+                    <td>14:00</td>
+                    <td>Johanna Deffner</td>
+                    <td>{{ _('Vermittlung Szenografen Digital Labore') }}</td>
+                </tr>
+                <tr>
+                    <td>14:05</td>
+                    <td></td>
+                    <td>{{ _('Entwicklung von Lehrräumen – Mint VR Labs') }}</td>
+                </tr>
+                <tr>
+                    <td>14:10</td>
+                    <td>Joachim Friedmann, HAW Hamburg</td>
+                    <td>{{ _('Words Across Europe') }}</td>
+                </tr>
+                <tr>
+                    <td>14:15</td>
+                    <td>Ceenu George, TU Berlin</td>
+                    <td>{{ _('Vermittlung') }}</td>
+                </tr>
+                <tr class="uff-meta">
+                    <td>{{ _('Diskussion') }}</td>
+                    <td>{{ _('Moderation Anke von der Heide') }}</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endblock post_content %}

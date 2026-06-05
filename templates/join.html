@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .join-wrap {
+        background: var(--cream);
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .join-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 8rem 1.5rem 5rem;
+        text-align: center;
+    }
+
+    .join-eyebrow {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--pink);
+        background: var(--pink-light);
+        padding: 0.4rem 0.9rem;
+        border-radius: 999px;
+        margin-bottom: 1.25rem;
+    }
+
+    .join-title {
+        font-size: clamp(1.75rem, 4vw, 2.75rem);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: var(--gray-dark);
+        margin: 0 0 1rem;
+        line-height: 1.1;
+    }
+
+    .join-message {
+        font-size: 1.1rem;
+        color: var(--gray-mid);
+        line-height: 1.7;
+        margin: 0 0 2rem;
+    }
+
+    .join-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--gray-mid);
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .join-back::before {
+        content: "←";
+    }
+
+    .join-back:hover {
+        color: var(--pink);
+    }
+</style>
+
+<div class="join-wrap">
+    <div class="join-container">
+        <span class="join-eyebrow">{{ _('Online teilnehmen') }}</span>
+        <h1 class="join-title">{{ _('Links for joining online coming soon...') }}</h1>
+        <p class="join-message">{{ _('Die Links zur Online-Teilnahme werden in Kürze hier veröffentlicht.') }}</p>
+        <a class="join-back" href="/uff">{{ _('Zurück zum Programm') }}</a>
+    </div>
+</div>
+{% endblock content %}

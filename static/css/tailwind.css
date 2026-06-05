@@ -7,18 +7,14 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-200: oklch(88.5% 0.062 18.334);
-    --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-rose-400: oklch(71.2% 0.194 13.428);
     --color-rose-700: oklch(51.4% 0.222 16.935);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-700: oklch(37.3% 0.034 259.733);
+    --color-white: #fff;
     --spacing: 0.25rem;
-    --container-4xl: 56rem;
     --font-weight-bold: 700;
     --radius-sm: 0.25rem;
-    --radius-2xl: 1rem;
-    --aspect-video: 16 / 9;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -198,6 +194,15 @@
       max-width: 96rem;
     }
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+  .mr-5 {
+    margin-right: calc(var(--spacing) * 5);
+  }
   .block {
     display: block;
   }
@@ -210,29 +215,17 @@
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
-  .h-10 {
-    height: calc(var(--spacing) * 10);
-  }
   .min-h-screen {
     min-height: 100vh;
   }
   .w-0\.5 {
     width: calc(var(--spacing) * 0.5);
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
+  .flex-shrink {
+    flex-shrink: 1;
   }
-  .w-2 {
-    width: calc(var(--spacing) * 2);
-  }
-  .w-10 {
-    width: calc(var(--spacing) * 10);
-  }
-  .w-\[2px\] {
-    width: 2px;
-  }
-  .w-px {
-    width: 1px;
+  .border-collapse {
+    border-collapse: collapse;
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
@@ -256,14 +249,14 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\(--pink\) {
+    background-color: var(--pink);
+  }
   .bg-gray-300 {
     background-color: var(--color-gray-300);
   }
-  .bg-gray-700 {
-    background-color: var(--color-gray-700);
-  }
-  .bg-rose-700 {
-    background-color: var(--color-rose-700);
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -277,6 +270,9 @@
   }
   .text-rose-400 {
     color: var(--color-rose-400);
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .overline {
     text-decoration-line: overline;

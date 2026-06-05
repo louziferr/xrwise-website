@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .blog-wrap {
+        background: var(--cream);
+        color: var(--black);
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        line-height: 1.7;
+    }
+
+    .blog-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 8rem 1.5rem 5rem;
+    }
+
+    .blog-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--gray-mid);
+        text-decoration: none;
+        margin-bottom: 2rem;
+        transition: color 0.2s;
+    }
+
+    .blog-back:hover {
+        color: var(--pink);
+    }
+
+    .blog-back::before {
+        content: "←";
+    }
+
+    .blog-eyebrow {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--pink);
+        background: var(--pink-light);
+        padding: 0.4rem 0.9rem;
+        border-radius: 999px;
+        margin-bottom: 1.25rem;
+    }
+
+    .blog-title {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: var(--gray-dark);
+        margin: 0 0 1rem;
+        line-height: 1.05;
+    }
+
+    .blog-subtitle {
+        font-size: 1.15rem;
+        color: var(--gray-mid);
+        max-width: 60ch;
+        margin: 0 0 0.5rem;
+    }
+
+    .blog-meta {
+        font-size: 0.85rem;
+        color: var(--gray-mid);
+        margin-bottom: 1.5rem;
+    }
+
+    .blog-divider {
+        height: 2px;
+        background-image: linear-gradient(to right, var(--pink) 33%, transparent 0%);
+        background-size: 12px 2px;
+        background-repeat: repeat-x;
+        border: 0;
+        margin: 2rem 0 3rem;
+    }
+
+    .blog-container section {
+        padding: 20px 0;
+    }
+
+    .blog-section {
+        margin-bottom: 1rem;
+    }
+
+    .blog-section h2 {
+        font-size: clamp(1.75rem, 3vw, 2.25rem);
+        font-weight: 700;
+        color: var(--gray-dark);
+        margin: 0 0 2rem;
+        letter-spacing: -0.01em;
+    }
+
+    .blog-section h2::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: var(--pink);
+        border-radius: 50%;
+        margin-right: 0.75rem;
+        transform: translateY(-4px);
+    }
+
+    .blog-section h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--pink);
+        margin: 0 0 1rem;
+        letter-spacing: -0.005em;
+    }
+
+    .blog-split {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        align-items: center;
+    }
+
+    @media (min-width: 768px) {
+        .blog-split {
+            grid-template-columns: 1fr 1fr;
+            gap: 3.5rem;
+        }
+
+        .blog-split.reverse> :first-child {
+            order: 2;
+        }
+    }
+
+    .blog-figure {
+        margin: 0;
+        overflow: hidden;
+        border-radius: var(--radius);
+        box-shadow: 0 20px 50px -20px rgba(77, 77, 75, 0.35);
+        background: var(--gray-light);
+    }
+
+    .blog-figure img {
+        display: block;
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        transition: transform 0.6s ease;
+    }
+
+    .blog-figure:hover img {
+        transform: scale(1.04);
+    }
+
+    .blog-card {
+        background: var(--white);
+        border: 1px solid var(--gray-light);
+        border-radius: var(--radius);
+        padding: 2.5rem;
+        box-shadow: 0 1px 0 rgba(77, 77, 75, 0.04);
+    }
+
+    .blog-card.accent {
+        background: linear-gradient(135deg, var(--pink-light) 0%, var(--white) 60%);
+        border-color: var(--pink-light);
+    }
+
+    .blog-list {
+        list-style: none;
+        padding: 0;
+        margin: 1.5rem 0 0;
+        display: grid;
+        gap: 0.9rem;
+    }
+
+    .blog-list li {
+        position: relative;
+        padding: 1rem 1rem 1rem 2.5rem;
+        background: var(--white);
+        border-radius: var(--radius-sm);
+        border-left: 3px solid var(--pink);
+        color: var(--gray-dark);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .blog-list li:hover {
+        transform: translateX(4px);
+        box-shadow: 0 8px 20px -10px rgba(255, 31, 142, 0.3);
+    }
+
+    .blog-list li::before {
+        content: "→";
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        color: var(--pink);
+        font-weight: 700;
+    }
+
+    .blog-prose p,
+    .blog-prose>div {
+        color: var(--gray-dark);
+    }
+
+    .blog-prose p+p {
+        margin-top: 1.25rem;
+    }
+
+    .blog-video {
+        max-width: 1000px;
+        margin: 5rem auto 0;
+        aspect-ratio: 16 / 9;
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: 0 30px 60px -20px rgba(77, 77, 75, 0.4);
+    }
+
+    .blog-video iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+    }
+
+    .pull-quote {
+        border-left: 4px solid var(--pink);
+        padding: 0.5rem 0 0.5rem 1.5rem;
+        margin: 2rem 0;
+        font-size: 1.15rem;
+        color: var(--gray-dark);
+        font-style: italic;
+    }
+</style>
+
+<div class="blog-wrap">
+    <div class="blog-container">
+        <a class="blog-back mr-5" href="{{ url_for('news') }}">{{ _('Zurück') }}</a>
+        <span class="blog-eyebrow">{{ _('News') }} · {{ post.category[lang] }}</span>
+        <h1 class="blog-title">{{ post.title[lang] }}</h1>
+        <p class="blog-subtitle">{{ post.subtitle[lang] }}</p>
+        <p class="blog-meta">{{ post.date[lang] }}</p>
+        <hr class="blog-divider"/>
+
+        {% block post_content %}{% endblock %}
+    </div>
+</div>
+{% endblock content %}
