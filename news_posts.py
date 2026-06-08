@@ -6,9 +6,12 @@ NEWS_POSTS = [
         "cover": "/static/img/blog/UFF.jpg",
         "category": {"de": "Veranstaltung", "en": "Event"},
         "title": {
-            "de": "XRwise beim UFF",
-            "en": "XRwise at UFF",
+            "de": "XRwise beim University:Future Festival",
+            "en": "XRwise at University:Future Festival",
         },
+        "title_line1": {"de": "XRwise beim", "en": "XRwise at"},
+        "title_line2": {"de": "University:Future Festival", "en": "University:Future Festival"},
+        "title_url": "https://festival.hfd.digital/de/",
         "subtitle": {
             "de": "Lightning Talks aus dem gemeinsamen virtuellen Raum – live übertragen in die Festivalräume in Braunschweig und Berlin.",
             "en": "Lightning talks from a shared virtual space – broadcast live to festival venues in Braunschweig and Berlin.",

@@ -57,6 +57,13 @@
         line-height: 1.05;
     }
 
+    .blog-title-accent {
+        color: var(--pink);
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        text-decoration-thickness: 3px;
+    }
+
     .blog-subtitle {
         font-size: 1.15rem;
         color: var(--gray-mid);
@@ -236,7 +243,7 @@
     <div class="blog-container">
         <a class="blog-back mr-5" href="{{ url_for('news') }}">{{ _('Zurück') }}</a>
         <span class="blog-eyebrow">{{ _('News') }} · {{ post.category[lang] }}</span>
-        <h1 class="blog-title">{{ post.title[lang] }}</h1>
+        <h1 class="blog-title">{% if post.title_url %}<a href="{{ post.title_url }}" target="_blank" rel="noopener">{% if post.title_line2 %}{{ post.title_line1[lang] }}<br><span class="blog-title-accent">{{ post.title_line2[lang] }}</span>{% else %}{{ post.title[lang] }}{% endif %}</a>{% else %}{{ post.title[lang] }}{% endif %}</h1>
         <p class="blog-subtitle">{{ post.subtitle[lang] }}</p>
         <p class="blog-meta">{{ post.date[lang] }}</p>
         <hr class="blog-divider"/>
