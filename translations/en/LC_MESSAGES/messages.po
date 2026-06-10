@@ -2149,6 +2149,50 @@ msgstr "Words Across Europe"
 msgid "Vermittlung"
 msgstr "Mediation"
 
+#: templates/news/uff.html
+msgid "Zwischen virtuellen Räumen, neuen didaktischen Ansätzen und experimentellen Lernformaten: Die Beiträge zeigen, wie AR, VR und MR heute bereits in der Hochschullehre eingesetzt, entwickelt und vermittelt werden."
+msgstr "Between virtual spaces, new didactic approaches and experimental learning formats: The contributions show how AR, VR and MR are already being used, developed and taught in higher education today."
+
+#: templates/news/uff.html
+msgid "Moderation Anke von der Heide, Hochschule Hamm-Lippstadt"
+msgstr "Moderated by Anke von der Heide, Hochschule Hamm-Lippstadt"
+
+#: templates/news/uff.html
+msgid "Beginn der U:FF Mittagspause (ab 13:15)"
+msgstr "Start of the U:FF Lunch Break (from 13:15)"
+
+#: templates/news/uff.html
+msgid "Vermittlungsprozesse mit XR in Kultur und Kunst"
+msgstr "Cultural Mediation with XR in Arts and Culture"
+
+#: templates/news/uff.html
+msgid "Welche neuen Formen kultureller Vermittlungsprozesse entstehen durch XR? Die Beiträge zeigen, wie immersive Technologien in Kunst und Kultur eingesetzt werden – als kollaborativer Erzählraum, Experimentierfeld und Werkzeug zur Entwicklung neuer künstlerischer Formate."
+msgstr "What new forms of cultural mediation are emerging through XR? The contributions show how immersive technologies are being used in art and culture – as collaborative narrative spaces, fields of experimentation and tools for developing new artistic formats."
+
+#: templates/news/uff.html
+msgid "Innovationszentrum für intelligente und immersive Technologien in der Freien Kulturszene"
+msgstr "Innovation Centre for Intelligent and Immersive Technologies in the Independent Arts Scene"
+
+#: templates/news/uff.html
+msgid "Kommunikations- und Eventmanagerin, Szenografin"
+msgstr "Communications and Event Manager, Set Designer"
+
+#: templates/news/uff.html
+msgid "Kultur vermitteln – Digitale Labore als Experimentierorte"
+msgstr "Cultural Mediation – Digital Laboratories as Spaces for Experimentation"
+
+#: templates/news/uff.html
+msgid "XR in der Lehre: Methoden, Räume, Erfahrungen"
+msgstr "XR in Teaching: Methods, Spaces, Experiences"
+
+#: templates/news/uff.html
+msgid "Wie verändern AR, VR und MR die Hochschullehre? Der Block versammelt Perspektiven auf das Unterrichten immersiver Technologien, die Entwicklung eigener Lernumgebungen sowie den fachbezogenen Einsatz von XR als Lehr- und Lernraum."
+msgstr "How are AR, VR and MR changing higher education? This block brings together perspectives on teaching immersive technologies, developing custom learning environments, and using XR as a subject-specific teaching and learning space."
+
+#: templates/news/uff.html
+msgid "Designing Heritage Around the World: VR in der Lehre"
+msgstr "Designing Heritage Around the World: VR in Teaching"
+
 #: templates/join.html
 msgid "Online teilnehmen"
 msgstr "Join Online"

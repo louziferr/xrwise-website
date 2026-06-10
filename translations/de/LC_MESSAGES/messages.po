@@ -1816,6 +1816,50 @@ msgstr "Words Across Europe"
 msgid "Vermittlung"
 msgstr "Vermittlung"
 
+#: templates/news/uff.html
+msgid "Zwischen virtuellen Räumen, neuen didaktischen Ansätzen und experimentellen Lernformaten: Die Beiträge zeigen, wie AR, VR und MR heute bereits in der Hochschullehre eingesetzt, entwickelt und vermittelt werden."
+msgstr "Zwischen virtuellen Räumen, neuen didaktischen Ansätzen und experimentellen Lernformaten: Die Beiträge zeigen, wie AR, VR und MR heute bereits in der Hochschullehre eingesetzt, entwickelt und vermittelt werden."
+
+#: templates/news/uff.html
+msgid "Moderation Anke von der Heide, Hochschule Hamm-Lippstadt"
+msgstr "Moderation Anke von der Heide, Hochschule Hamm-Lippstadt"
+
+#: templates/news/uff.html
+msgid "Beginn der U:FF Mittagspause (ab 13:15)"
+msgstr "Beginn der U:FF Mittagspause (ab 13:15)"
+
+#: templates/news/uff.html
+msgid "Vermittlungsprozesse mit XR in Kultur und Kunst"
+msgstr "Vermittlungsprozesse mit XR in Kultur und Kunst"
+
+#: templates/news/uff.html
+msgid "Welche neuen Formen kultureller Vermittlungsprozesse entstehen durch XR? Die Beiträge zeigen, wie immersive Technologien in Kunst und Kultur eingesetzt werden – als kollaborativer Erzählraum, Experimentierfeld und Werkzeug zur Entwicklung neuer künstlerischer Formate."
+msgstr "Welche neuen Formen kultureller Vermittlungsprozesse entstehen durch XR? Die Beiträge zeigen, wie immersive Technologien in Kunst und Kultur eingesetzt werden – als kollaborativer Erzählraum, Experimentierfeld und Werkzeug zur Entwicklung neuer künstlerischer Formate."
+
+#: templates/news/uff.html
+msgid "Innovationszentrum für intelligente und immersive Technologien in der Freien Kulturszene"
+msgstr "Innovationszentrum für intelligente und immersive Technologien in der Freien Kulturszene"
+
+#: templates/news/uff.html
+msgid "Kommunikations- und Eventmanagerin, Szenografin"
+msgstr "Kommunikations- und Eventmanagerin, Szenografin"
+
+#: templates/news/uff.html
+msgid "Kultur vermitteln – Digitale Labore als Experimentierorte"
+msgstr "Kultur vermitteln – Digitale Labore als Experimentierorte"
+
+#: templates/news/uff.html
+msgid "XR in der Lehre: Methoden, Räume, Erfahrungen"
+msgstr "XR in der Lehre: Methoden, Räume, Erfahrungen"
+
+#: templates/news/uff.html
+msgid "Wie verändern AR, VR und MR die Hochschullehre? Der Block versammelt Perspektiven auf das Unterrichten immersiver Technologien, die Entwicklung eigener Lernumgebungen sowie den fachbezogenen Einsatz von XR als Lehr- und Lernraum."
+msgstr "Wie verändern AR, VR und MR die Hochschullehre? Der Block versammelt Perspektiven auf das Unterrichten immersiver Technologien, die Entwicklung eigener Lernumgebungen sowie den fachbezogenen Einsatz von XR als Lehr- und Lernraum."
+
+#: templates/news/uff.html
+msgid "Designing Heritage Around the World: VR in der Lehre"
+msgstr "Designing Heritage Around the World: VR in der Lehre"
+
 #: templates/join.html
 msgid "Online teilnehmen"
 msgstr "Online teilnehmen"
