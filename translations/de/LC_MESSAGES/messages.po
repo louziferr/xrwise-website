@@ -1857,6 +1857,26 @@ msgid "Wie verändern AR, VR und MR die Hochschullehre? Der Block versammelt Per
 msgstr "Wie verändern AR, VR und MR die Hochschullehre? Der Block versammelt Perspektiven auf das Unterrichten immersiver Technologien, die Entwicklung eigener Lernumgebungen sowie den fachbezogenen Einsatz von XR als Lehr- und Lernraum."
 
 #: templates/news/uff.html
+msgid "Words Across Europe, Stärkung von Autoren in der EU durch VR"
+msgstr "Words Across Europe, Stärkung von Autoren in der EU durch VR"
+
+#: templates/news/uff.html
+msgid "IUNO-Innovationszentrum für intelligente und immersive Technologien in der Freien Kulturszene"
+msgstr "IUNO-Innovationszentrum für intelligente und immersive Technologien in der Freien Kulturszene"
+
+#: templates/news/uff.html
+msgid "Pause 10 Minuten"
+msgstr "Pause 10 Minuten"
+
+#: templates/news/uff.html
+msgid "Wie lässt sich XR lehren? Welche Lernräume entstehen durch AR, VR und MR? Und welche Erfahrungen machen Hochschulen beim Einsatz immersiver Technologien in unterschiedlichen Fachbereichen?"
+msgstr "Wie lässt sich XR lehren? Welche Lernräume entstehen durch AR, VR und MR? Und welche Erfahrungen machen Hochschulen beim Einsatz immersiver Technologien in unterschiedlichen Fachbereichen?"
+
+#: templates/news/uff.html
+msgid "Inklusive XR: Erkenntnisse aus einem Hackathon zum partizipativen Gestalten mit neurodivergenten Menschen"
+msgstr "Inklusive XR: Erkenntnisse aus einem Hackathon zum partizipativen Gestalten mit neurodivergenten Menschen"
+
+#: templates/news/uff.html
 msgid "Designing Heritage Around the World: VR in der Lehre"
 msgstr "Designing Heritage Around the World: VR in der Lehre"
 

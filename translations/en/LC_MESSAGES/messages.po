@@ -2151,7 +2151,7 @@ msgstr "Mediation"
 
 #: templates/news/uff.html
 msgid "Zwischen virtuellen Räumen, neuen didaktischen Ansätzen und experimentellen Lernformaten: Die Beiträge zeigen, wie AR, VR und MR heute bereits in der Hochschullehre eingesetzt, entwickelt und vermittelt werden."
-msgstr "Between virtual spaces, new didactic approaches and experimental learning formats: The contributions show how AR, VR and MR are already being used, developed and taught in higher education today."
+msgstr "From virtual spaces to new didactic approaches and experimental learning formats: The presentations show how AR, VR, and MR are already being used, developed, and taught in higher education today."
 
 #: templates/news/uff.html
 msgid "Moderation Anke von der Heide, Hochschule Hamm-Lippstadt"
@@ -2188,6 +2188,26 @@ msgstr "XR in Teaching: Methods, Spaces, Experiences"
 #: templates/news/uff.html
 msgid "Wie verändern AR, VR und MR die Hochschullehre? Der Block versammelt Perspektiven auf das Unterrichten immersiver Technologien, die Entwicklung eigener Lernumgebungen sowie den fachbezogenen Einsatz von XR als Lehr- und Lernraum."
 msgstr "How are AR, VR and MR changing higher education? This block brings together perspectives on teaching immersive technologies, developing custom learning environments, and using XR as a subject-specific teaching and learning space."
+
+#: templates/news/uff.html
+msgid "Words Across Europe, Stärkung von Autoren in der EU durch VR"
+msgstr "Words Across Europe, Empowering Authors in the EU through VR"
+
+#: templates/news/uff.html
+msgid "IUNO-Innovationszentrum für intelligente und immersive Technologien in der Freien Kulturszene"
+msgstr "IUNO Innovation Centre for Intelligent and Immersive Technologies in the Independent Arts Scene"
+
+#: templates/news/uff.html
+msgid "Pause 10 Minuten"
+msgstr "10-Minute Break"
+
+#: templates/news/uff.html
+msgid "Wie lässt sich XR lehren? Welche Lernräume entstehen durch AR, VR und MR? Und welche Erfahrungen machen Hochschulen beim Einsatz immersiver Technologien in unterschiedlichen Fachbereichen?"
+msgstr "How can XR be taught? What learning spaces emerge through AR, VR and MR? And what experiences are universities having with immersive technologies across different disciplines?"
+
+#: templates/news/uff.html
+msgid "Inklusive XR: Erkenntnisse aus einem Hackathon zum partizipativen Gestalten mit neurodivergenten Menschen"
+msgstr "Inclusive XR: Insights from a Hackathon on Participatory Design with Neurodivergent People"
 
 #: templates/news/uff.html
 msgid "Designing Heritage Around the World: VR in der Lehre"
