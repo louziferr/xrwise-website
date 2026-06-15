@@ -2198,6 +2198,10 @@ msgid "IUNO-Innovationszentrum für intelligente und immersive Technologien in d
 msgstr "IUNO Innovation Centre for Intelligent and Immersive Technologies in the Independent Arts Scene"
 
 #: templates/news/uff.html
+msgid "XR meets Art: EU-geförderte XR-Projekte in Kollaboration zwischen freier Berliner Kunst- und Kulturszene und der HTW Berlin (2018–2026)"
+msgstr "XR meets Art: EU-funded XR Projects in Collaboration between the Independent Berlin Arts and Culture Scene and HTW Berlin (2018–2026)"
+
+#: templates/news/uff.html
 msgid "Pause 10 Minuten"
 msgstr "10-Minute Break"
 
