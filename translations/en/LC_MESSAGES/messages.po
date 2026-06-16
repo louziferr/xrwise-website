@@ -2206,6 +2206,14 @@ msgid "XR meets Art: EU-geförderte XR-Projekte in Kollaboration zwischen freier
 msgstr "XR meets Art: EU-funded XR Projects in Collaboration between the Independent Berlin Arts and Culture Scene and HTW Berlin (2018–2026)"
 
 #: templates/news/uff.html
+msgid "The Classroom of the Future: Learning Through XR"
+msgstr "The Classroom of the Future: Learning Through XR"
+
+#: templates/news/uff.html
+msgid "AR in der Architektur Lehre"
+msgstr "AR in Architecture Education"
+
+#: templates/news/uff.html
 msgid "Pause 10 Minuten"
 msgstr "10-Minute Break"
 
