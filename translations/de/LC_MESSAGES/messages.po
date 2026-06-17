@@ -1912,6 +1912,10 @@ msgstr "Die Links zur Online-Teilnahme werden in Kürze hier veröffentlicht."
 msgid "Zurück zum Programm"
 msgstr "Zurück zum Programm"
 
+#: templates/xrwise_landingpage.html
+msgid "Zum XRwise Creator"
+msgstr "Zum XRwise Creator"
+
 #~ msgid "Lösungen"
 #~ msgstr ""
 

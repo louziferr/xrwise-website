@@ -2245,3 +2245,7 @@ msgstr "Links for online participation will be published here shortly."
 msgid "Zurück zum Programm"
 msgstr "Back to Programme"
 
+#: templates/xrwise_landingpage.html
+msgid "Zum XRwise Creator"
+msgstr "Open XRwise Creator"
+

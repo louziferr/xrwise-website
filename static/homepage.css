@@ -60,8 +60,10 @@
 
     .hero-ctas {
       display: flex;
+      flex-direction: column;
       gap: 14px;
       flex-wrap: wrap;
+      width: 250px;
     }
 
     .btn-primary {
@@ -98,6 +100,11 @@
 
     .btn-secondary:hover {
       border-color: var(--black);
+    }
+
+    .btn-dark:hover {
+      background: #5a5a57 !important;
+      border-color: #5a5a57 !important;
     }
 
     .hero-right {
