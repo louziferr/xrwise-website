@@ -1881,6 +1881,22 @@ msgid "AR in der Architektur Lehre"
 msgstr "AR in der Architektur Lehre"
 
 #: templates/news/uff.html
+msgid "Gameplay als Lernraum: Wie Studierende immersive Technologien einsetzen"
+msgstr "Gameplay als Lernraum: Wie Studierende immersive Technologien einsetzen"
+
+#: templates/news/uff.html
+msgid "Teaching with Intelligent Virtual Agents (IVAs) in Virtual and Augmented Reality"
+msgstr "Teaching with Intelligent Virtual Agents (IVAs) in Virtual and Augmented Reality"
+
+#: templates/news/uff.html
+msgid "Freie Dozentin"
+msgstr "Freie Dozentin"
+
+#: templates/news/uff.html
+msgid "AR in der Raumlehre"
+msgstr "AR in der Raumlehre"
+
+#: templates/news/uff.html
 msgid "Pause 10 Minuten"
 msgstr "Pause 10 Minuten"
 
