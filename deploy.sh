@@ -2,6 +2,7 @@
 
 cd ~/xrwise-website || exit
 
+git lfs pull
 git pull
 
 docker build -t flask-app .
