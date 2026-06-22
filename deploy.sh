@@ -11,7 +11,7 @@ docker stop flask-app 2>/dev/null
 docker rm flask-app 2>/dev/null
 
 docker run -d \
-  -p 8081:5000 \
+  --network proxy \
   --env-file .env \
   --name flask-app \
   flask-app
